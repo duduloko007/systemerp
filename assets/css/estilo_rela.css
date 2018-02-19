@@ -1,0 +1,299 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:11px;
+	text-decoration:none;
+}
+.red{
+	font-family:Tahoma, Arial, Sans-serif;
+	font-size:12px;
+	color:#F00;
+}
+.blue{
+	font-family:Tahoma, Arial, Sans-serif;
+	font-size:11px;
+	color: #369;
+}
+
+
+.img_home{
+	background-image: url(images/sugesemp.png);
+	background-repeat:no-repeat;
+}
+
+
+textarea{
+	
+	border:1px #C0C0C0 solid;
+	font-size:11px;
+	padding:5px;
+	
+	
+}
+select{
+	
+	border:0px #E9E9E9 solid;
+	font-size:11px;
+	padding:5px;
+		
+}
+.select{
+	
+	border:0px #E9E9E9 solid;
+	font-size:11px;
+	padding:5px;
+	background-image: url(layout/barra.jpg);
+	background-color: #e7e7e7;
+	
+	
+}
+
+.over{
+height: 240px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+padding: 0px;
+overflow:scroll;
+overflow-x: hidden;
+}
+.resultado{
+height: 300px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+padding: 0px;
+overflow:scroll;
+overflow-x: hidden;
+}
+.over_menor{
+height: 120px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+padding: 0px;
+overflow:scroll;
+overflow-x: hidden;
+}
+.over_menor2{
+height: 160px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+padding: 0px;
+overflow:scroll;
+overflow-x: hidden;
+}
+.linha_a{
+	background-color:#d9dee7;
+	
+
+}
+.linha_a:hover{
+	background-color:#9F0;
+	
+
+}
+
+.linha_b{
+background-color:#f7f7f7;
+}
+.linha_b:hover{
+background-color:#9F0;
+}
+.titulo_artigo{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size:11px;
+	color: #359e9f;
+}
+.sub_titulo_artigo{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size:11px;
+	color:#036;
+}
+.menus_artigo{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size:11px;
+	font-style: blond;
+	color:#fff;
+}
+.bg_det{
+	background-image:url(images/bg_artigo_detalhe.jpg);
+	background-repeat:repeat-x;
+}
+.titulo_artigo_detalhes{
+	font-family: Arial, Tahoma, sans-serif;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:17px;
+	color: #063;
+}
+
+.titulo_artigo_detalhes2{
+	font-family: Arial, Tahoma, sans-serif;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:17px;
+	color: #F00;
+}
+.titulo_artigo_detalhes3{
+	font-family: Arial, Tahoma, sans-serif;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:17px;
+	color: #FC0;
+}
+.titulo_artigo_detalhes4{
+	font-family: Arial, Tahoma, sans-serif;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:17px;
+	color: #03C;
+}
+.sub_titulo_artigo_detalhes{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size:16px;
+	color:#036;
+}
+.texto_sombra{
+	text-shadow: 2px 2px 2px #FFF;
+	color: #333;
+}
+.conteudo_detalhes{
+	font-family: Arial, Tahoma, sans-serif;
+	font-size:12px;
+	color: #333;
+}
+.bg_fale{
+	background-image:url(images/bg_fale.jpg);
+}
+#idtopo{
+	width: 254px;
+	height: 173px;
+	float:right;
+	margin-right: 20px;
+	margin-top: 80px;
+	
+}
+.busca{
+	width: 304px;
+	height: 39px;
+	float:left;
+	background-image:url(images/busca.png);
+	background-repeat:no-repeat;
+	margin-left: 180px;
+	
+
+}
+.busca input{
+	border:0px #C0C0C0 solid;
+	font-size:18px;
+	padding:3px;
+	background-color:#f9f9f9;
+	color:#066;
+
+}
+#texto_busca{
+	width: 304px;
+	height: 18px;
+	float:left;
+	margin-right: 20px;
+	margin-left: 180px;
+	text-align:center;
+	font-size:12px;
+
+}
+input{
+	
+	border:1px #C0C0C0 solid;
+	font-size:11px;
+	padding:5px;
+	
+}
+#menusid{
+	width: 140px;
+	height: 173px;
+	float:left;
+	margin-top: 120px;
+	margin-left: 23px;
+	
+	
+}
+#home{
+	height: 28px;
+	text-align:center;
+	padding: 5px;
+	font-size: 18px;
+	text-shadow: #FFF 3px 3px 3px;
+	color:#666;
+	font-weight:100;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-align:left;
+}
+#informacoes{
+	height: 28px;
+	text-align:center;
+	padding: 5px;
+	font-size: 18px;
+	text-shadow: #FFF 3px 3px 3px;
+	color:#666;
+	font-weight:100;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-align:left;
+}
+#revenda{
+	height: 28px;
+	text-align:center;
+	padding: 5px;
+	font-size: 18px;
+	text-shadow: #FFF 3px 3px 3px;
+	color:#666;
+	font-weight:100;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-align:left;
+}
+#quanto_custa{
+	height: 28px;
+	text-align:center;
+	padding: 5px;
+	font-size: 18px;
+	text-shadow: #FFF 3px 3px 3px;
+	color:#666;
+	font-weight:100;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-align:left;
+}
+#fale_conosco{
+	height: 20px;
+	text-align:center;
+	padding: 5px;
+	font-size: 18px;
+	text-shadow: #FFF 3px 3px 3px;
+	color:#666;
+	font-weight:100;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-align:left;
+}
+#parceiro{
+	width: 280px;
+	height: 173px;
+	float:right;
+	background-color:#CCC;
+	
+	
+}
+#sistema{
+	width: 978px;
+	height:211px;
+	background-image:url(images/helpmoney_topo_sistema.jpg);
+	background-repeat:no-repeat;
+}
+#dados_sistema{
+	width: 258px;
+	height:173px;
+	float:right;
+	margin-top: 12px;
+	margin-right: 16px;
+}

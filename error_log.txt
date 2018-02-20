@@ -115,3 +115,12 @@ Stack trace:
 #4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
 #5 {main}
   thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 11
+[20-Feb-2018 13:27:25 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'purchasses_products.fornecedor' in 'field list'' in C:\xampp\htdocs\systemerp\models\purchases.php:40
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\purchases.php(40): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\purchasesController.php(30): purchases->getlist('1')
+#2 [internal function]: purchasesController->index()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\purchases.php on line 40

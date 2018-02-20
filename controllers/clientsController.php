@@ -29,7 +29,7 @@ private $user;
             $this->user->setLoggedUser();
 
 
-            
+
             $company = new companies($this->user->getCompany());
 
 

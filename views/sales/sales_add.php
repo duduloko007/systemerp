@@ -67,7 +67,7 @@
                 <tr>
                   <td><?php echo $product['id'];?></td>
                   <td><?php echo $product['cod_bars'];?></td>
-                  <td><?php echo utf8_encode($product['name']);?></td>
+                  <td><?php echo utf8_decode($product['name']);?></td>
                   <td><?php echo $product['quant'];?></td>
                   <td>R$ <?php echo number_format($product['price'],2,',','.');?></td>
                   <td>
@@ -110,7 +110,7 @@
               <tr>
                 <td id="id"><?php echo $product['id'];?></td>
                 <td><?php echo $product['cod_bars'];?></td>
-                <td><?php echo utf8_encode($product['name']);?></td>
+                <td><?php echo utf8_decode($product['name']);?></td>
                 <td><input type="number" required class="quant" id="quant" value="" onchange="updateSubTotalProduct(this)" name="quant[<?php echo $product['id'];?>]" style="width: 60px;" data-price="<?php echo $product['price'];?>"></td>
                 <td>R$ <?php echo $product['price'];?></td>
                 <td class="subtotal"> </td>

@@ -587,3 +587,12 @@ Stack trace:
 #4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
 #5 {main}
   thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 270
+[20-Feb-2018 20:40:44 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%'.1.'%' AND  sales.date_sale BETWEEN '2018-02-01' AND '2018-02-21' ORDER ' at line 1' in C:\xampp\htdocs\systemerp\models\sales.php:238
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(238): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\reportController.php(159): sales->getSalesFiltered('1', '2018-02-01', '2018-02-21', '', 'date_desc', '1')
+#2 [internal function]: reportController->sales_pdf()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 238

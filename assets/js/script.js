@@ -287,9 +287,7 @@ $(document).ready(function(){
 	$(".finalPay").mouseover(function(){
 		if (document.getElementById("quant").value  == '') {
 			$('#finalizar').addClass("disabled");
-			$('.productSelect').addClass("btn btn-danger");
 			alert("Atenção! preenchar a quantidade do(s) produto(s).");
-			window.location.href= "http://localhost/systemerp/purchases/add";
 
 		} else{
 			$('#finalizar').removeClass("disabled");
@@ -305,7 +303,7 @@ $(document).ready(function(){
 	$("#finalizar").mouseover(function(){
 		if (document.getElementById("pgto_restante").value  > 0) {
 			$('#finalizar').addClass("disabled");
-			$('.finalPay').addClass("btn btn-danger");
+	
 			alert("Atenção! pagamento menor que a venda");
 
 
@@ -321,7 +319,7 @@ $(document).ready(function(){
 	$("#finalizar").mouseout(function(){
 		if (document.getElementById("pgto_restante").value  > 0) {
 			$('#finalizar').addClass("disabled");
-			$('.finalPay').addClass("btn btn-danger");
+	
 		}		
 		else{
 			$('#finalizar').removeClass("disabled");

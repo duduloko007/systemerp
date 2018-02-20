@@ -3,7 +3,7 @@
 <!-- Exemplo -->
 <div class="box box-default">
   <div class="box-header with-border">
-    <h3 class="box-title">Usuários</h3>
+    <h3 class="box-title">Fornecedores</h3>
 
     <div class="box-tools pull-right">
       <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -14,7 +14,7 @@
 
 	<?php if($edit_permission): ?>
 
-	<a href="<?php echo BASE_URL;?>supplier/add" class="btn btn-primary">Adicionar Cliente</a>
+	<a href="<?php echo BASE_URL;?>supplier/add" class="btn btn-primary">Adicionar Fornecedor</a>
 	<?php endif; ?>
 
 	<input type="text" id="busca" data-type="search_clients" />
@@ -39,11 +39,11 @@
 
 			<td width="150">
 			<?php if($edit_permission): ?>
-				<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>clients/edit/<?php echo $c['id'];?>">Editar</a>
+				<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>supplier/edit/<?php echo $c['id'];?>">Editar</a>
 			
-			<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>clients/delete/<?php echo $c['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
+			<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>supplier/delete/<?php echo $c['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
 			<?php else: ?>
-					<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>clients/view/<?php echo $c['id'];?>">Visualizar</a>
+					<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>supplier/view/<?php echo $c['id'];?>">Visualizar</a>
 			<?php endif; ?>
 			</td>
 		</tr>

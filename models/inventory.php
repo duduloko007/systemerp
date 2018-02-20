@@ -2,10 +2,10 @@
 
 class inventory extends model{
 
-	public function getList($offset, $id_company){
+	public function getList($id_company){
 		$array = array();
 
-		$sql = $this->db->prepare("SELECT * FROM inventory WHERE id_company = :id_company LIMIT $offset, 10");
+		$sql = $this->db->prepare("SELECT * FROM inventory WHERE id_company = :id_company");
 
 		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();

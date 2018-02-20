@@ -2,7 +2,7 @@
 class purchases extends model{
 
 
-	public function getList($offset, $id_company){
+	public function getList($id_company){
 
 		$array = array();
 
@@ -17,8 +17,7 @@ class purchases extends model{
 			
 			WHERE 
 			purchases.id_company = :id_company 
-			ORDER BY purchases.date_sale DESC 
-			LIMIT $offset, 10");
+			ORDER BY purchases.date_sale DESC");
 
 		$sql->bindValue(":id_company", $id_company);
 
@@ -142,6 +141,66 @@ class purchases extends model{
 	}
 
 
+	public function editPurchases($id, $id_company, $id_client, $id_user, $quant, $date_sale, $discount, $obs){
+		$i = new inventory();
+
+
+
+		$sql = $this->db->prepare("UPDATE purchases SET id_company = :id_company, id_client = :id_client, id_user = :id_user, date_sale = :date_sale, total_price = :total_price, obs = :obs WHERE id = :id");
+
+
+		$sql->bindValue(":id_company", $id_company);
+		$sql->bindValue(":id_client", $id_client);
+		$sql->bindValue(":id_user", $id_user);
+		$sql->bindValue(":date_sale", $date_sale);
+		$sql->bindValue(":obs", $obs);
+		$sql->bindValue(":id", $id);
+		$sql->bindValue(":total_price", '0');
+
+		$sql->execute();
+
+		$id_sale = $this->db->lastInsertId();
+
+		$total_price = 0;
+		foreach ($quant as $id_prod => $quant_prod) {
+			$sql = $this->db->prepare("SELECT price_cust FROM inventory WHERE id = :id AND id_company = :id_company");
+			$sql->bindValue(":id", $id_prod);
+			$sql->bindValue(":id_company", $id_company);
+			$sql->execute();
+			if ($sql->rowCount() > 0 ) {
+				
+				$row = $sql->fetch();
+				$price = $row['price_cust'];
+
+				$sqlp = $this->db->prepare("INSERT INTO purchases_products SET id_company = :id_company, id_sale = :id_sale, id_product = :id_product, quant = :quant, sale_price = :sale_price");
+
+				$sqlp->bindValue(":id_company", $id_company);
+				$sqlp->bindValue(":id_sale", $id_sale);
+				$sqlp->bindValue(":id_product", $id_prod);
+				$sqlp->bindValue(":quant", $quant_prod);
+				$sqlp->bindValue(":sale_price", $price);
+
+				$sqlp->execute();
+
+				$i->acresc($id_prod, $id_company, $quant_prod, $id_user);
+
+
+
+				$total_price += $price * $quant_prod;
+
+			}	
+		}
+
+		$sql = $this->db->prepare("UPDATE purchases SET total_price = :total_price WHERE id = :id");
+		$sql->bindValue(":total_price",$total_price);
+		$sql->bindValue(":id", $id_sale);
+		$sql->execute();
+
+
+
+	}
+
+
 	public function getInfo($id, $id_company){
 		$array = array();
 
@@ -158,7 +217,9 @@ class purchases extends model{
 			SELECT 
 			purchases_products.quant, 
 			purchases_products.sale_price, 
-			inventory.name		
+			inventory.name,
+			inventory.id,
+			inventory.cod_bars		
 			FROM purchases_products 
 			LEFT JOIN inventory ON inventory.id = purchases_products.id_product
 			WHERE 

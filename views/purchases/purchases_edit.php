@@ -52,7 +52,7 @@
 
 				<?php foreach($sales_info['products'] as $productitem): ?>
 					<tr>
-						<td><?php echo $productitem['name']; ?></td>
+						<td><?php echo utf8_decode($productitem['name']); ?></td>
 						<td><?php echo $productitem['quant'];?></td>
 						<td>R$ <?php echo number_format($productitem['sale_price'],2,',','.'); ?></td>
 						<td>R$ <?php echo number_format($productitem['sale_price'] * $productitem['quant'],2,',','.'); ?></td>

@@ -2,12 +2,12 @@
 class clients extends model{
 
 
-	public function getList($offset){
+	public function getList($offset, $id_company){
 
 		$array = array();
-		$sql = $this->db->prepare("SELECT * FROM clients LIMIT $offset, 10");
-		//$sql->bindValue(":id_company", $id_company);
-		$sql->bindValue(":offset", $offset);
+		$sql = $this->db->prepare("SELECT * FROM clients WHERE id_company = :id_company LIMIT $offset, 10");
+		$sql->bindValue(":id_company", $id_company);
+		
 		$sql->execute();
 		
 		if ($sql->rowCount() > 0) {

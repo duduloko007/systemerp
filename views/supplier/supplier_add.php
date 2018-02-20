@@ -118,7 +118,7 @@
       </div>
     </div>
     <input type="submit" value="Adicionar" class="btn btn-success"/>
-    <a href="<?php echo BASE_URL;?>clients" class="btn btn-danger">Cancelar</a>
+    <a href="<?php echo BASE_URL;?>supplier" class="btn btn-danger">Cancelar</a>
   </div>
 </form>
 </div>

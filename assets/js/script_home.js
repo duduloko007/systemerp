@@ -9,7 +9,7 @@ var rel1 = new Chart(document.getElementById("rel1"), {
 			backgroundColor:'#0000FF',
 			borderColor:'#0000FF'
 		},{
-			label:'Despesas',
+			label:'Compras',
 			data:expenses_list,
 			fill:false,
 			backgroundColor:'#FF0000',

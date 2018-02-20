@@ -28,8 +28,8 @@ class inventoryController extends controller {
     if ($this->user->hasPermission('inventory_view')) {
 
       $i = new inventory();
-      $offset = 0;
-      $data['inventory_list'] = $i->getList($offset, $this->user->getCompany());
+
+      $data['inventory_list'] = $i->getList($this->user->getCompany());
       $data['add_permission'] = $this->user->hasPermission('inventory_add');
       $data['edit_permission'] = $this->user->hasPermission('inventory_edit');
       $this->loadTemplate('inventory/inventory', $data);

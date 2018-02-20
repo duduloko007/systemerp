@@ -61,7 +61,7 @@
 					<div class="inner">
 						<h3>R$ <?php echo number_format($expenses, 2, ',','.') ;?></h3>
 
-						<p>Despesas</p>
+						<p>Compras</p>
 					</div>
 					<div class="icon">
 						<i class="ion ion-pie-graph"></i>
@@ -80,7 +80,7 @@
 
 			<div class="col-sm-6 col-xs-12">
 
-				<h3>Vendas e Despesas dos últimos 30 dias</h3>
+				<h3>Vendas e Compras dos últimos 30 dias</h3>
 				<canvas id="rel1" style="width: 100%; height:300px;border: 1px solid #EEE;"></canvas>
 
 

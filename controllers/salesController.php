@@ -32,8 +32,8 @@ public function index(){
 
     if ($u->hasPermission('sales_view')) {
       $s = new sales();
-      $offset = 0;
-      $data['sales_list'] = $s->getList($offset, $u->getCompany());
+   
+      $data['sales_list'] = $s->getList($u->getCompany());
 
       $this->loadTemplate('sales/sales', $data);
 

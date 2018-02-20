@@ -2,7 +2,7 @@
 class sales extends model{
 
 
-	public function getList($offset, $id_company){
+	public function getList($id_company){
 
 		$array = array();
 
@@ -18,8 +18,7 @@ class sales extends model{
 			
 			WHERE 
 			sales.id_company = :id_company 
-			ORDER BY sales.date_sale DESC 
-			LIMIT $offset, 10");
+			ORDER BY sales.date_sale DESC");
 
 		$sql->bindValue(":id_company", $id_company);
 
@@ -263,7 +262,7 @@ class sales extends model{
 	public function getTotalExpenses($period1, $period2, $id_company){
 		$float = 0;
 
-		$sql = $this->db->prepare("SELECT SUM(total_price) as total FROM purchasses WHERE id_company = :id_company AND date_purchasses BETWEEN :period1 AND :period2");
+		$sql = $this->db->prepare("SELECT SUM(total_price) as total FROM purchases WHERE id_company = :id_company AND date_sale BETWEEN :period1 AND :period2");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":period1", $period1);
 		$sql->bindValue(":period2", $period2);
@@ -338,7 +337,7 @@ class sales extends model{
 			$currentDay = date('Y-m-d', strtotime('+1 day', strtotime($currentDay)));
 		}
 
-		$sql = $this->db->prepare("SELECT DATE_FORMAT(date_purchasses, '%Y-%m-%d') as date_purchases, SUM(total_price) as total FROM purchasses WHERE id_company = :id_company AND date_purchasses BETWEEN :period1 AND :period2 GROUP BY DATE_FORMAT(date_purchasses, '%Y-%m-%d')");
+		$sql = $this->db->prepare("SELECT DATE_FORMAT(date_sale, '%Y-%m-%d') as date_sale, SUM(total_price) as total FROM purchases WHERE id_company = :id_company AND date_sale BETWEEN :period1 AND :period2 GROUP BY DATE_FORMAT(date_sale, '%Y-%m-%d')");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":period1", $period1);
 		$sql->bindValue(":period2", $period2);
@@ -347,7 +346,7 @@ class sales extends model{
 		if($sql->rowCount() > 0) {
 			$rows = $sql->fetchAll();
 			foreach($rows as $sale_item){
-				$array[$sale_item['date_purchases']] = $sale_item['total'];
+				$array[$sale_item['date_sale']] = $sale_item['total'];
 			}
 		}
 

@@ -20,6 +20,7 @@ public function index(){
     $data['company_name'] = $company->getName();
 
     $data['user_email'] = $u->getEmail();
+    
     $data['form_pay']= array(
         '1' => 'Dinheiro',
         '2'=>'Nota a prazo',
@@ -35,7 +36,7 @@ public function index(){
       $offset = 0;
       $data['sales_list'] = $s->getList($offset, $u->getCompany());
 
-      $this->loadTemplate('sales/sales', $data);
+      $this->loadTemplate('purchases/purchases', $data);
 
   }else {
    header("Location: ".BASE_URL);
@@ -83,20 +84,14 @@ public function add(){
      $obs = addslashes($_POST['obs']);
 
     $s->addSale($u->getCompany(), $client_id, $u->getId(), $quant, $form_pay, $discount, $obs);
-     $data['venda_concluida'] = 'Venda finalizada';
+
     $s->status_product($quant);
 
-    header("Location: ".BASE_URL."sales/sales/add");
+    header("Location: ".BASE_URL."purchases/purchases/add");
      
 } 
 
-else {
-
-  $data['erro_na_venda'] = 'Erro ao finalizar Venda';
-}
-
-
-$this->loadTemplate('sales/sales_add', $data);
+$this->loadTemplate('purchases/purchases_add', $data);
 }else {
  header("Location: ".BASE_URL);
 }
@@ -130,10 +125,10 @@ public function edit($id){
       $status = addslashes($_POST['status']);
        $obs = addslashes($_POST['obs']);
       $s->changeStatus($status, $obs, $id, $u->getCompany());
-      header("Location: ".BASE_URL."sales");
+      header("Location: ".BASE_URL."purchases");
   }    
   $data['sales_info'] = $s->getInfo($id, $u->getCompany());
-  $this->loadTemplate('sales/sales_edit', $data);
+  $this->loadTemplate('purchases/sales_edit', $data);
 }else {
  header("Location: ".BASE_URL);
 }  
@@ -143,13 +138,13 @@ public function add_product($id){
   $s = new sales();
     $i = new inventory();
     $i->updateInvetorySales($id);
-    header("Location:".BASE_URL."sales/add");
+    header("Location:".BASE_URL."purchases/add");
 }
 
 public function remove_product($id){
       $i = new inventory();
       $i->updateInvetorySalesRemove($id);
-      header("Location:".BASE_URL."sales/add");
+      header("Location:".BASE_URL."purchases/add");
 }
 
 }

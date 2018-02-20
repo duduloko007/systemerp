@@ -1,7 +1,7 @@
 
 <div class="box box-default">
 	<div class="box-header with-border">
-		<h3 class="box-title">Vendas</h3>
+		<h3 class="box-title">Compras</h3>
 
 		<div class="box-tools pull-right">
 			<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -9,14 +9,8 @@
 	</div>
 
 	<div class="box-body">      
-		<div class="col-md-12">
 
-		<?php if(isset($venda_concluida) && !empty($venda_concluida)):?>
-			<div class="alert alert-success"><?php echo $venda_concluida;?></div>
-		<?php endif;?>
-	</div>
-
-	<a class="btn btn-primary"  href="<?php echo BASE_URL;?>sales/add">Adicionar Venda</a>
+	<a class="btn btn-primary"  href="<?php echo BASE_URL;?>purchases/add">Adicionar Compra</a>
 
 	<table class="table  table-responsive table-bordered table-striped">
 		<thead>
@@ -41,7 +35,7 @@
 
 					<td>R$ <?php echo number_format( $sale_item['total_price'], 2, ',','.'); ?></td>
 					<td>
-						<a class="btn btn-info" href="<?php echo BASE_URL; ?>sales/edit/<?php echo $sale_item['id']; ?>">Visualizar</a>
+						<a class="btn btn-info" href="<?php echo BASE_URL; ?>purchases/edit/<?php echo $sale_item['id']; ?>">Visualizar</a>
 					</td>
 				</tr>
 			<?php  endforeach; ?>

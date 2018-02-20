@@ -330,3 +330,30 @@ Stack trace:
 #4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
 #5 {main}
   thrown in C:\xampp\htdocs\systemerp\models\purchases.php on line 40
+[20-Feb-2018 16:38:57 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\inventory.php:126
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\inventory.php(126): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\inventoryController.php(107): inventory->edit('1', 'Feij\xC3\xA3o', '7', '5', '40', '5', '6', '78910110011', '1', '1')
+#2 [internal function]: inventoryController->edit('1')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\inventory.php on line 126
+[20-Feb-2018 16:39:16 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\inventory.php:126
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\inventory.php(126): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\inventoryController.php(108): inventory->edit('1', 'Feij\xC3\xA3o', '7', '5', '40', '5', '6', '78910110011', '1', '1')
+#2 [internal function]: inventoryController->edit('1')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\inventory.php on line 126
+[20-Feb-2018 16:40:34 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\inventory.php:126
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\inventory.php(126): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\inventoryController.php(108): inventory->edit('1', 'Feij\xC3\xA3o', '75', '5', '50', '5', '6', '78910110011', '1', '1')
+#2 [internal function]: inventoryController->edit('1')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\inventory.php on line 126

@@ -26,10 +26,22 @@
             <input type="text" name="cod_bars" class="form-control " required>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="form-group">
-            <label>Preço:</label>
-            <input type="text" name="price" class="form-control " required>
+            <label>Preço Custo:</label>
+            <input type="text" name="price_cust" id="price_cust" class="form-control " required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Porcentagem de Venda (%):</label>
+            <input type="text" name="price_percentage" id="price_percentage" class="form-control" onchange="pricePercentage(event)"  required>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Preço Venda:</label>
+            <input type="text" name="price" id="price" class="form-control " required>
           </div>
         </div>
         <div class="col-md-6">

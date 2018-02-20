@@ -17,7 +17,7 @@ class inventory extends model{
 
 		return $array;
 	}
-		public function getListProduct($id_company){
+	public function getListProduct($id_company){
 		$array = array();
 
 		$sql = $this->db->prepare("SELECT * FROM inventory WHERE id_company = :id_company AND status_sales = 'normal' AND quant > 0");
@@ -92,11 +92,13 @@ class inventory extends model{
 
 
 
-	public function add($name, $price, $quant, $min_quant, $cod_bars, $id_company, $id_user){
+	public function add($name, $price, $price_cust, $price_percentage, $quant, $min_quant, $cod_bars, $id_company, $id_user){
 
-		$sql = $this->db->prepare("INSERT INTO inventory SET name = :name, price = :price, quant =:quant, min_quant = :min_quant, cod_bars = :cod_bars, id_company = :id_company, status_sales = 'normal'");
+		$sql = $this->db->prepare("INSERT INTO inventory SET name = :name, price = :price, price_cust = :price_cust, price_percentage = :price_percentage, quant =:quant, min_quant = :min_quant, cod_bars = :cod_bars, id_company = :id_company, status_sales = 'normal'");
 		$sql->bindValue(":name", $name);
 		$sql->bindValue(":price", $price);
+		$sql->bindValue(":price_cust", $price_cust);
+		$sql->bindValue(":price_percentage", $price_percentage);
 		$sql->bindValue(":quant", $quant);
 		$sql->bindValue(":min_quant", $min_quant);
 		$sql->bindValue(":cod_bars", $cod_bars);
@@ -108,11 +110,13 @@ class inventory extends model{
 
 	}
 
-	public function edit($id, $name, $price, $quant, $min_quant, $cod_bars, $id_company, $id_user){
+	public function edit($id, $name, $price, $price_cust, $price_percentage, $quant, $min_quant, $cod_bars, $id_company, $id_user){
 
-		$sql = $this->db->prepare("UPDATE inventory SET name = :name, price = :price, quant =:quant, min_quant = :min_quant WHERE id = :id AND id_company = :id_company");
+		$sql = $this->db->prepare("UPDATE inventory SET name = :name, price = :price, price_cust = :price_cust, price_percentage = :price_percentage, quant =:quant, min_quant = :min_quant,cod_bars = :cod_bars WHERE id = :id AND id_company = :id_company");
 		$sql->bindValue(":name", $name);
 		$sql->bindValue(":price", $price);
+		$sql->bindValue(":price_cust", $price_cust);
+		$sql->bindValue(":price_percentage", $price_percentage);
 		$sql->bindValue(":quant", $quant);
 		$sql->bindValue(":min_quant", $min_quant);
 		$sql->bindValue(":cod_bars", $cod_bars);

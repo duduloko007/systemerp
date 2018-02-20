@@ -29,7 +29,8 @@
 	<thead>
 	<tr>
 		<th>Nome</th>
-		<th>Preço</th>
+		<th>Preço Custo</th>
+		<th>Preço Venda</th>
 		<th>Quantidade</th>
 		<th>Quant. Mín.</th>
 		<th>Ações</th>
@@ -39,6 +40,7 @@
 <?php foreach($inventory_list as $product): ?>
 	<tr>
 		<td><?php echo utf8_decode($product['name']);?></td>
+		<td>R$ <?php echo number_format($product['price_cust'], 2, ',','.');?></td>
 		<td>R$ <?php echo number_format($product['price'], 2, ',','.');?></td>
 
 		<td>	

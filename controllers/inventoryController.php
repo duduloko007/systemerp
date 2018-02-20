@@ -50,14 +50,25 @@ class inventoryController extends controller {
     if (isset($_POST['name']) && !empty($_POST['name'])) {
 
       $i = new inventory();
-      $name = addslashes($_POST['name']);
+      $name = addslashes(utf8_decode($_POST['name']));
       $price = addslashes($_POST['price']);
+      $price_cust = addslashes($_POST['price_cust']);
+      $price_percentage = addslashes($_POST['price_percentage']);
       $quant = addslashes($_POST['quant']);
       $min_quant = addslashes($_POST['min_quant']);
       $cod_bars = addslashes($_POST['cod_bars']);
-      $price = str_replace('.','', $price);
-      $price = str_replace(',','.', $price);
-      $i->add($name, $price, $quant, $min_quant, $cod_bars, $this->user->getCompany(), $this->user->getId());
+
+      //$price = str_replace('.','', $price);
+      //$price = str_replace(',','.', $price);
+
+      //$price_cust = str_replace('.','', $price_cust);
+      //$price_cust = str_replace(',','.', $price_cust);
+
+      //$price_percentage = str_replace('.','', $price_percentage);
+      //$price_percentage = str_replace(',','.', $price_percentage);
+
+
+      $i->add($name, $price, $price_cust, $price_percentage, $quant, $min_quant, $cod_bars, $this->user->getCompany(), $this->user->getId());
       //$action = 'add';
       //$i->setLog($id_product, $this->user->getCompany(), $this->user->getId(), $action);
       header("Location:".BASE_URL."inventory");
@@ -77,15 +88,24 @@ public function edit($id){
 
     $i = new inventory();
     if (isset($_POST['name']) && !empty($_POST['name'])) {
-      $name = addslashes($_POST['name']);
+      $name = addslashes(utf8_encode($_POST['name']));
       $price = addslashes($_POST['price']);
+      $price_cust = addslashes($_POST['price_cust']);
+      $price_percentage = addslashes($_POST['price_percentage']);
       $quant = addslashes($_POST['quant']);
       $min_quant = addslashes($_POST['min_quant']);
-       $cod_bars = addslashes($_POST['cod_bars']);
-      $price = str_replace('.','', $price);
-      $price = str_replace(',','.', $price);
+      $cod_bars = addslashes($_POST['cod_bars']);
+      //$price = str_replace('.','', $price);
+      //$price = str_replace(',','.', $price);
+      
+      //$price_cust = str_replace('.','', $price_cust);
+      //$price_cust = str_replace(',','.', $price_cust);
 
-      $i->edit($id, $name, $price, $quant, $min_quant,$cod_bars, $this->user->getCompany(), $this->user->getId());
+
+      //$price_percentage = str_replace('.','', $price_percentage);
+     // $price_percentage = str_replace(',','.', $price_percentage);
+
+      $i->edit($id, $name, $price, $price_cust, $price_percentage, $quant, $min_quant,$cod_bars, $this->user->getCompany(), $this->user->getId());
       //$action = 'edit';
       //$i->setLog($id_product, $this->user->getCompany(), $this->user->getId(), $action);
       header("Location:".BASE_URL."inventory");

@@ -1,7 +1,7 @@
 <form method="POST">
   <div class="box box-default">
     <div class="box-header with-border">
-      <h3 class="box-title">Venda</h3>
+      <h3 class="box-title">Compra</h3>
 
       <div class="box-tools pull-right">
         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -36,7 +36,7 @@
         <div class="tab-pane active" id="listProduct" role="tabpanel">
           <div class="row">
             <div class="col-md-12">
-              <h3>Adicionar produtos à venda</h3>
+              <h3>Adicionar produtos à compra</h3>
               <hr/>
             </div>
 
@@ -83,11 +83,11 @@
       </div>
       <div class="tab-pane" id="productSelect" role="tabpanel">
         <div style="float: right;">
-          <strong style="font-size: 23px;">Sub-total Venda</strong><input type="text" class="form-control" id="sub_total"  disabled name="sub_total" style="font-size: 20px;" />      
+          <strong style="font-size: 23px;">Sub-total Compra</strong><input type="text" class="form-control" id="sub_total"  disabled name="sub_total" style="font-size: 20px;" />      
         </div>
         <div class="row">
           <div class="col-md-12">
-            <h3>Produtos para à venda</h3>
+            <h3>Produtos para à compra</h3>
             <hr/>
           </div>
         </div>

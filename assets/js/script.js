@@ -105,7 +105,7 @@ $(function(){
 	$('#sub_total').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
 	$('#preco_venda').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
 	$('#valor_pago').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
-
+	$('#date_sale').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
 
 });
 
@@ -284,12 +284,12 @@ $(document).ready(function(){
 	
 
 
-	$(".finalPay").click(function(){
+	$(".finalPay").mouseover(function(){
 		if (document.getElementById("quant").value  == '') {
 			$('#finalizar').addClass("disabled");
 			$('.productSelect').addClass("btn btn-danger");
 			alert("Atenção! preenchar a quantidade do(s) produto(s).");
-			window.location.href= "http://conta.fecarc.com.br/sales/add";
+			window.location.href= "http://localhost/systemerp/purchases/add";
 
 		} else{
 			$('#finalizar').removeClass("disabled");

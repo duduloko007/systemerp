@@ -15,27 +15,24 @@
 	<table class="table  table-responsive table-bordered table-striped">
 		<thead>
 			<tr>
-				<th>Nome do Cliente</th>
+				<th>Fornecedor</th>
 				<th>Data</th>
-				<th>Status</th>
 				<th>Valor</th>
 				<th>Ações</th>
 			</tr>
 		</thead>
 		<tbody>
 
-			<?php foreach($sales_list as $sale_item): ?>
+			<?php foreach($purchases_list as $purchases): ?>
 
 				<tr>
-					<td><?php echo $sale_item['name']; ?></td>
+					<td><?php echo $purchases['name']; ?></td>
 
-					<td><?php echo date('d/m/Y', strtotime($sale_item['date_sale'])) ?></td>
+					<td><?php echo date('d/m/Y', strtotime($purchases['date_sale'])) ?></td>
 
-					<td><?php echo $form_pay[$sale_item['form_pay']]; ?></td>
-
-					<td>R$ <?php echo number_format( $sale_item['total_price'], 2, ',','.'); ?></td>
+					<td>R$ <?php echo number_format( $purchases['total_price'], 2, ',','.'); ?></td>
 					<td>
-						<a class="btn btn-info" href="<?php echo BASE_URL; ?>purchases/edit/<?php echo $sale_item['id']; ?>">Visualizar</a>
+						<a class="btn btn-info" href="<?php echo BASE_URL; ?>purchases/edit/<?php echo $purchases['id']; ?>">Visualizar</a>
 					</td>
 				</tr>
 			<?php  endforeach; ?>

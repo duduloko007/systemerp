@@ -124,3 +124,162 @@ Stack trace:
 #4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
 #5 {main}
   thrown in C:\xampp\htdocs\systemerp\models\purchases.php on line 40
+[20-Feb-2018 14:12:59 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'Posto Caxuxa JK...', 'postojk@postojk...', '(38) 3561-9191', '3', '', '38776000', 'Rod BR 040', '00', '', 'Luizlandia do O...', 'S\xC3\xA3o Gon\xC3\xA7alo', 'MG', 'Brasil', '19158960000102', '1211222212')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:13:19 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'Posto Caxuxa JK...', 'postojk@postojk...', '(38) 3561-9191', '3', '', '38776000', 'Rod BR 040', '00', '', 'Luizlandia do O...', 'S\xC3\xA3o Gon\xC3\xA7alo', 'MG', 'Brasil', '19158960000102', '1211222212')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:14:51 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:14:59 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:16:57 Europe/Berlin] PHP Notice:  Undefined index: state_regist in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 120
+[20-Feb-2018 14:16:57 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:17:32 Europe/Berlin] PHP Notice:  Undefined index: state_regist in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 120
+[20-Feb-2018 14:17:32 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:17:49 Europe/Berlin] PHP Notice:  Undefined index: state_regist in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 120
+[20-Feb-2018 14:17:49 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:23:24 Europe/Berlin] PHP Notice:  Undefined index: state_regist in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 120
+[20-Feb-2018 14:23:24 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:24:22 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:26:42 Europe/Berlin] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:27:42 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste', 'goncalvesfilhoe...', '(38) 3561-9191', '3', '', '38776000', '2', '1', '1', '1', '1', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:28:52 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste', 'goncalvesfilhoe...', '(38) 3561-9191', '3', '', '38776000', '2', '1', '1', '1', '1', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:30:24 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste', 'goncalvesfilhoe...', '(38) 3561-9191', '3', '', '38776000', '2', '1', '1', '1', '1', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:32:06 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste', 'goncalvesfilhoe...', '(38) 3561-9191', '3', '', '38776000', '2', '1', '1', '1', '1', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:34:32 Europe/Berlin] PHP Notice:  Undefined index: inscri_estadual in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 120
+[20-Feb-2018 14:34:32 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste', 'goncalvesfilhoe...', '(38) 3561-9191', '3', '', '38776000', '2', '1', '1', '1', '1', '1', '1', '123', '')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:36:10 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'Eduardo Gon\xC3\xA7al...', 'eduardome@gmail...', '(38) 3561-9348', '3', 'teste', '38776000', 'Av Pirapatos', '701', 'teste', 'teste', 'teste', 'teste', 'teste', '3588808808', '120707')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:39:40 Europe/Berlin] PHP Fatal error:  Call to a member function hasPermission() on null in C:\xampp\htdocs\systemerp\models\Users.php on line 107
+[20-Feb-2018 14:40:10 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(118): clients->add('1', 'Eduardo Gon\xC3\xA7al...', 'eduardome@gmail...', '(38) 3561-9348', '3', 'teste', '38776000', 'Av Pirapatos', '701', 'teste', 'teste', 'teste', 'teste', 'teste', '3588808808', '120707')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:40:32 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'Eduardo Gon\xC3\xA7al...', 'eduardome@gmail...', '(38) 3561-9348', '3', 'teste', '38776000', 'Av Pirapatos', '701', 'teste', 'teste', 'teste', 'teste', 'teste', '3588808808', '120707')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:40:35 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'Eduardo Gon\xC3\xA7al...', 'eduardome@gmail...', '(38) 3561-9348', '3', 'teste', '38776000', 'Av Pirapatos', '701', 'teste', 'teste', 'teste', 'teste', 'teste', '3588808808', '120707')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:43:30 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'Eduardo Gon\xC3\xA7al...', 'eduardome@gmail...', '(38) 3561-9348', '3', 'teste', '38776000', 'Av Pirapatos', '701', 'teste', 'teste', 'teste', 'teste', 'teste', '3588808808', '120707')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:47:37 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste 20/02/201...', 'teste@teste.com', '(11) 11111-1111', '3', '1', '1111111', '11', '11', '11', '1', '11', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:48:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected '$', expecting variable (T_VARIABLE) in C:\xampp\htdocs\systemerp\models\clients.php on line 61
+[20-Feb-2018 14:48:43 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste 20/02/201...', 'teste@teste.com', '(11) 11111-1111', '3', '1', '1111111', '11', '11', '11', '1', '11', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:52:26 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', 'teste 20/02/201...', 'teste@teste.com', '(11) 11111-1111', '3', '1', '1111111', '11', '11', '11', '1', '11', '1', '1', '123', '123')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95
+[20-Feb-2018 14:52:57 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:95
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(95): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(123): clients->add('1', '1', '4@4.com', '(55) 55555-5555', '3', '15', '7', '8', '9', '10', '11', '12', '13', '14', '2', '3')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 95

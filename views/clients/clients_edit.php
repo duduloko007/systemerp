@@ -29,7 +29,7 @@
                 <div class="col-md-4">
           <div class="form-group">
             <label>Inscrição estadual:</label>
-            <input type="text" name="state_registration" id="state_registration" class="form-control" value="<?php echo utf8_decode($client_info['state_registration']); ?>">
+            <input type="text" name="inscri_estadual" id="inscri_estadual" class="form-control" value="<?php echo utf8_decode($client_info['inscri_estadual']); ?>">
           </div>
         </div>
         <div class="col-md-4">

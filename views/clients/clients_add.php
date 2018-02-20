@@ -28,7 +28,7 @@
         <div class="col-md-4">
           <div class="form-group">
             <label>Inscrição estadual:</label>
-            <input type="text" name="state_registration" id="state_registration" class="form-control ">
+            <input type="text" name="inscri_estadual" id="inscri_estadual" class="form-control ">
           </div>
         </div>
         <div class="col-md-4">

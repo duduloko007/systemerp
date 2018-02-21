@@ -17,12 +17,13 @@ class users extends model {
 		}
 	}
 
-	public function doLogin($email, $password){
+	public function doLogin($user, $password){
 
-		$sql = $this->db->prepare("SELECT * FROM users WHERE email = :email AND password = :password");
+		$sql = $this->db->prepare("SELECT * FROM users WHERE user = :user AND password = :password AND status = :status");
 
-		$sql->bindValue(':email', $email);
+		$sql->bindValue(':user', $user);
 		$sql->bindValue(':password', md5($password));
+		$sql->bindValue(':status', '0');
 		$sql->execute();
 
 		if ($sql->rowCount() > 0) {
@@ -127,6 +128,9 @@ class users extends model {
 		$sql = $this->db->prepare("SELECT 
 			users.id, 
 			users.email,
+			users.user,
+			users.status,
+			users.name_user,
 			permission_groups.name 
 			FROM users 
 			LEFT JOIN permission_groups ON permission_groups.id = users.id_group
@@ -141,7 +145,7 @@ class users extends model {
 		return $array;
 	}
 
-	public function add($email, $user, $pass, $group, $id_company){
+	public function add($email, $user, $pass, $group, $name, $id_company){
 
 		$sql = $this->db->prepare("SELECT COUNT(*) as c FROM users WHERE user = :user");
 		$sql->bindValue(":user",$user);
@@ -150,11 +154,12 @@ class users extends model {
 
 		if ($row['c'] == '0') {
 			
-			$sql = $this->db->prepare("INSERT INTO users SET email = :email, user = :user, password = :password, id_group = :id_group, id_company = :id_company, status = :status");
+			$sql = $this->db->prepare("INSERT INTO users SET email = :email, user = :user, password = :password, id_group = :id_group, name_user = :name, id_company = :id_company, status = :status");
 			$sql->bindValue(":email",$email);
 			$sql->bindValue(":user",$user);
 			$sql->bindValue(":password",md5($pass));
 			$sql->bindValue(":id_group",$group);
+			$sql->bindValue(":name",$name);
 			$sql->bindValue(":id_company",$id_company);
 			$sql->bindValue(":status", '0');
 			$sql->execute();
@@ -166,13 +171,26 @@ class users extends model {
 		}
 	}
 
-	public function edit($pass, $group,$id,  $id_company){
-		$sql = $this->db->prepare("UPDATE users SET id_group = :id_group WHERE id =:id AND id_company = :id_company");
+	public function edit($email, $pass, $group, $id, $name, $user, $status, $id_company){
+
+
+		$sql = $this->db->prepare("UPDATE users SET email = :email, id_group = :id_group, name_user = :name, status= :status WHERE id =:id AND id_company = :id_company");
+		$sql->bindValue(":email",$email);
 		$sql->bindValue(":id_group",$group);
+		$sql->bindValue(":name",$name);
+		$sql->bindValue(":status",$status);
 		$sql->bindValue(":id",$id);
-		$sql->bindValue(":id_company",$id_company
-	);
+		$sql->bindValue(":id_company",$id_company);
 		$sql->execute();
+
+
+		if (!empty($user)) {
+			$sql = $this->db->prepare("UPDATE users SET user = :user WHERE id =:id AND id_company = :id_company");
+			$sql->bindValue(":user",$user);
+			$sql->bindValue(":id",$id);
+			$sql->bindValue(":id_company",$id_company);
+			$sql->execute();	
+		}
 		if (!empty($pass)) {
 			$sql = $this->db->prepare("UPDATE users SET password = :password WHERE id =:id AND id_company = :id_company");
 			$sql->bindValue(":password",md5($pass));

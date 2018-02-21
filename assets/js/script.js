@@ -303,7 +303,7 @@ $(document).ready(function(){
 	$("#finalizar").mouseover(function(){
 		if (document.getElementById("pgto_restante").value  > 0) {
 			$('#finalizar').addClass("disabled");
-	
+			
 			alert("Atenção! pagamento menor que a venda");
 
 
@@ -319,10 +319,19 @@ $(document).ready(function(){
 	$("#finalizar").mouseout(function(){
 		if (document.getElementById("pgto_restante").value  > 0) {
 			$('#finalizar').addClass("disabled");
-	
+			
 		}		
 		else{
 			$('#finalizar').removeClass("disabled");
 		}
 	}); 
+});
+
+$(document).ready(function(){
+	$("#myInput").on("keyup", function() {
+		var value = $(this).val().toLowerCase();
+		$("#myTable tr").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		});
+	});
 });

@@ -9,15 +9,15 @@
   <script  src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>
   <script  src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
   <script  src="<?php echo BASE_URL; ?>assets/js/icheck.min.js"></script>
-  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>/AdminLTE.min.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>AdminLTE.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>/blue.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>blue.css">
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -31,11 +31,11 @@
       <p class="login-box-msg">Faça login para iniciar sua sessão</p> 
       <form method="post">
         <div class="form-group has-feedback">
-          <input type="email" class="form-control"  name="email" placeholder="Email">
-          <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+          <input type="text" class="form-control"  name="user" placeholder="Usuário" required="">
+          <span class="glyphicon glyphicon-user form-control-feedback"></span>
         </div>
         <div class="form-group has-feedback">
-          <input type="password" class="form-control" name="password" placeholder="Senha">
+          <input type="password" class="form-control" name="password" placeholder="Senha" required="">
           <span class="glyphicon glyphicon-lock form-control-feedback"></span>
         </div>
         <div class="row">

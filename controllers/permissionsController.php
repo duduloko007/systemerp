@@ -1,6 +1,6 @@
 <?php
 class permissionsController extends controller {
-private $user;
+    private $user;
     public function __construct() {
         parent::__construct();
 
@@ -18,7 +18,9 @@ private $user;
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-       
+        $data['add_permission'] = $this->user->hasPermission('permissions_add');
+        $data['edit_permission'] = $this->user->hasPermission('permissions_edit');
+        $data['view_permission'] = $this->user->hasPermission('permissions_view');
         if ($this->user->hasPermission('permissions_view')) {
 
             $permissions = new permissions();
@@ -26,9 +28,9 @@ private $user;
             $data['permissions_groups_list'] = $permissions->getGroupList($this->user->getCompany());
 
             $this->loadTemplate('permission/permissions', $data);
-    } else {
-        header("Location: ".BASE_URL);
-    }
+        } else {
+            header("Location: ".BASE_URL);
+        }
 
     }
     //Adicionar Permissão
@@ -41,8 +43,8 @@ private $user;
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-       
-        if ($this->user->hasPermission('permissions_view')) {
+
+        if ($this->user->hasPermission('permissions_add')) {
             $permissions = new permissions();
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -51,8 +53,8 @@ private $user;
                 header("Location: ".BASE_URL."permissions");
             }
             $this->loadTemplate('permission/permissions_add', $data);
-    } else {
-        header("Location: ".BASE_URL);
+        } else {
+            header("Location: ".BASE_URL);
         }
     }
 
@@ -66,8 +68,8 @@ private $user;
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-       
-        if ($this->user->hasPermission('permissions_view')) {
+
+        if ($this->user->hasPermission('permissions_add')) {
             $permissions = new permissions();
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -77,11 +79,11 @@ private $user;
                 header("Location: ".BASE_URL."permissions");
             }
 
-             $data['permissions_list'] = $permissions->getList($this->user->getCompany());
+            $data['permissions_list'] = $permissions->getList($this->user->getCompany());
 
             $this->loadTemplate('permission/permissions_add_group', $data);
-    } else {
-        header("Location: ".BASE_URL);
+        } else {
+            header("Location: ".BASE_URL);
         }
 
 
@@ -97,13 +99,13 @@ private $user;
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-       
-        if ($this->user->hasPermission('permissions_view')) {
+
+        if ($this->user->hasPermission('permissions_edit')) {
             $permissions = new permissions();
             $permissions->delete($id);
             header("Location: ".BASE_URL."permissions");
-    } else {
-        header("Location: ".BASE_URL);
+        } else {
+            header("Location: ".BASE_URL);
         }
     }
 
@@ -118,18 +120,18 @@ private $user;
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-       
-        if ($this->user->hasPermission('permissions_view')) {
+
+        if ($this->user->hasPermission('permissions_edit')) {
             $permissions = new permissions();
             $permissions->deleteGroup($id);
             header("Location: ".BASE_URL."permissions");
-    } else {
-        header("Location: ".BASE_URL);
+        } else {
+            header("Location: ".BASE_URL);
         }
     }
 
     // Editar grupo de Permissão
-   public function edit_group($id){
+    public function edit_group($id){
         $data = array();
         $this->user->setLoggedUser();
 
@@ -137,8 +139,8 @@ private $user;
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-       
-        if ($this->user->hasPermission('permissions_view')) {
+
+        if ($this->user->hasPermission('permissions_edit')) {
             $permissions = new permissions();
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -149,12 +151,12 @@ private $user;
                 header("Location: ".BASE_URL."permissions");
             }
 
-             $data['permissions_list'] = $permissions->getList($this->user->getCompany());
-             $data['group_info'] = $permissions->getGroup($id, $this->user->getCompany());
+            $data['permissions_list'] = $permissions->getList($this->user->getCompany());
+            $data['group_info'] = $permissions->getGroup($id, $this->user->getCompany());
 
             $this->loadTemplate('permission/permissions_edit_group', $data);
-    } else {
-        header("Location: ".BASE_URL);
+        } else {
+            header("Location: ".BASE_URL);
         }
 
     }

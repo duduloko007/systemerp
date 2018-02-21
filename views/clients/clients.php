@@ -17,7 +17,7 @@
 			<div class="col-sm-12">
 				<?php if($edit_permission): ?>
 
-					<a href="<?php echo BASE_URL;?>clients/add" class="btn btn-primary">Adicionar Cliente</a>
+					<a href="<?php echo BASE_URL;?>clients/add" class="btn btn-primary btn-sm">Adicionar Cliente</a>
 				<?php endif; ?>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 		<table class="table  table-responsive table-bordered table-striped">
 			<thead>
 				<tr>
-					<td>Cod.</td>
+					<th>Cód.</th>
 					<th>Nome</th>
 					<th>Telefone</th>
 					<th>CPF/CNPJ</th>
@@ -51,13 +51,14 @@
 						<td><?php echo utf8_decode($c['cpf_cnpj']); ?></td>
 						<td><?php echo $c['stars']; ?></td>
 
-						<td width="150">
+						<td>
 							<?php if($edit_permission): ?>
 								<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>clients/edit/<?php echo $c['id'];?>">Editar</a>
 
 								<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>clients/delete/<?php echo $c['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
-							<?php else: ?>
 								<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>clients/view/<?php echo $c['id'];?>">Visualizar</a>
+							<?php else: ?>
+								<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>clients/view/<?php echo $c['id'];?>">Visualizar</a>
 							<?php endif; ?>
 						</td>
 					</tr>
@@ -65,7 +66,7 @@
 			</tbody>
 		</table>
 
-		<nav aria-label="Page navigation">
+		<nav aria-label="page navigation">
 			<ul class="pagination">
 
 				<?php for($q=1;$q<=$p_count;$q++):?>

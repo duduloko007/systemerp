@@ -11,7 +11,7 @@
 	<div class="box-body">
 		<div class="row" style="margin-bottom: 20px;">
 			<div class="col-sm-12">
-				<a class="btn btn-primary"  href="<?php echo BASE_URL;?>pay/add">Adicionar Conta</a>
+				<a class="btn btn-primary btn-sm"  href="<?php echo BASE_URL;?>pay/add">Adicionar Conta</a>
 			</div>
 
 		</div>
@@ -19,13 +19,13 @@
 			<div class="row">
 
 				<div class="col-sm-4">
-					<strong>Total Vencidas: </strong><span class="btn btn-danger" title="Total de Contas Vencidas!">R$ <?php echo number_format( $total_pay_maturity, 2, ',','.'); ?></span>
+					<strong>Total Vencidas: </strong><span class="btn btn-danger btn-sm" title="Total de Contas Vencidas!">R$ <?php echo number_format( $total_pay_maturity, 2, ',','.'); ?></span>
 				</div>
 				<div class="col-sm-4">
-					<strong>Total à Vencer: </strong><span class="btn btn-info " title="Total de Contas à Vencer!">R$ <?php echo number_format( $total_pay_open, 2, ',','.'); ?></span>
+					<strong>Total à Vencer: </strong><span class="btn btn-info btn-sm" title="Total de Contas à Vencer!">R$ <?php echo number_format( $total_pay_open, 2, ',','.'); ?></span>
 				</div>
 				<div class="col-sm-4">
-					<strong>Total Pago: </strong><span class="btn btn-success " title="Total de Contas Pagas!">R$ <?php echo number_format( $total_pay_check, 2, ',','.'); ?></span>
+					<strong>Total Pago: </strong><span class="btn btn-success btn-sm" title="Total de Contas Pagas!">R$ <?php echo number_format( $total_pay_check, 2, ',','.'); ?></span>
 				</div>
 			</div><br/>
 		</div>
@@ -88,7 +88,7 @@
 
 						<td>
 							<?php if($statuspay[$pay_item['status']] == $statuspay[$pay_item['0']] ){
-								echo '<div class="btn btn-danger" title="Conta Vencida!">'.$statuspay[$pay_item['status']].'</div>';
+								echo '<div class="btn btn-danger btn-sm" title="Conta Vencida!">'.$statuspay[$pay_item['status']].'</div>';
 								
 							} else{
 								echo $statuspay[$pay_item['status']];
@@ -100,12 +100,12 @@
 						<td>R$ <?php echo number_format( $pay_item['price'], 2, ',','.'); ?></td>
 						<td>
 							<?php if($edit_permission): ?>
-								<a  class="btn btn-info" href="<?php echo BASE_URL; ?>pay/edit/<?php echo $pay_item['id'];?>">Editar</a>
+								<a  class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>pay/edit/<?php echo $pay_item['id'];?>">Editar</a>
 								
-								<a  class="btn btn-danger" href="<?php echo BASE_URL; ?>pay/delete/<?php echo $pay_item['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
-								
+								<a  class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>pay/delete/<?php echo $pay_item['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
+											<a  class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>pay/view/<?php echo $pay_item['id'];?>">Visualizar</a>
 							<?php else: ?>
-								<a  class="btn btn-info" href="<?php echo BASE_URL; ?>pay/edit/<?php echo $pay_item['id'];?>">Editar</a>
+								<a  class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>pay/view/<?php echo $pay_item['id'];?>">Visualizar</a>
 							<?php endif; ?>
 						</td>
 					</tr>
@@ -114,7 +114,7 @@
 			</tbody>
 		</table>
 		<div class="text-right">
-			<strong>Total: </strong><span class="btn btn-warning " title="Total de Contas!">R$ <?php echo number_format( $total_pay, 2, ',','.'); ?></span>
+			<strong>Total: </strong><span class="btn btn-warning btn-sm" title="Total de Contas!">R$ <?php echo number_format( $total_pay, 2, ',','.'); ?></span>
 		</div>
 		<nav aria-label="Page navigation">
 			<ul class="pagination">

@@ -30,7 +30,7 @@
         <div id="permissions_gruop" class="tab-pane active in fade">
 
        			<br/>
-                <a href="<?php echo BASE_URL; ?>permissions/add_group" class="btn btn-primary">Adicionar Grupo de Permissões</a>
+                <a href="<?php echo BASE_URL; ?>permissions/add_group" class="btn btn-primary btn-sm">Adicionar Grupo de Permissões</a>
            
 
            <table class="table  table-responsive table-bordered table-striped">
@@ -62,7 +62,7 @@
 
         <div id="permissions" class="tab-pane fade">
            <br/>
-                <a class="btn btn-primary" href="<?php echo BASE_URL; ?>permissions/add">Adicionar Permissão</a>
+                <a class="btn btn-primary btn-sm" href="<?php echo BASE_URL; ?>permissions/add">Adicionar Permissão</a>
 
              <table class="table  table-responsive table-bordered table-striped">
                 <thead>

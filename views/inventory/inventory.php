@@ -10,7 +10,7 @@
 	<div class="box-body">
 		<?php if($add_permission): ?>
 			<div class="button">
-				<a href="<?php echo BASE_URL;?>inventory/add" class="btn btn-primary">Adicionar Produto</a>
+				<a href="<?php echo BASE_URL;?>inventory/add" class="btn btn-primary btn-sm">Adicionar Produto</a>
 			</div>
 		<?php endif; ?>
 		<br/>
@@ -38,9 +38,9 @@
 			<table class="table  table-responsive table-bordered table-striped">
 				<thead>
 					<tr>
-						<th>Cod. Barras</th>
+						<th>Cód.</th>
+						<th>Cód. Barras</th>
 						<th>Nome</th>
-						<th>Preço Custo</th>
 						<th>Preço Venda</th>
 						<th>Quantidade</th>
 						<th>Quant. Mín.</th>
@@ -50,9 +50,9 @@
 				<tbody id="myTable">
 					<?php foreach($inventory_list as $product): ?>
 						<tr>
+							<td><?php echo utf8_decode($product['id']);?></td>
 							<td><?php echo utf8_decode($product['cod_bars']);?></td>
 							<td><?php echo utf8_decode($product['name']);?></td>
-							<td>R$ <?php echo number_format($product['price_cust'], 2, ',','.');?></td>
 							<td>R$ <?php echo number_format($product['price'], 2, ',','.');?></td>
 
 							<td>	
@@ -72,12 +72,12 @@
 										echo $product['min_quant'];
 									}
 									?></td>
-									<td width="150">
+									<td>
 										<?php if($add_permission): ?>
 											<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/edit/<?php echo $product['id'];?>">Editar</a>
 
 											<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
-
+											<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>">Vizualizar</a>
 										<?php else:?>
 											<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>">Vizualizar</a>
 

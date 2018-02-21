@@ -15,7 +15,7 @@
 
 			<div class="col-sm-12">
 
-				<a class="btn btn-primary"  href="<?php echo BASE_URL;?>purchases/add">Adicionar Compra</a>
+				<a class="btn btn-primary btn-sm"  href="<?php echo BASE_URL;?>purchases/add">Adicionar Compra</a>
 			</div>
 
 		<?php endif;?>
@@ -54,7 +54,7 @@
 							<td>R$ <?php echo number_format( $purchases['total_price'], 2, ',','.'); ?></td>
 							<td>
 								
-								<a class="btn btn-info" href="<?php echo BASE_URL; ?>purchases/edit/<?php echo $purchases['id']; ?>">Visualizar</a>
+								<a class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>purchases/edit/<?php echo $purchases['id']; ?>">Visualizar</a>
 							</td>
 						</tr>
 					<?php  endforeach; ?>

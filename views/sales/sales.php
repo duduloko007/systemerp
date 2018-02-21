@@ -19,7 +19,7 @@
 				<?php if($sales_add):?>
 			<div class="col-sm-12">
 
-				<a class="btn btn-primary"  href="<?php echo BASE_URL;?>sales/add">Adicionar Venda</a>
+				<a class="btn btn-primary btn-sm"  href="<?php echo BASE_URL;?>sales/add">Adicionar Venda</a>
 
 			</div>
 		<?php endif;?>
@@ -39,7 +39,7 @@
 			<table class="table  table-responsive table-bordered table-striped">
 				<thead>
 					<tr>
-						<th>Cod.</th>
+						<th>Cód.</th>
 						<th>Nome do Cliente</th>
 						<th>Data</th>
 						<th>Status</th>
@@ -61,7 +61,7 @@
 
 							<td>R$ <?php echo number_format( $sale_item['total_price'], 2, ',','.'); ?></td>
 							<td>
-								<a class="btn btn-info" href="<?php echo BASE_URL; ?>sales/edit/<?php echo $sale_item['id']; ?>">Visualizar</a>
+								<a class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>sales/edit/<?php echo $sale_item['id']; ?>">Visualizar</a>
 							</td>
 						</tr>
 					<?php  endforeach; ?>

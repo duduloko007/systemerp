@@ -65,8 +65,8 @@
 
 
   		</div>
-  		<input type="submit" value="Salvar" class="btn btn-success"/>
-  		<a href="<?php echo BASE_URL;?>pay" class="btn btn-danger">Cancelar</a>
+  		<input type="submit" value="Salvar" class="btn btn-success btn-sm"/>
+  		<a href="<?php echo BASE_URL;?>pay" class="btn btn-danger btn-sm">Cancelar</a>
 
 
       

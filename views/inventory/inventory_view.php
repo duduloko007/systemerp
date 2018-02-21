@@ -64,7 +64,7 @@
 
     </div>
 
-    <a href="<?php echo BASE_URL;?>inventory" class="btn btn-danger">Voltar</a>
+    <a href="<?php echo BASE_URL;?>inventory" class="btn btn-danger btn-sm">Voltar</a>
   </div>
 </form>
 </div>

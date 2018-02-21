@@ -17,7 +17,7 @@
 
 				<?php if($add_permission): ?>
 
-					<a href="<?php echo BASE_URL;?>supplier/add" class="btn btn-primary">Adicionar Fornecedor</a>
+					<a href="<?php echo BASE_URL;?>supplier/add" class="btn btn-primary btn-sm">Adicionar Fornecedor</a>
 				<?php endif; ?>
 			</div>
 		</div>
@@ -30,10 +30,11 @@
 				</div>
 			</div>
 		</div>
-		<table class="table  table-responsive table-bordered table-striped">
+		
+		<table class="table table-responsive table-bordered table-striped">
 			<thead>
 				<tr>
-					<td>Cod.</td>
+					<td>Cód.</td>
 					<th>Nome</th>
 					<th>Telefone</th>
 					<th>Cidade</th>
@@ -50,13 +51,14 @@
 						<td><?php echo utf8_decode($c['address_city']); ?></td>
 						<td><?php echo $c['stars']; ?></td>
 
-						<td width="150">
+						<td>
 							<?php if($edit_permission): ?>
 								<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>supplier/edit/<?php echo $c['id'];?>">Editar</a>
 
 								<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>supplier/delete/<?php echo $c['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
+									<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>supplier/view/<?php echo $c['id'];?>">Visualizar</a>
 							<?php else: ?>
-								<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>supplier/view/<?php echo $c['id'];?>">Visualizar</a>
+								<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>supplier/view/<?php echo $c['id'];?>">Visualizar</a>
 							<?php endif; ?>
 						</td>
 					</tr>

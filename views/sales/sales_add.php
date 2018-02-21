@@ -54,8 +54,8 @@
               <thead>
 
                 <tr>
-                  <th>Cod. Produto</th>
-                  <th>Cod. Barras</th>
+                  <th>Cód. Produto</th>
+                  <th>Cód. Barras</th>
                   <th>Descrição</th>
                   <th>Estoque</th>
                   <th>Preço</th>
@@ -72,7 +72,7 @@
                   <td>R$ <?php echo number_format($product['price'],2,',','.');?></td>
                   <td>
 
-                    <a href="<?php echo BASE_URL;?>sales/add_product/<?php echo $product['id'];?>" class="btn btn-success">Adicionar</a>
+                    <a href="<?php echo BASE_URL;?>sales/add_product/<?php echo $product['id'];?>" class="btn btn-success btn-sm">Adicionar</a>
                   </td>
                 </tr>
               <?php endforeach;?>
@@ -96,8 +96,8 @@
           <table class="table  table-responsive table-bordered table-striped" >
             <thead>
               <tr>
-                <th>Cod. Produto</th>
-                <th>Cod. Barras</th>
+                <th>Cód. Produto</th>
+                <th>Cód. Barras</th>
                 <th>Descrição</th>
                 <th>Quant.</th>
                 <th>Preço</th>
@@ -116,7 +116,7 @@
                 <td class="subtotal"> </td>
                 <td>
 
-                  <a href="<?php echo BASE_URL;?>sales/remove_product/<?php echo $product['id'];?>" class="btn btn-danger">Remover</a>
+                  <a href="<?php echo BASE_URL;?>sales/remove_product/<?php echo $product['id'];?>" class="btn btn-danger btn-sm">Remover</a>
 
                 </td>
               </tr>
@@ -252,7 +252,7 @@
     </div>
 
     <div class="col-md-12">
-      <input type="submit" value="Finalizar" id="finalizar" class="btn btn-success">
+      <input type="submit" value="Finalizar" id="finalizar" class="btn btn-success btn-sm">
     </div>
 
 

@@ -59,7 +59,7 @@ class users extends model {
 	public function getCompany(){
 		if (isset($this->userInfo['id_company'])) {
 
-		return $this->userInfo['id_company'];
+			return $this->userInfo['id_company'];
 
 		} else{
 			return 0;
@@ -69,16 +69,16 @@ class users extends model {
 	public function getEmail(){
 		if (isset($this->userInfo['email'])) {
 
-		return $this->userInfo['email'];
+			return $this->userInfo['email'];
 
 		} else{
 			return 0;
 		}
 	}
-		public function getId(){
+	public function getId(){
 		if (isset($this->userInfo['id'])) {
 
-		return $this->userInfo['id'];
+			return $this->userInfo['id'];
 
 		} else{
 			return 0;
@@ -127,7 +127,7 @@ class users extends model {
 		$sql = $this->db->prepare("SELECT 
 			users.id, 
 			users.email,
-		    permission_groups.name 
+			permission_groups.name 
 			FROM users 
 			LEFT JOIN permission_groups ON permission_groups.id = users.id_group
 			WHERE users.id_company = :id_company");
@@ -141,23 +141,25 @@ class users extends model {
 		return $array;
 	}
 
-	public function add($email, $pass, $group, $id_company){
+	public function add($email, $user, $pass, $group, $id_company){
 
-		$sql = $this->db->prepare("SELECT COUNT(*) as c FROM users WHERE email = :email");
-		$sql->bindValue(":email",$email);
+		$sql = $this->db->prepare("SELECT COUNT(*) as c FROM users WHERE user = :user");
+		$sql->bindValue(":user",$user);
 		$sql->execute();
 		$row = $sql->fetch();
 
 		if ($row['c'] == '0') {
 			
-			$sql = $this->db->prepare("INSERT INTO users SET email = :email, password = :password, id_group = :id_group, id_company = :id_company");
+			$sql = $this->db->prepare("INSERT INTO users SET email = :email, user = :user, password = :password, id_group = :id_group, id_company = :id_company, status = :status");
 			$sql->bindValue(":email",$email);
+			$sql->bindValue(":user",$user);
 			$sql->bindValue(":password",md5($pass));
 			$sql->bindValue(":id_group",$group);
 			$sql->bindValue(":id_company",$id_company);
-		$sql->execute();
+			$sql->bindValue(":status", '0');
+			$sql->execute();
 
-		return '1';
+			return '1';
 
 		} else {
 			return '0';
@@ -165,12 +167,12 @@ class users extends model {
 	}
 
 	public function edit($pass, $group,$id,  $id_company){
-			$sql = $this->db->prepare("UPDATE users SET id_group = :id_group WHERE id =:id AND id_company = :id_company");
-			$sql->bindValue(":id_group",$group);
-			$sql->bindValue(":id",$id);
-			$sql->bindValue(":id_company",$id_company
-				);
-			$sql->execute();
+		$sql = $this->db->prepare("UPDATE users SET id_group = :id_group WHERE id =:id AND id_company = :id_company");
+		$sql->bindValue(":id_group",$group);
+		$sql->bindValue(":id",$id);
+		$sql->bindValue(":id_company",$id_company
+	);
+		$sql->execute();
 		if (!empty($pass)) {
 			$sql = $this->db->prepare("UPDATE users SET password = :password WHERE id =:id AND id_company = :id_company");
 			$sql->bindValue(":password",md5($pass));

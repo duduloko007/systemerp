@@ -20,9 +20,10 @@ class purchasesController extends controller {
     $data['company_name'] = $company->getName();
 
     $data['user_email'] = $u->getEmail();
-    
+    $data['add_permission'] = $u->hasPermission('purchases_add');
+    $data['edit_permission'] = $u->hasPermission('purchases_edit');
 
-    if ($u->hasPermission('sales_view')) {
+    if ($u->hasPermission('purchases_view')) {
       $p = new purchases();
       $data['purchases_list'] = $p->getList($u->getCompany());
 
@@ -40,7 +41,7 @@ class purchasesController extends controller {
   $company = new companies($u->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $u->getEmail();
-  if ($u->hasPermission('sales_view')) {
+  if ($u->hasPermission('purchases_add')) {
     $p = new purchases();
     $i = new inventory();
     $c = new supplier();
@@ -91,7 +92,7 @@ public function edit($id){
   $data['user_email'] = $u->getEmail();
 
   $data['user_email'] = $u->getEmail();
-  if ($u->hasPermission('sales_view')) {
+  if ($u->hasPermission('purchases_edit')) {
     $p = new purchases();
     $i = new inventory();
     $c = new supplier();
@@ -100,7 +101,7 @@ public function edit($id){
     $data['client_list'] = $c->getInfoSales($u->getCompany());
     $data['listSalesVenda'] = $p->getlistPurchases1($u->getCompany());
     if(isset($_GET['cod_bars']) && !empty($_GET['cod_bars'])){
-      
+
       $cod_bars = addslashes($_GET['cod_bars']);
       $data['inventory_list'] = $i->getProductFiltered($cod_bars, $u->getCompany());
     } else{

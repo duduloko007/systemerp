@@ -16,12 +16,13 @@
 			<?php endif;?>
 		</div>
 		<div class="row" style="margin-bottom: 20px;">
-
+				<?php if($sales_add):?>
 			<div class="col-sm-12">
 
 				<a class="btn btn-primary"  href="<?php echo BASE_URL;?>sales/add">Adicionar Venda</a>
 
 			</div>
+		<?php endif;?>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 ">

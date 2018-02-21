@@ -18,7 +18,7 @@ class supplierController extends controller{
     $data['company_name'] = $company->getName();
     $data['user_email'] = $this->user->getEmail();
 
-    if ($this->user->hasPermission('clients_view')) {
+    if ($this->user->hasPermission('supplier_view')) {
      $c = new supplier();
      $offset = 0;
      $data['p'] = 1;
@@ -32,7 +32,8 @@ class supplierController extends controller{
    $data['clients_list'] = $c->getList($offset, $this->user->getCompany());
    $data['clients_count'] = $c->getCount($this->user->getCompany());
    $data['p_count'] = ceil($data['clients_count'] / 10);
-   $data['edit_permission'] = $this->user->hasPermission('clients_edit');
+   $data['add_permission'] = $this->user->hasPermission('supplier_add');
+   $data['edit_permission'] = $this->user->hasPermission('supplier_edit');
    $this->loadTemplate('supplier/supplier', $data);
  } else {
   header("Location: ".BASE_URL);
@@ -45,7 +46,7 @@ public function add(){
  $data['company_name'] = $company->getName();
  $data['user_email'] = $this->user->getEmail();
 
- if ($this->user->hasPermission('clients_edit')) {
+ if ($this->user->hasPermission('supplier_add')) {
    $c = new supplier();
    if (isset($_POST['name']) && !empty($_POST['name'])) {
     $name = addslashes($_POST['name']);
@@ -80,7 +81,7 @@ public function edit($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
-  if ($this->user->hasPermission('clients_edit')) {
+  if ($this->user->hasPermission('supplier_edit')) {
     $c = new supplier();
     if (isset($_POST['name']) && !empty($_POST['name'])) {
       $name = addslashes($_POST['name']);
@@ -108,8 +109,25 @@ public function edit($id){
    header("Location: ".BASE_URL."supplier");
  }
 }
+
 public function delete($id){
-  echo "Falta fazer esse método...";
+
+  $this->user->setLoggedUser();
+  $company = new companies($this->user->getCompany());
+  $data['company_name'] = $company->getName();
+  $data['user_email'] = $this->user->getEmail();
+  $p = new supplier();
+
+
+  if($this->user->hasPermission('supplier_edit')) {
+
+    $p->del($id, $this->user->getCompany());
+    header("Location: ".BASE_URL."supplier");
+  }
+
+
+
+
 }
 }
 ?>

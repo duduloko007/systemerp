@@ -54,7 +54,16 @@
 
 		<?php else: ?>
 
-			<?php echo $form_pay[$sales_info['info']['status']] ;?>
+			<?php echo $form_pay[$sales_info['info']['form_pay']] ;?>
+
+			<div class="form-group">
+				<br/>
+				<label>Observação</label>
+				<textarea name="obs" class="form-control" disabled=""><?php echo $sales_info['info']['obs']; ?></textarea>
+
+
+			</div>
+			<a href="<?php echo BASE_URL;?>sales" class="btn btn-danger">Voltar</a>
 		<?php endif;?>
 
 		<hr/>
@@ -80,5 +89,7 @@
 				<?php endforeach ; ?>
 			</tbody>
 		</table>
+		
+		
 	</div>
 </div>

@@ -73,11 +73,15 @@
 									}
 									?></td>
 									<td width="150">
-										<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/edit/<?php echo $product['id'];?>">Editar</a>
+										<?php if($add_permission): ?>
+											<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/edit/<?php echo $product['id'];?>">Editar</a>
 
-										<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
+											<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
 
+										<?php else:?>
+											<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>">Vizualizar</a>
 
+										<?php endif;?>
 									</td>
 
 								</tr>

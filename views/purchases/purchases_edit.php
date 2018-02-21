@@ -18,24 +18,19 @@
 		R$ <?php echo number_format( $sales_info['info']['discount'], 2, ',','.'); ?><br/><br/>
 		<strong>Total:</strong>
 		R$ <?php echo number_format( $sales_info['info']['total_price'], 2, ',','.'); ?><br/><br/>
-			<form method="POST">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="form-group">
+		<form method="POST">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="form-group">
 
-							<label>Observação</label>
-							<textarea name="obs" class="form-control"><?php echo $sales_info['info']['obs']; ?></textarea>
-
-						</div>
-					</div>
-					<div class="col-sm-12">
-						<input type="submit" value="Salvar" class="btn btn-success" />
-						<a href="<?php echo BASE_URL;?>purchases" class="btn btn-danger">Cancelar</a>
+						<label>Observação</label>
+						<textarea name="obs" class="form-control" disabled=""><?php echo $sales_info['info']['obs']; ?></textarea>
 
 					</div>
 				</div>
+			</div>
 
-			</form>
+		</form>
 
 		<hr/>
 		<h3>Produtos</h3>
@@ -60,5 +55,13 @@
 				<?php endforeach ; ?>
 			</tbody>
 		</table>
+		<br/>
+		<div class="row">
+			<div class="col-sm-12">
+				<!--<input type="submit" value="Salvar" class="btn btn-success" />-->
+				<a href="<?php echo BASE_URL;?>purchases" class="btn btn-danger">Voltar</a>
+
+			</div>
+		</div>
 	</div>
 </div>

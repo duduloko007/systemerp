@@ -596,3 +596,24 @@ Stack trace:
 #4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
 #5 {main}
   thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 238
+[21-Feb-2018 15:10:39 Europe/Berlin] PHP Fatal error:  Call to undefined function supplier() in C:\xampp\htdocs\systemerp\controllers\supplierController.php on line 118
+[21-Feb-2018 15:11:14 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in C:\xampp\htdocs\systemerp\models\supplier.php:112
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\supplier.php(112): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\supplierController.php(123): supplier->del('4', '1')
+#2 [internal function]: supplierController->delete('4')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\supplier.php on line 112
+[21-Feb-2018 15:12:14 Europe/Berlin] PHP Notice:  Undefined variable: edit_permission in C:\xampp\htdocs\systemerp\views\supplier\supplier.php on line 18
+[21-Feb-2018 15:12:14 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\supplier\supplier.php on line 45
+[21-Feb-2018 15:12:14 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\supplier\supplier.php on line 45
+[21-Feb-2018 15:12:14 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\supplier\supplier.php on line 70
+[21-Feb-2018 15:23:32 Europe/Berlin] PHP Notice:  Undefined property: purchasesController::$user in C:\xampp\htdocs\systemerp\controllers\purchasesController.php on line 23
+[21-Feb-2018 15:23:32 Europe/Berlin] PHP Fatal error:  Call to a member function hasPermission() on null in C:\xampp\htdocs\systemerp\controllers\purchasesController.php on line 23
+[21-Feb-2018 15:29:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 57
+[21-Feb-2018 15:30:55 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 58
+[21-Feb-2018 15:31:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 59
+[21-Feb-2018 15:31:35 Europe/Berlin] PHP Notice:  Undefined offset: 0 in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 60
+[21-Feb-2018 15:31:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 81

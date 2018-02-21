@@ -11,10 +11,14 @@
 	<div class="box-body">      
 		<div class="row" style="margin-bottom: 20px;">
 
+					<?php if($add_permission): ?>
+
 			<div class="col-sm-12">
 
 				<a class="btn btn-primary"  href="<?php echo BASE_URL;?>purchases/add">Adicionar Compra</a>
 			</div>
+
+		<?php endif;?>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 ">
@@ -49,6 +53,7 @@
 
 							<td>R$ <?php echo number_format( $purchases['total_price'], 2, ',','.'); ?></td>
 							<td>
+								
 								<a class="btn btn-info" href="<?php echo BASE_URL; ?>purchases/edit/<?php echo $purchases['id']; ?>">Visualizar</a>
 							</td>
 						</tr>

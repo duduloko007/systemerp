@@ -75,6 +75,8 @@ class inventoryController extends controller {
 
     }
     $this->loadTemplate('inventory/inventory_add', $data);
+  } else{
+    header("Location:".BASE_URL."inventory");
   }
 }
 
@@ -110,11 +112,54 @@ public function edit($id){
       //$i->setLog($id_product, $this->user->getCompany(), $this->user->getId(), $action);
       header("Location:".BASE_URL."inventory");
 
-      header("Location:".BASE_URL."inventory");
     }
     $data['inventory_info'] = $i->getInfo($id, $this->user->getCompany());
     $this->loadTemplate('inventory/inventory_edit', $data);
+  }else {
+    header("Location:".BASE_URL."inventory");
   }
+
+}
+
+public function view($id){
+  $data = array();
+  $this->user->setLoggedUser();
+  $company = new companies($this->user->getCompany());
+  $data['company_name'] = $company->getName();
+  $data['user_email'] = $this->user->getEmail();
+  if ($this->user->hasPermission('inventory_view')){
+
+    $i = new inventory();
+    if (isset($_POST['name']) && !empty($_POST['name'])) {
+      $name = addslashes(utf8_encode($_POST['name']));
+      $price = addslashes($_POST['price']);
+      $price_cust = addslashes($_POST['price_cust']);
+      $price_percentage = addslashes($_POST['price_percentage']);
+      $quant = addslashes($_POST['quant']);
+      $min_quant = addslashes($_POST['min_quant']);
+      $cod_bars = addslashes($_POST['cod_bars']);
+      //$price = str_replace('.','', $price);
+      //$price = str_replace(',','.', $price);
+      
+      //$price_cust = str_replace('.','', $price_cust);
+      //$price_cust = str_replace(',','.', $price_cust);
+
+
+      //$price_percentage = str_replace('.','', $price_percentage);
+     // $price_percentage = str_replace(',','.', $price_percentage);
+
+      $i->edit($id, $name, $price, $price_cust, $price_percentage, $quant, $min_quant,$cod_bars, $this->user->getCompany(), $this->user->getId());
+      //$action = 'edit';
+      //$i->setLog($id_product, $this->user->getCompany(), $this->user->getId(), $action);
+      header("Location:".BASE_URL."inventory");
+
+    }
+    $data['inventory_info'] = $i->getInfo($id, $this->user->getCompany());
+    $this->loadTemplate('inventory/inventory_view', $data);
+  }else {
+    header("Location:".BASE_URL."inventory");
+  }
+
 }
 
 public function delete($id){

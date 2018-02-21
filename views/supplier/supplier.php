@@ -15,7 +15,7 @@
 
 			<div class="col-sm-12">
 
-				<?php if($edit_permission): ?>
+				<?php if($add_permission): ?>
 
 					<a href="<?php echo BASE_URL;?>supplier/add" class="btn btn-primary">Adicionar Fornecedor</a>
 				<?php endif; ?>

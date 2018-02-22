@@ -57,7 +57,7 @@
 
 								<a class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>users/delete/<?php echo $us['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
 
-								<a class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>users/edit/<?php echo $us['id'];?>">Visualizar</a>
+								<a class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>users/view/<?php echo $us['id'];?>">Visualizar</a>
 							<?php else:?>
 								<div>Sem permissões</div>
 							<?php endif;?>

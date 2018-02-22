@@ -76,6 +76,17 @@ class users extends model {
 			return 0;
 		}
 	}
+
+	public function getNameUser(){
+		if (isset($this->userInfo['name_user'])) {
+
+			return $this->userInfo['name_user'];
+
+		} else{
+			return 0;
+		}
+	}
+
 	public function getId(){
 		if (isset($this->userInfo['id'])) {
 
@@ -95,6 +106,21 @@ class users extends model {
 
 		if ($sql->rowCount() > 0) {
 			$array = $sql->fetch();
+		}
+		return $array;
+	}
+	public function getPer($id_company, $id){
+
+		$array = array();
+		$sql = $this->db->prepare("SELECT permission_groups.name FROM users LEFT JOIN permission_groups ON permission_groups.id = users.id_group WHERE users.id_company = :id_company AND users.id = :id");
+		$sql->bindValue(":id_company", $id_company);
+		$sql->bindValue(":id", $id);
+		$sql->execute();
+
+		if ($sql->rowCount() > 0) {
+			
+			 $array = $sql->fetchAll();
+
 		}
 		return $array;
 	}

@@ -1,7 +1,7 @@
 <?php
 class notfoundController extends controller {
-private $user;
-	    public function __construct() {
+    private $user;
+    public function __construct() {
         parent::__construct();
 
 
@@ -13,7 +13,7 @@ private $user;
 
 
         }
-       
+        
     }
 
     public function index() {
@@ -22,7 +22,8 @@ private $user;
         $company = new companies($this->user->getCompany());
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['user_name'] = $this->user->getNameUser();
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         $this->loadTemplate('404', $data);
     }
 

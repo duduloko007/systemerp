@@ -10,7 +10,7 @@ class homeController extends controller {
         if($u->isLogged() == false){
             header("Location:".BASE_URL."login");
         }
-       
+        
     }
 
     public function index() {
@@ -20,27 +20,27 @@ class homeController extends controller {
         $company = new companies($u->getCompany());
         $data['company_name'] = $company->getName();
         $data['user_email'] = $u->getEmail();
-        
-   
+        $data['group_permissions'] = $u->getPer($u->getCompany(), $u->getId());
+        $data['user_name'] = $u->getNameUser();
         $s = new sales();
         $r = new receive();
         $pay = new pay();
         $i = new inventory();
-    $data['form_pay']= array(
-        '1' => 'Dinheiro',
-        '2'=>'Nota a prazo',
-        '3'=>'Cartão de debito',
-        '4'=>'Cartão de crédito',
-        '5'=>'Cheque',
-        '6'=>'Depósito bancário',
-        '7'=>'Cancelado'
-    );
+        $data['form_pay']= array(
+            '1' => 'Dinheiro',
+            '2'=>'Nota a prazo',
+            '3'=>'Cartão de debito',
+            '4'=>'Cartão de crédito',
+            '5'=>'Cheque',
+            '6'=>'Depósito bancário',
+            '7'=>'Cancelado'
+        );
 
-      $data['statuspay'] = array(
-        '0'=>'Em aberto',
-        '1'=>'Vencido',
-        '2'=>'Pago'
-      );
+        $data['statuspay'] = array(
+            '0'=>'Em aberto',
+            '1'=>'Vencido',
+            '2'=>'Pago'
+        );
         $data['total_pay_maturity'] = $pay->getTotalMaturity($u->getCompany());
         //$data['products_sold'] = $s->getSoldProducts(date('Y-m-d', strtotime('-30 days')), date('Y-m-d'), $u->getCompany());
 

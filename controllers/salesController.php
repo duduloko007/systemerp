@@ -18,8 +18,9 @@ class salesController extends controller {
 
     $company = new companies($u->getCompany());
     $data['company_name'] = $company->getName();
-
+    $data['user_name'] = $this->user->getNameUser();
     $data['user_email'] = $u->getEmail();
+    $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     $data['form_pay']= array(
       '1' => 'Dinheiro',
       '2'=>'Nota a prazo',
@@ -49,6 +50,8 @@ class salesController extends controller {
   $company = new companies($u->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $u->getEmail();
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   if ($u->hasPermission('sales_add')) {
     $s = new sales();
     $i = new inventory();
@@ -108,6 +111,8 @@ public function edit($id){
   $u->setLoggedUser();
   $company = new companies($u->getCompany());
   $data['company_name'] = $company->getName();
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   $data['user_email'] = $u->getEmail();
 
   $data['user_email'] = $u->getEmail();

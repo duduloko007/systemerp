@@ -15,12 +15,16 @@ class permissionsController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
+        
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+
         $data['add_permission'] = $this->user->hasPermission('permissions_add');
         $data['edit_permission'] = $this->user->hasPermission('permissions_edit');
         $data['view_permission'] = $this->user->hasPermission('permissions_view');
+        $data['permissions_developer'] = $this->user->hasPermission('permissions_developer');
         if ($this->user->hasPermission('permissions_view')) {
 
             $permissions = new permissions();
@@ -40,10 +44,10 @@ class permissionsController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         if ($this->user->hasPermission('permissions_add')) {
             $permissions = new permissions();
 
@@ -65,10 +69,10 @@ class permissionsController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         if ($this->user->hasPermission('permissions_add')) {
             $permissions = new permissions();
 
@@ -96,10 +100,10 @@ class permissionsController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         if ($this->user->hasPermission('permissions_edit')) {
             $permissions = new permissions();
             $permissions->delete($id);
@@ -117,10 +121,10 @@ class permissionsController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         if ($this->user->hasPermission('permissions_edit')) {
             $permissions = new permissions();
             $permissions->deleteGroup($id);
@@ -134,12 +138,12 @@ class permissionsController extends controller {
     public function edit_group($id){
         $data = array();
         $this->user->setLoggedUser();
-
+        $data['user_name'] = $this->user->getNameUser();
         $company = new companies($this->user->getCompany());
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         if ($this->user->hasPermission('permissions_edit')) {
             $permissions = new permissions();
 

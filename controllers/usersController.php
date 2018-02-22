@@ -19,9 +19,11 @@ class usersController extends controller {
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
+        $data['user_name'] = $this->user->getNameUser();
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         $data['add_permission'] = $this->user->hasPermission('users_add');
         $data['edit_permission'] = $this->user->hasPermission('users_edit');
-         $data['view_permission'] = $this->user->hasPermission('users_view');
+        $data['view_permission'] = $this->user->hasPermission('users_view');
         $data['status_user']= array(
           '0' => 'Ativo',
           '1'=>'Desativado'
@@ -45,7 +47,8 @@ class usersController extends controller {
 
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
-
+        $data['user_name'] = $this->user->getNameUser();
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         if ($this->user->hasPermission('users_add')) {
             $p = new permissions();
             if (isset($_POST['email']) && !empty($_POST['email'])) {
@@ -82,9 +85,10 @@ class usersController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
         $data['status_user']= array(
           '0' => 'Ativo',
           '1'=>'Desativado'
@@ -120,9 +124,11 @@ class usersController extends controller {
         $data = array();
 
         $this->user->setLoggedUser();
-
+        
         $company = new companies($this->user->getCompany());
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+        
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
         $data['status_user']= array(
@@ -165,7 +171,8 @@ class usersController extends controller {
         $this->user->setLoggedUser();
 
         $company = new companies($this->user->getCompany());
-
+        $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+        $data['user_name'] = $this->user->getNameUser();
         $data['company_name'] = $company->getName();
         $data['user_email'] = $this->user->getEmail();
 

@@ -25,6 +25,8 @@ class inventoryController extends controller {
     $company = new companies($this->user->getCompany());
     $data['company_name'] = $company->getName();
     $data['user_email'] = $this->user->getEmail();
+    $data['user_name'] = $this->user->getNameUser();
+    $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     if ($this->user->hasPermission('inventory_view')) {
 
       $i = new inventory();
@@ -44,7 +46,8 @@ class inventoryController extends controller {
    $company = new companies($this->user->getCompany());
    $data['company_name'] = $company->getName();
    $data['user_email'] = $this->user->getEmail();
-
+   $data['user_name'] = $this->user->getNameUser();
+   $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
    if ($this->user->hasPermission('inventory_add')){
 
     if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -86,6 +89,8 @@ public function edit($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   if ($this->user->hasPermission('inventory_edit')){
 
     $i = new inventory();
@@ -127,6 +132,8 @@ public function view($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   if ($this->user->hasPermission('inventory_view')){
 
     $i = new inventory();

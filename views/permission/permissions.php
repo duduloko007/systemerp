@@ -20,12 +20,12 @@
         <li class="active">
             <a href="#permissions_gruop" class="" data-toggle="tab">Grupos de Permissões</a>
         </li>
-        <?php if($add_permission):?>
+
             <li>
                 <a href="#permissions" class="" data-toggle="tab">Permissões</a>
 
             </li>
-        <?php endif;?>
+       
 
     </ul>
 
@@ -84,7 +84,7 @@
 
 
 <div id="permissions" class="tab-pane fade">
-    <?php if($add_permission):?>
+  
      <br/>
      <a class="btn btn-primary btn-sm" href="<?php echo BASE_URL; ?>permissions/add">Adicionar Permissão</a>
 
@@ -107,9 +107,6 @@
         </tbody>
     <?php endforeach; ?>
 </table>
-<?php else:?>
-    <h3>Sem permissão</h3>
-<?php endif;?>  
 </div>	
 
 </div>

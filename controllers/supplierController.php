@@ -17,7 +17,8 @@ class supplierController extends controller{
     $company = new companies($this->user->getCompany());
     $data['company_name'] = $company->getName();
     $data['user_email'] = $this->user->getEmail();
-
+    $data['user_name'] = $this->user->getNameUser();
+    $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     if ($this->user->hasPermission('supplier_view')) {
      $c = new supplier();
      $offset = 0;
@@ -45,7 +46,8 @@ public function add(){
  $company = new companies($this->user->getCompany());
  $data['company_name'] = $company->getName();
  $data['user_email'] = $this->user->getEmail();
-
+ $data['user_name'] = $this->user->getNameUser();
+ $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
  if ($this->user->hasPermission('supplier_add')) {
    $c = new supplier();
    if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -81,6 +83,8 @@ public function edit($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+  $data['user_name'] = $this->user->getNameUser();
   if ($this->user->hasPermission('supplier_edit')) {
     $c = new supplier();
     if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -117,6 +121,8 @@ public function view($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   if ($this->user->hasPermission('supplier_view')) {
     $c = new supplier();
     if (isset($_POST['name']) && !empty($_POST['name'])) {
@@ -153,6 +159,7 @@ public function delete($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
+  $data['user_name'] = $this->user->getNameUser();
   $p = new supplier();
 
 

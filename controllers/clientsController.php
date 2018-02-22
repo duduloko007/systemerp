@@ -28,7 +28,8 @@ class clientsController extends controller {
     $company = new companies($this->user->getCompany());
 
     $data['company_name'] = $company->getName();
-
+    $data['user_name'] = $this->user->getNameUser();
+    $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     $data['user_email'] = $this->user->getEmail();
 
     if ($this->user->hasPermission('clients_view')) {
@@ -82,8 +83,9 @@ public function add(){
  $company = new companies($this->user->getCompany());
 
  $data['company_name'] = $company->getName();
-
+ $data['user_name'] = $this->user->getNameUser();
  $data['user_email'] = $this->user->getEmail();
+ $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
 
  if ($this->user->hasPermission('clients_add')) {
 
@@ -146,9 +148,9 @@ public function edit($id){
   $this->user->setLoggedUser();
 
   $company = new companies($this->user->getCompany());
-
+  $data['user_name'] = $this->user->getNameUser();
   $data['company_name'] = $company->getName();
-
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   $data['user_email'] = $this->user->getEmail();
 
 
@@ -216,11 +218,11 @@ public function view($id){
   $this->user->setLoggedUser();
 
   $company = new companies($this->user->getCompany());
-
+  $data['user_name'] = $this->user->getNameUser();
   $data['company_name'] = $company->getName();
 
   $data['user_email'] = $this->user->getEmail();
-
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
 
   if ($this->user->hasPermission('clients_view')) {
 

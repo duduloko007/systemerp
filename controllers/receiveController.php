@@ -30,15 +30,16 @@ class receiveController extends controller {
     $company = new companies($this->user->getCompany());
     $data['company_name'] = $company->getName();
     $data['user_email'] = $this->user->getEmail();
-
+    $data['user_name'] = $this->user->getNameUser();
+    $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     $data['form_pay']= array(
-        '1' => 'Dinheiro',
-        '2'=>'Nota a prazo',
-        '3'=>'Cartão de debito',
-        '4'=>'Cartão de crédito',
-        '5'=>'Cheque',
-        '6'=>'Depósito bancário',
-        '7'=>'Cancelado'
+      '1' => 'Dinheiro',
+      '2'=>'Nota a prazo',
+      '3'=>'Cartão de debito',
+      '4'=>'Cartão de crédito',
+      '5'=>'Cheque',
+      '6'=>'Depósito bancário',
+      '7'=>'Cancelado'
     );
     
     if ($this->user->hasPermission('receive_view')) {
@@ -93,16 +94,17 @@ public function edit($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
-
-    $data['form_pay']= array(
-        '1' => 'Dinheiro',
-        '2'=>'Nota a prazo',
-        '3'=>'Cartão de debito',
-        '4'=>'Cartão de crédito',
-        '5'=>'Cheque',
-        '6'=>'Depósito bancário',
-        '7'=>'Cancelado'
-    );
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+  $data['form_pay']= array(
+    '1' => 'Dinheiro',
+    '2'=>'Nota a prazo',
+    '3'=>'Cartão de debito',
+    '4'=>'Cartão de crédito',
+    '5'=>'Cheque',
+    '6'=>'Depósito bancário',
+    '7'=>'Cancelado'
+  );
   
   if ($this->user->hasPermission('receive_edit')) {
     $r = new receive();

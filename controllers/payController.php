@@ -28,7 +28,8 @@ class payController extends controller {
     $company = new companies($this->user->getCompany());
     $data['company_name'] = $company->getName();
     $data['user_email'] = $this->user->getEmail();
-
+    $data['user_name'] = $this->user->getNameUser();
+    $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     $data['add_permission'] = $this->user->hasPermission('pay_add');
 
     $data['edit_permission'] = $this->user->hasPermission('pay_edit');
@@ -105,7 +106,8 @@ public function add(){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
-
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   if ($this->user->hasPermission('pay_add')){
 
     if (isset($_POST['description']) && !empty($_POST['description'])) {
@@ -144,7 +146,8 @@ public function edit($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
-
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
 
   $data['statuspay'] = array(
     '0'=>'Em aberto',
@@ -202,7 +205,8 @@ public function delete($id){
   $company = new companies($this->user->getCompany());
   $data['company_name'] = $company->getName();
   $data['user_email'] = $this->user->getEmail();
-
+  $data['user_name'] = $this->user->getNameUser();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   if ($this->user->hasPermission('pay_edit')){
    $pay = new pay();
    $pay->delete($id, $this->user->getCompany(), $this->user->getId());

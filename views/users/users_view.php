@@ -30,7 +30,7 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="form-group">
             <label>Usúario:</label>
             <input type="text" name="user" id="user" class="form-control" disabled value="<?php echo $user_info['user']; ?>">
@@ -40,7 +40,7 @@
         <div class="col-md-4">
           <div class="form-group">
             <label >Grupo de Permissões</label><br/>
-            <select name="group" id="group" class="form-control">
+            <select name="group" id="group" class="form-control" disabled>
              <?php foreach($group_list as $g): ?>
               <option value="<?php echo $g['id']; ?>" <?php echo ($g['id']==$user_info['id_group'])? 'selected="selected"':''; ?>><?php echo $g['name'] ;?></option>
 
@@ -49,10 +49,10 @@
           </select>
         </div>
       </div>
-      <div class="col-sm-12">
+      <div class="col-sm-4">
         <div class="form-group">
           <label>Status:</label>
-          <select name="status" class="form-control" disabled>
+          <select name="status" class="form-control" disabled >
             <?php foreach($status_user as $statusKey => $statusValue): ?>
 
              <option value="<?php echo $statusKey ;?>" <?php echo($statusKey == $user_info['status'])?'selected="selected"':'' ;?>>

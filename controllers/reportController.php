@@ -87,13 +87,13 @@ class reportController extends controller {
     $data['user_email'] = $this->user->getEmail();
 
     $data['statuses'] = array(
-
-        '0'=>'Aguardando Pgto.',
-
-        '1'=>'Pago',
-
-        '2'=>'Cancelado'
-
+      '1' => 'Dinheiro',
+      '2'=>'Nota a prazo',
+      '3'=>'Cartão de debito',
+      '4'=>'Cartão de crédito',
+      '5'=>'Cheque',
+      '6'=>'Depósito bancário',
+      '7'=>'Cancelado'
     );
 
     
@@ -129,12 +129,13 @@ public function sales_pdf(){
     
 
     $data['statuses'] = array(
-
-        '0'=>'Aguardando Pgto.',
-
-        '1'=>'Pago',
-
-        '2'=>'Cancelado'
+      '1' => 'Dinheiro',
+      '2'=>'Nota a prazo',
+      '3'=>'Cartão de debito',
+      '4'=>'Cartão de crédito',
+      '5'=>'Cheque',
+      '6'=>'Depósito bancário',
+      '7'=>'Cancelado'
 
     );
 

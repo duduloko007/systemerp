@@ -37,7 +37,7 @@
 
 				<td><?php echo date('d/m/Y', strtotime($sale_item['date_sale'])) ?></td>
 
-				<td><?php echo $statuses[$sale_item['status']]; ?></td>
+				<td><?php echo $statuses[$sale_item['form_pay']]; ?></td>
 
 				<td>R$ <?php echo number_format( $sale_item['total_price'], 2, ',','.'); ?></td>
 			</tr>

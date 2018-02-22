@@ -193,7 +193,7 @@ class sales extends model{
 
 		$array = array();
 
-		$sql = "SELECT clients.name, sales.date_sale, sales.status, sales.total_price FROM sales LEFT JOIN clients ON clients.id = sales.id_client WHERE ";
+		$sql = "SELECT clients.name, sales.date_sale, sales.form_pay, sales.total_price FROM sales LEFT JOIN clients ON clients.id = sales.id_client WHERE ";
 
 		$where = array();
 
@@ -208,7 +208,7 @@ class sales extends model{
 		}
 
 		if ($status != '') {
-			$where[] = " sales.status = :status";
+			$where[] = " sales.form_pay = :status";
 		}
 		$sql .= implode(' AND ', $where);
 
@@ -220,8 +220,8 @@ class sales extends model{
 			case 'date_asc':
 			$sql .= " ORDER BY sales.date_sale ASC";
 			break;
-			case 'status':
-			$sql .= " ORDER BY sales.status";
+			case 'form_pay':
+			$sql .= " ORDER BY sales.form_pay";
 			break;
 		}
 		$sql = $this->db->prepare($sql);

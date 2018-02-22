@@ -12,29 +12,22 @@
   	<form method="GET" onsubmit="return openPopup(this)">
   		 <div class="box-body">
 		<div class="row">
-			<div class="col-sm-3">
-				<div class="form-group">
 
-			<label>Nome do Cliente:</label>
-			<input type="text" name="client_name" class="form-control" />
-		</div>
-		</div>
-
-			<div class="col-sm-2">
+			<div class="col-sm-6">
 				<div class="form-group">
 			<label>Período:</label>
 
 				<input type="date" name="period1" class="form-control" />
 			</div>
 		</div>
-		<div class="col-sm-2">
+		<div class="col-sm-6">
 			<div class="form-group">
 					<label>até:</label>
 			<input type="date" name="period2" class="form-control" />
 			</div>
 				</div>
 
-	<div class="col-sm-3">
+	<div class="col-sm-6">
 			<div class="form-group">
 				<label>Status da Venda:</label>
 		<select name="status" class="form-control">
@@ -47,7 +40,7 @@
 	</div>
 	</div>
 
-		<div class="col-sm-2">
+		<div class="col-sm-6">
 			<div class="form-group">
 				<label>Ordenação:</label>
 		<select name="order" class="form-control">

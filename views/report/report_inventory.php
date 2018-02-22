@@ -12,8 +12,8 @@
 	
 	
 	<div class="text-center">
-		<input type="submit" value="Gerar Relatório" class="btn btn-default" />
-		<a href="<?php echo BASE_URL;?>report" class="btn btn-danger">Cancelar</a>
+		<input type="submit" value="Gerar Relatório" class="btn btn-default btn-sm" />
+		<a href="<?php echo BASE_URL;?>report" class="btn btn-danger btn-sm">Cancelar</a>
 	</div>
 </form>
 </div>

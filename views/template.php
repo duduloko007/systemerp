@@ -3,7 +3,7 @@
 <head>  
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <title>ERP</title>
+ <title>System ERP</title>
  <link rel="icon" href="<?php BASE_URL;?>assets/images/favicon.ico" type="image/x-icon" />
  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
  <!--<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL_CSS ?>/estilo_rela.css"/>-->
@@ -150,14 +150,14 @@
       <li class="treeview">
         <a href="#">
           <i class="fa fa-pie-chart"></i>
-          <span>Usuários</span>
+          <span> Usuários</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="<?php echo BASE_URL;?>users"></i> Usuários</a></li>
-          <li><a href="<?php echo BASE_URL;?>permissions"></i> Permissões</a></li>
+          <li><a href="<?php echo BASE_URL;?>users"></i> <i class="fa fa-user-circle"></i>Usuários</a></li>
+          <li><a href="<?php echo BASE_URL;?>permissions"></i><i class="fa fa-key"></i> Permissões</a></li>
         </ul>
       </li>
       <li class="treeview">
@@ -169,8 +169,8 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="<?php echo BASE_URL;?>pay"></i> Contas a Pagar</a></li>
-          <li><a href="<?php echo BASE_URL ?>receive"></i> Contas a receber</a></li>
+          <li><a href="<?php echo BASE_URL;?>pay"></i><i class="fa fa-dollar"></i> Contas a Pagar</a></li>
+          <li><a href="<?php echo BASE_URL ?>receive"></i><i class="fa fa-percent"></i> Contas a receber</a></li>
         </ul>
       </li>
       <li>
@@ -187,7 +187,7 @@
       </li>
       <li>
         <a href="<?php echo BASE_URL;?>sales">
-          <i class="fa fa-dollar"></i>
+          <i class="fa fa-shopping-basket"></i>
           <span>Vendas</span>
         </a>
       </li>
@@ -205,8 +205,8 @@
       </li>
       <li>
         <a href="<?php echo BASE_URL;?>supplier">
-          <i class="fa fa-file-pdf-o"></i>
-          <span>Fornecedor</span>
+          <i class="fa fa-handshake-o"></i>
+          <span>Fornecedores</span>
         </a>
       </li>
 
@@ -228,7 +228,7 @@
   <div class="pull-right hidden-xs">
     <b>Versão</b> 1.0.0
   </div>
-  <strong>ERP - Todos direitos reservados.</strong> 
+  <strong>System ERP - Todos direitos reservados.</strong> 
 </footer>
 <div class="control-sidebar-bg"></div>
 </div>

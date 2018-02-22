@@ -3,11 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Login</title>
+  <title>System ERP / Login</title>
+ <link rel="icon" href="<?php BASE_URL;?>assets/images/favicon.ico" type="image/x-icon" />
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <script  src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>
   <script  src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="<?php echo BASE_URL_BOWER ?>/font-awesome/css/font-awesome.min.css">
   <script  src="<?php echo BASE_URL; ?>assets/js/icheck.min.js"></script>
   <link rel="stylesheet" href="<?php echo BASE_URL_CSS ?>bootstrap.min.css">
   <!-- Font Awesome -->
@@ -25,18 +27,18 @@
 <body class="hold-transition login-page">
   <div class="login-box">
     <div class="login-logo">
-      <a href="../../index2.html"><b>ERP</b></a>
+      <a href="../../index2.html"><b>System</b> ERP</a>
     </div>
     <div class="login-box-body">
       <p class="login-box-msg">Faça login para iniciar sua sessão</p> 
       <form method="post">
         <div class="form-group has-feedback">
           <input type="text" class="form-control"  name="user" placeholder="Usuário" required="">
-          <span class="glyphicon glyphicon-user form-control-feedback"></span>
+          <span class="fa fa-user-circle form-control-feedback"></span>
         </div>
         <div class="form-group has-feedback">
           <input type="password" class="form-control" name="password" placeholder="Senha" required="">
-          <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+          <span class="fa fa-key form-control-feedback"></span>
         </div>
         <div class="row">
           <div class="col-xs-8">
@@ -51,7 +53,7 @@
          <?php endif; ?>
        </div>
      </form>
-     <a href="#">Recuperar senha</a><br>
+     <!--<a href="#">Recuperar senha</a><br>-->
    </div>
  </div>
 <!--<script>

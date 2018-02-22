@@ -996,3 +996,58 @@ Stack trace:
 [22-Feb-2018 19:29:28 Europe/Berlin] PHP Notice:  Undefined property: purchasesController::$user in C:\xampp\htdocs\systemerp\controllers\purchasesController.php on line 21
 [22-Feb-2018 19:29:28 Europe/Berlin] PHP Fatal error:  Call to a member function getNameUser() on null in C:\xampp\htdocs\systemerp\controllers\purchasesController.php on line 21
 [22-Feb-2018 19:30:34 Europe/Berlin] PHP Warning:  session_destroy(): Session object destruction failed in C:\xampp\htdocs\systemerp\models\Users.php on line 130
+[22-Feb-2018 20:28:16 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%'.Eduardo.'%' AND  sales.date_sale BETWEEN '2018-02-01' AND '2018-02-21' ' at line 1' in C:\xampp\htdocs\systemerp\models\sales.php:238
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(238): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\reportController.php(159): sales->getSalesFiltered('Eduardo', '2018-02-01', '2018-02-21', '0', 'date_asc', '1')
+#2 [internal function]: reportController->sales_pdf()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 238
+[22-Feb-2018 20:30:44 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:31:14 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:31:22 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:31:40 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:31:49 Europe/Berlin] PHP Notice:  Undefined index: group_permissions in C:\xampp\htdocs\systemerp\views\template.php on line 126
+[22-Feb-2018 20:31:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\template.php on line 126
+[22-Feb-2018 20:32:08 Europe/Berlin] PHP Notice:  Undefined property: salesController::$user in C:\xampp\htdocs\systemerp\controllers\salesController.php on line 21
+[22-Feb-2018 20:32:08 Europe/Berlin] PHP Fatal error:  Call to a member function getNameUser() on null in C:\xampp\htdocs\systemerp\controllers\salesController.php on line 21
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:53 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 41
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 30
+[22-Feb-2018 20:32:58 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 41
+[22-Feb-2018 20:33:16 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:33:53 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:34:05 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:34:11 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 147
+[22-Feb-2018 20:35:09 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:35:09 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:37:15 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:37:22 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:37:44 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:38:05 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:38:17 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146
+[22-Feb-2018 20:38:32 Europe/Berlin] PHP Notice:  Undefined index: client_name in C:\xampp\htdocs\systemerp\controllers\reportController.php on line 146

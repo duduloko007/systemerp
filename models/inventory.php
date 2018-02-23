@@ -166,10 +166,13 @@ class inventory extends model{
 		$sql->bindValue(":id", $id_prod);
 		$sql->bindValue(':id_company', $id_company);
 		$sql->execute();
+
+
+
 		//$this->setLog($id_prod, $id_company, $id_user, 'dwn');
 	}
 
-	public function acresc($id_prod, $id_company, $quant_prod, $id_user){
+	public function acresc($id_prod, $id_company, $quant_prod){
 
 		$sql = $this->db->prepare("UPDATE inventory SET quant = quant + $quant_prod WHERE id = :id AND id_company = :id_company");
 		$sql->bindValue(":id", $id_prod);
@@ -209,3 +212,16 @@ class inventory extends model{
 		return $array;
 	}
 }
+/*
+		$sqlp = $this->db->prepare("SELECT form_pay FROM sales WHERE form_pay = '7' AND id_company = :id_company");
+		$sqlp->bindValue(":id_company", $id_company);
+		$sqlp->execute();
+
+
+		if ($sqlp->rowCount() > 0) {
+			
+			$sql = $this->db->prepare("UPDATE inventory SET quant = quant + $quant_prod WHERE id = :id AND id_company = :id_company");
+			$sql->bindValue(":id", $id_prod);
+			$sql->bindValue(':id_company', $id_company);
+			$sql->execute();
+		}*/

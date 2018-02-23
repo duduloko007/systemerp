@@ -87,7 +87,7 @@ class sales extends model{
 		$sql->bindValue(":id_user", $id_user);
 		$sql->bindValue(":form_pay", $form_pay);
 		$sql->bindValue(":discount", $discount);
-			$sql->bindValue(":obs", $obs);
+		$sql->bindValue(":obs", $obs);
 		$sql->bindValue(":total_price", '0');
 		$sql->execute();
 
@@ -160,7 +160,8 @@ class sales extends model{
 		$sql = $this->db->prepare("
 			SELECT 
 			sales_products.quant, 
-			sales_products.sale_price, 
+			sales_products.sale_price,
+			sales_products.id_product, 
 			inventory.name		
 			FROM sales_products 
 			LEFT JOIN inventory ON inventory.id = sales_products.id_product
@@ -179,6 +180,9 @@ class sales extends model{
 
 	public function changeStatus($status, $obs, $id, $id_company){
 
+
+
+
 		$sql = $this->db->prepare("UPDATE sales SET form_pay = :form_pay, obs = :obs WHERE id = :id AND id_company = :id_company");
 		$sql->bindValue(":form_pay", $status);
 		$sql->bindValue(":obs", $obs);
@@ -186,6 +190,28 @@ class sales extends model{
 		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();
 
+
+	}
+
+	
+
+	public function changeProduct($quant ,$id_company, $status){
+
+
+		if($status == 7){
+
+
+			foreach ($quant as $id_prod => $quant_prod) {
+
+				$sql = $this->db->prepare("UPDATE inventory SET quant = quant + $quant_prod WHERE id = :id AND id_company = :id_company");
+				$sql->bindValue(":id", $id_prod);
+				$sql->bindValue(':id_company', $id_company);
+
+				$sql->execute();
+
+			}
+
+		}
 
 	}
 
@@ -376,5 +402,5 @@ class sales extends model{
 	}
 
 
-	
+
 }

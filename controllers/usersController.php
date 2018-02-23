@@ -57,7 +57,7 @@ class usersController extends controller {
                 $user = addslashes($_POST['user']);
                 $pass = addslashes($_POST['password']);
                 $group = addslashes($_POST['group']);
-                $name = addslashes($_POST['name']);
+                $name = addslashes(utf8_encode($_POST['name']));
                 $data['status_user']= array(
                   '0' => 'Ativo',
                   '1'=>'Desativado'
@@ -101,7 +101,7 @@ class usersController extends controller {
                 $pass = addslashes($_POST['password']);
                 $group = addslashes($_POST['group']);
                 $email = addslashes($_POST['email']);
-                $name = addslashes($_POST['name']);
+                 $name = addslashes(utf8_encode($_POST['name']));
                 $user = addslashes($_POST['user']);
                 $status = addslashes($_POST['status']);
 

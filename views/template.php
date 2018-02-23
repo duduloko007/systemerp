@@ -121,11 +121,11 @@
         <img src="<?php echo BASE_URL; ?>assets/images/user.png" class="img-circle" alt="User Image">
       </div>
       <div class="pull-left info">
-        <p><?php echo $viewData['user_name'];?></p>
+        <p><?php echo utf8_decode($viewData['user_name']);?></p>
 
         <?php foreach ($viewData['group_permissions'] as $key):?>
           <a href="#" style="font-size: 13px;"><i class="fa fa-circle text-success"></i> 
-            <?php echo $key['name'];?>
+            <?php echo  utf8_decode($key['name']);?>
           </a>
         <?php endforeach;?>
       </div>

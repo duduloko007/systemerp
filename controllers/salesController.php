@@ -86,18 +86,12 @@ class salesController extends controller {
       $obs = addslashes($_POST['obs']);
 
       $s->addSale($u->getCompany(), $client_id, $u->getId(), $quant, $form_pay, $discount, $obs);
-      $data['venda_concluida'] = 'Venda finalizada';
+
       $s->status_product($quant);
 
       header("Location: ".BASE_URL."sales/sales/add");
       
     } 
-
-    else {
-
-      $data['erro_na_venda'] = 'Erro ao finalizar Venda';
-    }
-
 
     $this->loadTemplate('sales/sales_add', $data);
   }else {
@@ -131,10 +125,23 @@ public function edit($id){
   if ($u->hasPermission('sales_view')) {
     $s = new sales();
     $data['permission_edit'] = $u->hasPermission('sales_edit');
-    if (isset($_POST['status']) && $data['permission_edit']) {
+
+    if (isset($_POST['status']) && !empty($_POST['status'])) {
+
       $status = addslashes($_POST['status']);
+
       $obs = addslashes($_POST['obs']);
-      $s->changeStatus($status, $obs, $id, $u->getCompany());
+
+      $quant = $_POST['quant'];
+
+      
+
+
+      $s->changeStatus($status, $obs, $id,  $u->getCompany());
+
+
+      $s->changeProduct($quant,  $u->getCompany(),$status);
+
       header("Location: ".BASE_URL."sales");
     }    
     $data['sales_info'] = $s->getInfo($id, $u->getCompany());

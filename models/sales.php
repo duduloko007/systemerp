@@ -271,7 +271,7 @@ class sales extends model{
 	public function getTotalRevenue($period1, $period2, $id_company){
 		$float = 0;
 
-		$sql = $this->db->prepare("SELECT SUM(total_price) as total FROM sales WHERE id_company = :id_company AND date_sale BETWEEN :period1 AND :period2");
+		$sql = $this->db->prepare("SELECT SUM(total_price) as total FROM sales WHERE id_company = :id_company AND form_pay != '7' AND date_sale BETWEEN :period1 AND :period2");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":period1", $period1);
 		$sql->bindValue(":period2", $period2);
@@ -306,7 +306,7 @@ class sales extends model{
 		$int = 0;
 
 
-		$sql = $this->db->prepare("SELECT id FROM sales WHERE id_company = :id_company AND date_sale BETWEEN :period1 AND :period2");
+		$sql = $this->db->prepare("SELECT id FROM sales WHERE id_company = :id_company AND form_pay != '7' AND date_sale BETWEEN :period1 AND :period2");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":period1", $period1);
 		$sql->bindValue(":period2", $period2);
@@ -338,7 +338,7 @@ class sales extends model{
 			$currentDay = date('Y-m-d', strtotime('+1 day', strtotime($currentDay)));
 		}
 
-		$sql = $this->db->prepare("SELECT DATE_FORMAT(date_sale, '%Y-%m-%d') as date_sale, SUM(total_price) as total FROM sales WHERE id_company = :id_company AND date_sale BETWEEN :period1 AND :period2 GROUP BY DATE_FORMAT(date_sale, '%Y-%m-%d')");
+		$sql = $this->db->prepare("SELECT DATE_FORMAT(date_sale, '%Y-%m-%d') as date_sale, SUM(total_price) as total FROM sales WHERE id_company = :id_company AND date_sale  BETWEEN :period1 AND :period2 AND form_pay != '7' GROUP BY DATE_FORMAT(date_sale, '%Y-%m-%d')");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":period1", $period1);
 		$sql->bindValue(":period2", $period2);
@@ -384,7 +384,7 @@ class sales extends model{
 
 		$array = array('1'=>0,'2'=>0, '3'=>0, '4'=>0, '5'=>0, '6'=>0,'7'=>0);
 
-		$sql = $this->db->prepare("SELECT COUNT(id) as total, form_pay FROM sales WHERE id_company = :id_company AND date_sale BETWEEN :period1 AND :period2 GROUP BY form_pay ORDER BY form_pay ASC");
+		$sql = $this->db->prepare("SELECT COUNT(id) as total, form_pay FROM sales WHERE id_company = :id_company  AND date_sale BETWEEN :period1 AND :period2 GROUP BY form_pay ORDER BY form_pay ASC");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":period1", $period1);
 		$sql->bindValue(":period2", $period2);

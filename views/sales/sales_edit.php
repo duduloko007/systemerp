@@ -26,8 +26,11 @@
 						<div class="col-sm-12 col-lg-3 col-xs-6">
 							<div class="form-group">
 								<select name="status" class="form-control">
+
+
 									<?php foreach($form_pay as $statusKey =>$statusValue): ?>
-										<option value="<?php echo $statusKey ;?>" <?php echo($statusKey == $sales_info['info']['form_pay'])?'selected="selected"':'' ;?>>
+
+										<option    <?php echo($sales_info['info']['form_pay'] == 7)?'disabled':'' ;?>   value="<?php echo $statusKey ;?>" <?php echo($statusKey == $sales_info['info']['form_pay'])?'selected="selected"':'' ;?>>
 											<?php echo $statusValue; ?>
 										</option>
 									<?php endforeach ; ?>
@@ -80,7 +83,7 @@
 								<td>
 									<?php echo $productitem['quant'];?>
 
-										<input type="hidden" name="quant[<?php echo $productitem['id_product'];?>]" value="<?php echo $productitem['quant']; ?>"/>
+									<input type="hidden" name="quant[<?php echo $productitem['id_product'];?>]" value="<?php echo $productitem['quant']; ?>"/>
 
 								</td>
 								<td>R$ <?php echo number_format($productitem['sale_price'],2,',','.'); ?></td>

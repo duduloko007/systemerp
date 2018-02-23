@@ -319,6 +319,7 @@ $(document).ready(function(){
 	$("#finalizar").mouseout(function(){
 		if (document.getElementById("pgto_restante").value  > 0) {
 			$('#finalizar').addClass("disabled");
+
 			
 		}		
 		else{
@@ -326,6 +327,7 @@ $(document).ready(function(){
 		}
 	}); 
 });
+
 
 $(document).ready(function(){
 	$("#myInput").on("keyup", function() {

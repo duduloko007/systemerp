@@ -46,7 +46,7 @@
 					<?php foreach($purchases_list as $purchases): ?>
 
 						<tr>
-							<td><?php echo $purchases['id']; ?></td>
+							<td><?php echo $purchases['cod_purchases']; ?></td>
 							<td><?php echo $purchases['name']; ?></td>
 
 							<td><?php echo date('d/m/Y', strtotime($purchases['date_sale'])) ?></td>

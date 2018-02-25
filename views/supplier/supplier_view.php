@@ -16,7 +16,7 @@
       <div class="row">
         <div class="col-md-12">
                     <div class="form-group">
-            <label><strong>Código: </strong><?php echo utf8_decode($client_info['id']); ?></label>
+            <label><strong>Código: </strong><?php echo utf8_decode($client_info['cod_supplier']); ?></label>
            
           </div>
         </div>

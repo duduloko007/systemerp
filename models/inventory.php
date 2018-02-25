@@ -94,16 +94,42 @@ class inventory extends model{
 
 	public function add($name, $price, $price_cust, $price_percentage, $quant, $min_quant, $cod_bars, $id_company, $id_user){
 
-		$sql = $this->db->prepare("INSERT INTO inventory SET name = :name, price = :price, price_cust = :price_cust, price_percentage = :price_percentage, quant =:quant, min_quant = :min_quant, cod_bars = :cod_bars, id_company = :id_company, status_sales = 'normal'");
-		$sql->bindValue(":name", $name);
-		$sql->bindValue(":price", $price);
-		$sql->bindValue(":price_cust", $price_cust);
-		$sql->bindValue(":price_percentage", $price_percentage);
-		$sql->bindValue(":quant", $quant);
-		$sql->bindValue(":min_quant", $min_quant);
-		$sql->bindValue(":cod_bars", $cod_bars);
+
+
+		$sqli = $this->db->prepare("INSERT INTO inventory SET name = :name, price = :price, price_cust = :price_cust, price_percentage = :price_percentage, quant =:quant, min_quant = :min_quant, cod_bars = :cod_bars, id_company = :id_company, status_sales = 'normal', cod_inventory = :cod_inventory");
+		$sqli->bindValue(":name", $name);
+		$sqli->bindValue(":price", $price);
+		$sqli->bindValue(":price_cust", $price_cust);
+		$sqli->bindValue(":price_percentage", $price_percentage);
+		$sqli->bindValue(":quant", $quant);
+		$sqli->bindValue(":min_quant", $min_quant);
+		$sqli->bindValue(":cod_bars", $cod_bars);
+		$sqli->bindValue(":cod_inventory", '0');
+		$sqli->bindValue(":id_company", $id_company);
+		$sqli->execute();
+
+		$id_inventory = $this->db->lastInsertId();
+		
+		$sql = $this->db->prepare("SELECT MAX(cod_inventory)+1 FROM inventory WHERE id_company = :id_company");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();
+
+		if ($sql->rowCount() > 0) {
+
+			$cod =  $sql->fetch();
+
+			foreach ($cod as $cod_result) {
+
+
+				$cod_inventory = $cod_result;
+
+			} 
+
+			$sqlu = $this->db->prepare("UPDATE inventory SET cod_inventory = $cod_inventory WHERE id = $id_inventory AND id_company = :id_company");
+			$sqlu->bindValue(":id_company", $id_company);
+			$sqlu->execute();
+		}
+
 
 		//$id_product = $this->db->lastInsertId();
 		//$this->setLog($id_product, $id_company, $id_user, 'add');

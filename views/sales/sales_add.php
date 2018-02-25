@@ -65,7 +65,7 @@
               <tbody id="myTable">
                <?php foreach($inventory_list as $product):?>
                 <tr>
-                  <td><?php echo $product['id'];?></td>
+                  <td><?php echo $product['cod_inventory'];?></td>
                   <td><?php echo $product['cod_bars'];?></td>
                   <td><?php echo utf8_decode($product['name']);?></td>
                   <td><?php echo $product['quant'];?></td>
@@ -108,7 +108,7 @@
             <tbody id="myTable">
              <?php foreach($listSalesVenda as $product):?>
               <tr>
-                <td id="id"><?php echo $product['id'];?></td>
+                <td id="id"><?php echo $product['cod_inventory'];?></td>
                 <td><?php echo $product['cod_bars'];?></td>
                 <td><?php echo utf8_decode($product['name']);?></td>
                 <td><input type="number" required class="quant" id="quant" value="" onchange="updateSubTotalProduct(this)" name="quant[<?php echo $product['id'];?>]" style="width: 60px;" data-price="<?php echo $product['price'];?>"></td>
@@ -135,11 +135,12 @@
           <div class="form-group">
 
             <label>Cliente</label>
-            <input list="cliente" class="form-control" id="nome_client" name="client_id" onkeydown="teclando(event)"/>
+            <input list="cliente" class="form-control" id="nome_client"  onchange="teclando(event)"/>
             <datalist id="cliente">
-              <?php foreach($client_list as $client):?>
-                <option class="nome"  value="<?php echo $client['id'];?>">
-                  <?php echo $client['name'];?>
+              <?php foreach($client_list as $client => $value):?>
+                <option class="nome"  value="<?php echo $value['cod_client'];?>">
+                  <?php echo $value['name'];?>
+                  <input type="hidden" name="client_id" value="<?php echo $value['id'];?>" />
                 </option>
               <?php endforeach;?>
             </datalist>

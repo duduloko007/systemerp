@@ -9,7 +9,7 @@
 			</div>
 
 			<div class="box-body">
-				<strong>Código: </strong><?php echo $sales_info['info']['id']; ?><br/><br/>
+				<strong>Código: </strong><?php echo $sales_info['info']['cod_sales']; ?><br/><br/>
 				<strong>Cliente:</strong>
 				<?php echo $sales_info['info']['client_name']; ?><br/><br/>
 				<strong>Data:</strong>

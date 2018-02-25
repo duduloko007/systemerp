@@ -54,7 +54,7 @@
 				<?php foreach($sales_list as $sale_item): ?>
 
 					<tr>
-						<td><?php echo $sale_item['id']; ?></td>
+						<td><?php echo $sale_item['cod_sales']; ?></td>
 						<td><?php echo date('d/m/Y', strtotime($sale_item['date_sale'])) ?></td>
 						<td><?php echo $sale_item['name']; ?></td>
 						<td>R$ <?php echo number_format( $sale_item['total_price'], 2, ',','.'); ?>

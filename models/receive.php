@@ -9,6 +9,7 @@ class receive extends model{
 		$sql = $this->db->prepare("
 			SELECT 
 				sales.id,
+				sales.cod_sales,
 				sales.date_sale, 
 			 	sales.total_price,
 			 	sales.form_pay,
@@ -52,6 +53,7 @@ if ($sql->rowCount() > 0) {
 		$sql = $this->db->prepare("
 			SELECT 
 				sales.id,
+				sales.cod_sales,
 				sales.date_sale, 
 			 	sales.total_price,
 			 	sales.status,
@@ -60,7 +62,7 @@ if ($sql->rowCount() > 0) {
 			LEFT JOIN clients ON clients.id = sales.id_client
 			
 			WHERE 
-				sales.id = :cod_venda
+				sales.cod_sales = :cod_venda
 				AND sales.id_company = :id_company");
 		$sql->bindValue(":cod_venda", $cod_venda);
 		$sql->bindValue(":id_company", $id_company);

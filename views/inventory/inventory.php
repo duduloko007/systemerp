@@ -50,7 +50,7 @@
 				<tbody id="myTable">
 					<?php foreach($inventory_list as $product): ?>
 						<tr>
-							<td><?php echo utf8_decode($product['id']);?></td>
+							<td><?php echo utf8_decode($product['cod_inventory']);?></td>
 							<td><?php echo utf8_decode($product['cod_bars']);?></td>
 							<td><?php echo utf8_decode($product['name']);?></td>
 							<td>R$ <?php echo number_format($product['price'], 2, ',','.');?></td>

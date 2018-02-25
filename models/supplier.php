@@ -58,7 +58,7 @@ class supplier extends model{
 
 	public function add($id_company, $name, $email = '', $phone = '', $stars = '3',  $internal_obs = '', $address_zipcode = '', $address = '', $address_number = '',  $address2 = '', $address_neighb = '',  $address_city = '', $address_state = '', $address_country = '', $cpf_cnpj = '', $inscri_estadual= ''){
 
-		$sql = $this->db->prepare("INSERT INTO supplier SET id_company = :id_company, name = :name, email = :email, phone = :phone, stars = :stars, internal_obs = :internal_obs, address_zipcode = :address_zipcode, address = :address, address_number = :address_number, address2 = :address2, address_neighb = :address_neighb, address_city = :address_city, address_state = :address_state, address_country = :address_country, cpf_cnpj = :cpf_cnpj, inscri_estadual = :inscri_estadual");
+		$sql = $this->db->prepare("INSERT INTO supplier SET id_company = :id_company, name = :name, email = :email, phone = :phone, stars = :stars, internal_obs = :internal_obs, address_zipcode = :address_zipcode, address = :address, address_number = :address_number, address2 = :address2, address_neighb = :address_neighb, address_city = :address_city, address_state = :address_state, address_country = :address_country, cpf_cnpj = :cpf_cnpj, inscri_estadual = :inscri_estadual, cod_supplier = :cod_supplier");
 
 		$sql->bindValue(":name", $name);
 		$sql->bindValue(":email", $email);
@@ -75,10 +75,36 @@ class supplier extends model{
 		$sql->bindValue(":address_country", $address_country);
 		$sql->bindValue(":cpf_cnpj", $cpf_cnpj);
 		$sql->bindValue(":inscri_estadual", $inscri_estadual);
+		$sql->bindValue(":cod_supplier", '0');
+		$sql->bindValue(":id_company", $id_company);
+
+		$sql->execute();
+
+		$id_supplier = $this->db->lastInsertId();
+
+		$sql = $this->db->prepare("SELECT MAX(cod_supplier)+1 FROM supplier WHERE id_company = :id_company");
 		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();
 
-		return $this->db->lastInsertId();
+		if ($sql->rowCount() > 0) {
+
+			$cod =  $sql->fetch();
+
+			foreach ($cod as $cod_result) {
+
+
+				$cod_supplier = $cod_result;
+
+			} 
+
+			$sqlu = $this->db->prepare("UPDATE supplier SET cod_supplier = $cod_supplier WHERE id = $id_supplier AND id_company = :id_company");
+			$sqlu->bindValue(":id_company", $id_company);
+			$sqlu->execute();
+		}
+
+
+
+
 	}
 	public function edit($id, $id_company, $name, $email, $phone, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $inscri_estadual){
 

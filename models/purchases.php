@@ -9,6 +9,7 @@ class purchases extends model{
 		$sql = $this->db->prepare("
 			SELECT 
 			purchases.id,
+			purchases.cod_purchases,
 			purchases.date_sale, 
 			purchases.total_price,
 			supplier.name 
@@ -78,7 +79,7 @@ class purchases extends model{
 
 
 
-		$sql = $this->db->prepare("INSERT INTO purchases SET id_company = :id_company, id_client = :id_client, id_user = :id_user, date_sale = :date_sale, total_price = :total_price, obs = :obs");
+		$sql = $this->db->prepare("INSERT INTO purchases SET id_company = :id_company, id_client = :id_client, id_user = :id_user, date_sale = :date_sale, total_price = :total_price, obs = :obs, cod_purchases = :cod_purchases");
 
 
 		$sql->bindValue(":id_company", $id_company);
@@ -86,11 +87,38 @@ class purchases extends model{
 		$sql->bindValue(":id_user", $id_user);
 		$sql->bindValue(":date_sale", $date_sale);
 		$sql->bindValue(":obs", $obs);
+		$sql->bindValue(":cod_purchases", '0');
 		$sql->bindValue(":total_price", '0');
 
 		$sql->execute();
 
 		$id_sale = $this->db->lastInsertId();
+
+
+		$sql = $this->db->prepare("SELECT MAX(cod_purchases)+1 FROM purchases WHERE id_company = :id_company");
+		$sql->bindValue(":id_company", $id_company);
+		$sql->execute();
+
+		if ($sql->rowCount() > 0) {
+
+			$cod =  $sql->fetch();
+
+			foreach ($cod as $cod_result) {
+
+
+				$cod_purchases = $cod_result;
+
+			} 
+
+			$sqlu = $this->db->prepare("UPDATE purchases SET cod_purchases = $cod_purchases WHERE id = $id_sale AND id_company = :id_company");
+			$sqlu->bindValue(":id_company", $id_company);
+			$sqlu->execute();
+		}
+
+
+
+
+
 
 		$total_price = 0;
 		foreach ($quant as $id_prod => $quant_prod) {

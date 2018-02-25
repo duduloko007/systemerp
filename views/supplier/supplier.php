@@ -45,7 +45,7 @@
 			<tbody id="myTable">
 				<?php foreach($clients_list as $c): ?>
 					<tr>	
-						<td><?php echo $c['id']; ?></td>
+						<td><?php echo $c['cod_supplier']; ?></td>
 						<td><?php echo utf8_decode($c['name']); ?></td>
 						<td><?php echo $c['phone']; ?></td>
 						<td><?php echo utf8_decode($c['address_city']); ?></td>

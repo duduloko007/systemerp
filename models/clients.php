@@ -60,7 +60,7 @@ class clients extends model{
 
 	public function add($id_company, $name, $email = '', $phone = '', $stars = '3',  $internal_obs = '', $address_zipcode = '', $address = '', $address_number = '',  $address2 = '', $address_neighb = '',  $address_city = '', $address_state = '', $address_country = '', $cpf_cnpj = '', $inscri_estadual= ''){
 
-		$sql = $this->db->prepare("INSERT INTO clients SET id_company = :id_company, name = :name, email = :email, phone = :phone, stars = :stars, internal_obs = :internal_obs, address_zipcode = :address_zipcode, address = :address, address_number = :address_number, address2 = :address2, address_neighb = :address_neighb, address_city = :address_city, address_state = :address_state, address_country = :address_country, cpf_cnpj = :cpf_cnpj, inscri_estadual = :inscri_estadual");
+		$sql = $this->db->prepare("INSERT INTO clients SET id_company = :id_company, name = :name, email = :email, phone = :phone, stars = :stars, internal_obs = :internal_obs, address_zipcode = :address_zipcode, address = :address, address_number = :address_number, address2 = :address2, address_neighb = :address_neighb, address_city = :address_city, address_state = :address_state, address_country = :address_country, cpf_cnpj = :cpf_cnpj, inscri_estadual = :inscri_estadual, cod_client = :cod_client");
 
 		$sql->bindValue(":name", $name);
 
@@ -92,12 +92,37 @@ class clients extends model{
 
 		$sql->bindValue(":inscri_estadual", $inscri_estadual);
 
+
+		$sql->bindValue(":cod_client", '0');
+
 		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();
 
+		$id_client = $this->db->lastInsertId();
+
+		$sql = $this->db->prepare("SELECT MAX(cod_client)+1 FROM clients WHERE id_company = :id_company");
+		$sql->bindValue(":id_company", $id_company);
+		$sql->execute();
+
+		if ($sql->rowCount() > 0) {
+
+			$cod =  $sql->fetch();
+
+			foreach ($cod as $cod_result) {
 
 
-		return $this->db->lastInsertId();
+				$cod_client = $cod_result;
+
+			} 
+
+			$sqlu = $this->db->prepare("UPDATE clients SET cod_client = $cod_client WHERE id = $id_client AND id_company = :id_company");
+			$sqlu->bindValue(":id_company", $id_company);
+			$sqlu->execute();
+		}
+
+
+
+
 	}
 	public function edit($id, $id_company, $name, $email, $phone, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $inscri_estadual){
 

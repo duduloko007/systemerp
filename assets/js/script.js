@@ -1,104 +1,4 @@
-$(function(){
 
-	$('.tabitem').on('click', function(){
-		$('.activetab').removeClass('activetab');
-		$(this).addClass('activetab');
-
-		var item = $('.activetab').index();
-		$('.tabbody').hide();
-		$('.tabbody').eq(item).show();
-	});
-	$('#busca').on('focus', function(){
-		$(this).animate({
-			width:'250px'
-		}, 'fast');
-	});
-	$('#busca').on('blur', function(){
-		if($(this).val() == ''){
-			$(this).animate({
-				width:'100px'
-			}, 'fast');
-		}
-
-
-		setTimeout(function(){
-			$('.searchresults_clients').hide();
-		}, 500);
-		
-
-	});
-
-	$('#busca').on('keyup', function(){
-		var datatype = $(this).attr('data-type');
-		var q = $(this).val();
-		
-
-		if (datatype != '') {
-			$.ajax({
-				url:BASE_URL+'ajax/'+datatype,
-				type:'GET',
-				data:{q:q},
-				dataType:'json',
-				success:function(json){
-					if($('.searchresults_clients').length == 0){
-						$('#busca').after('<div class="searchresults_clients"></div>');
-
-					}
-
-					$('.searchresults_clients').css('left', $('#busca').offset().left+'px');
-					$('.searchresults_clients').css('top', $('#busca').offset().top+$('#busca').height()+3+'px');
-
-					var html = '';
-					
-
-					for(var i in json){
-						html += '<div class="si"><a href="'+json[i].link+'">'+json[i].name+'</a></div>';
-					}
-					$('.searchresults_clients').html(html);
-					$('.searchresults_clients').show();
-
-
-
-				}
-			});
-		}
-
-
-	});
-
-
-});
-/*
-
-function updateSubTotal(obj){
-	var quant = $(obj).val();
-	if(quant <= 0) {
-		$(obj).val(1);
-		quant = 1;
-	} 
-	var price = $(obj).attr('data-price');
-	var subtotal = price * quant;
-
-
-	$(obj).closest('tr').find('.subtotal').html('R$ '+subtotal);
-
-	updateTotal();
-}
-
-function updateTotal(){
-
-		
-		var subtotal = $('#sub_total');
-
-
-		var price = quant.attr('data-price');
-		var subtotal = price * parseInt(quant.val());
-
-		total += subtotal;
-	}
-
-	$('input[name=total_price]').val(total);
-}*/
 
 $(function(){
 	$('#desconto').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
@@ -106,6 +6,7 @@ $(function(){
 	$('#preco_venda').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
 	$('#valor_pago').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
 	$('#date_sale').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
+	$('#price_pay').mask('000.000.000.000.000,00', {reverse:true, placeholder:"0,00"});
 
 });
 
@@ -199,23 +100,7 @@ function updateSubTotalProduct(obj){
 
 	$('input[name=sub_total]').val(total);
 }
-/*
-function updateTotal(){
-	var total = 0;
-	for(var q=0;q<$('.quant').length;q++){
-		
-		var quant = $('.quant').eq(q);
 
-		var price = quant.attr('data-price');
-		var subtotal = price * parseInt(quant.val());
-
-		total += subtotal;
-		
-	}
-
-
-	$('input[name=sub_total]').val(total);
-}*/
 function teclando(event){
 
 	if (document.getElementById("nome_client").value   != '') {

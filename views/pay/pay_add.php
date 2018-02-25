@@ -38,7 +38,7 @@
          <div class="col-sm-4">
         <div class="form-group">
           <label>Valor:</label>
-          <input type="text" name="price" class="form-control">
+          <input type="text" name="price" id="price_pay" class="form-control">
         </div>
         </div>
   			 <div class="col-sm-12">

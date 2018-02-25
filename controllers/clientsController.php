@@ -93,7 +93,7 @@ public function add(){
 
    if (isset($_POST['name']) && !empty($_POST['name'])) {
 
-    $name = addslashes($_POST['name']);
+    $name =  addslashes(utf8_encode($_POST['name']));
 
     $email = addslashes($_POST['email']);
 
@@ -101,7 +101,7 @@ public function add(){
 
     $stars = addslashes($_POST['stars']);
 
-    $internal_obs = addslashes($_POST['internal_obs']);
+    $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
 
     $address_zipcode = addslashes($_POST['address_zipcode']);
 
@@ -159,8 +159,7 @@ public function edit($id){
     $c = new clients();
 
     if (isset($_POST['name']) && !empty($_POST['name'])) {
-
-      $name = addslashes($_POST['name']);
+      $name =  addslashes(utf8_encode($_POST['name']));
 
       $email = addslashes($_POST['email']);
 
@@ -168,7 +167,7 @@ public function edit($id){
 
       $stars = addslashes($_POST['stars']);
 
-      $internal_obs = addslashes($_POST['internal_obs']);
+      $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
 
       $address_zipcode = addslashes($_POST['address_zipcode']);
 
@@ -227,45 +226,6 @@ public function view($id){
   if ($this->user->hasPermission('clients_view')) {
 
     $c = new clients();
-
-    if (isset($_POST['name']) && !empty($_POST['name'])) {
-
-      $name = addslashes($_POST['name']);
-
-      $email = addslashes($_POST['email']);
-
-      $phone = addslashes($_POST['phone']);
-
-      $stars = addslashes($_POST['stars']);
-
-      $internal_obs = addslashes($_POST['internal_obs']);
-
-      $address_zipcode = addslashes($_POST['address_zipcode']);
-
-      $address = addslashes($_POST['address']);
-
-      $address_number = addslashes($_POST['address_number']);
-
-      $address2 = addslashes($_POST['address2']);
-
-      $address_neighb = addslashes($_POST['address_neighb']);
-
-      $address_city = addslashes($_POST['address_city']);
-
-      $address_state = addslashes($_POST['address_state']);
-
-      $address_country = addslashes($_POST['address_country']);
-
-      $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
-
-      $inscri_estadual = addslashes($_POST['inscri_estadual']);
-
-
-      $c->edit($id, $this->user->getCompany(), $name, $email, $phone, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $inscri_estadual);
-
-      header("Location: ".BASE_URL."clients/clients");
-
-    }
 
     $data['client_info'] = $c->getInfo($id, $this->user->getCompany());
 

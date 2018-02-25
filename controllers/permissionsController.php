@@ -52,7 +52,7 @@ class permissionsController extends controller {
             $permissions = new permissions();
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
-                $pname = addslashes($_POST['name']);
+                $pname = addslashes(utf8_encode($_POST['name']));
                 $permissions->add($pname);
                 header("Location: ".BASE_URL."permissions");
             }
@@ -77,7 +77,7 @@ class permissionsController extends controller {
             $permissions = new permissions();
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
-                $pname = addslashes($_POST['name']);
+                 $pname = addslashes(utf8_encode($_POST['name']));
                 $plist = $_POST['permissions'];
                 $permissions->addGroup($pname, $plist, $this->user->getCompany());
                 header("Location: ".BASE_URL."permissions");
@@ -148,7 +148,7 @@ class permissionsController extends controller {
             $permissions = new permissions();
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
-                $pname = addslashes($_POST['name']);
+                  $pname = addslashes(utf8_encode($_POST['name']));
                 $plist = $_POST['permissions'];
 
                 $permissions->editGroup($pname, $plist, $id, $this->user->getCompany());

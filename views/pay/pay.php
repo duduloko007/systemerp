@@ -81,7 +81,7 @@
 					<tr class="<?php echo ($statuspay[$pay_item['status']] == $statuspay[$pay_item['0']] )?'danger text-red':'';?>">
 						
 						<td><?php echo date('d/m/Y', strtotime($pay_item['date_document'])) ?></td>
-						<td><?php echo $pay_item['description']; ?></td>
+						<td><?php echo utf8_decode($pay_item['description']); ?></td>
 						<td><?php echo $pay_item['document']; ?></td>
 						<td><?php echo date('d/m/Y', strtotime($pay_item['date_maturity'])) ?></td>
 

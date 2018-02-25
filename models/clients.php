@@ -126,7 +126,7 @@ class clients extends model{
 	}
 	public function edit($id, $id_company, $name, $email, $phone, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $inscri_estadual){
 
-		$sql = $this->db->prepare("UPDATE clients SET id_company = :id_company, name = :name, email = :email, phone = :phone, stars = :stars, internal_obs = :internal_obs, address_zipcode = :address_zipcode, address = :address, address_number = :address_number, address2 = :address2, address_neighb = :address_neighb, address_city = :address_city, address_state = :address_state, address_country = :address_country, cpf_cnpj = :cpf_cnpj, inscri_estadual = :inscri_estadual WHERE id = :id AND id_company = :id_company2");
+		$sql = $this->db->prepare("UPDATE clients SET name = :name, email = :email, phone = :phone, stars = :stars, internal_obs = :internal_obs, address_zipcode = :address_zipcode, address = :address, address_number = :address_number, address2 = :address2, address_neighb = :address_neighb, address_city = :address_city, address_state = :address_state, address_country = :address_country, cpf_cnpj = :cpf_cnpj, inscri_estadual = :inscri_estadual WHERE id = :id AND id_company = :id_company2");
 
 		$sql->bindValue(":name", $name);
 

@@ -114,7 +114,7 @@ class pay extends model {
 	
 	public function add($id_company, $document, $description, $date_document, $date_maturity, $obs, $price, $status){
 
-		$sql = $this->db->prepare("INSERT INTO bills_to_pay SET id_company = :id_company, document = :document, description = :description, date_document = :date_document, date_maturity = :date_maturity, obs = :obs, price = :price, status = :status");
+		$sql = $this->db->prepare("INSERT INTO bills_to_pay SET id_company = :id_company, document = :document, description = :description, date_document = :date_document, date_maturity = :date_maturity, obs = :obs, price = :price, status = :status, cod_pay = :cod_pay");
 
 		$sql->bindValue(":id_company", $id_company);
 		$sql->bindValue(":document", $document);
@@ -123,9 +123,36 @@ class pay extends model {
 		$sql->bindValue(":date_maturity", $date_maturity);
 		$sql->bindValue(":obs", $obs);
 		$sql->bindValue(":price", $price);
+		$sql->bindValue(":cod_pay", '0');
 		$sql->bindValue(":status", $status);
 
 		$sql->execute();
+
+
+
+		$id_pay = $this->db->lastInsertId();
+
+		$sql = $this->db->prepare("SELECT MAX(cod_pay)+1 FROM bills_to_pay WHERE id_company = :id_company");
+		$sql->bindValue(":id_company", $id_company);
+		$sql->execute();
+
+		if ($sql->rowCount() > 0) {
+
+			$cod =  $sql->fetch();
+
+			foreach ($cod as $cod_result) {
+
+
+				$cod_pay = $cod_result;
+
+			} 
+
+			$sqlu = $this->db->prepare("UPDATE bills_to_pay SET cod_pay = $cod_pay WHERE id = $id_pay AND id_company = :id_company");
+			$sqlu->bindValue(":id_company", $id_company);
+			$sqlu->execute();
+		}
+
+
 
 
 

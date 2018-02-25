@@ -13,7 +13,7 @@
   		<div class="row">
         <div class="col-md-12">
           <div class="form-group">
-            <label><strong>Código: </strong><?php echo utf8_decode($pay_info['id']); ?></label>
+            <label><strong>Código: </strong><?php echo utf8_decode($pay_info['cod_pay']); ?></label>
           </div>
 
         </div>
@@ -34,7 +34,7 @@
        <div class="col-sm-6">
          <div class="form-group">
           <label>Descrição:</label>
-          <input type="text" name="description" class="form-control" value="<?php echo $pay_info['description']; ?>" disabled/>
+          <input type="text" name="description" class="form-control" value="<?php echo utf8_decode($pay_info['description']); ?>" disabled/>
         </div>
       </div>
       <div class="col-sm-6">
@@ -58,13 +58,13 @@
 <div class="col-sm-4">
   <div class="form-group">
     <label>Valor:</label>
-    <input type="text" name="price" class="form-control" value="<?php echo number_format( $pay_info['price'], 2, ',','.'); ?>" disabled/>
+    <input type="text" name="price" class="form-control" id="price_pay" value="<?php echo number_format( $pay_info['price'], 2, ',','.'); ?>" disabled/>
   </div>
 </div>
 <div class="col-sm-12">
  <div class="form-group">
   <label>Observação:</label>
-  <textarea class="form-control" name="obs" disabled><?php echo $pay_info['obs'];?></textarea>
+  <textarea class="form-control" name="obs" disabled><?php echo utf8_decode($pay_info['obs']);?></textarea>
   
 </div>
 </div>

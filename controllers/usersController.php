@@ -54,7 +54,7 @@ class usersController extends controller {
             if (isset($_POST['email']) && !empty($_POST['email'])) {
 
                 $email = addslashes($_POST['email']);
-                $user = addslashes($_POST['user']);
+                $user = addslashes(utf8_encode($_POST['user']));
                 $pass = addslashes($_POST['password']);
                 $group = addslashes($_POST['group']);
                 $name = addslashes(utf8_encode($_POST['name']));
@@ -101,8 +101,8 @@ class usersController extends controller {
                 $pass = addslashes($_POST['password']);
                 $group = addslashes($_POST['group']);
                 $email = addslashes($_POST['email']);
-                 $name = addslashes(utf8_encode($_POST['name']));
-                $user = addslashes($_POST['user']);
+                $name = addslashes(utf8_encode($_POST['name']));
+                $user = addslashes(utf8_encode($_POST['user']));
                 $status = addslashes($_POST['status']);
 
                 
@@ -139,20 +139,6 @@ class usersController extends controller {
 
             $p = new permissions();
             
-            if (isset($_POST['group']) && !empty($_POST['group'])) {
-                $pass = addslashes($_POST['password']);
-                $group = addslashes($_POST['group']);
-                $email = addslashes($_POST['email']);
-                $name = addslashes($_POST['name']);
-                $user = addslashes($_POST['user']);
-                $status = addslashes($_POST['status']);
-
-                
-                $this->user->edit($email, $pass, $group, $id, $name, $user, $status, $this->user->getCompany());
-
-                header("Location:".BASE_URL."users");
-
-            }
             $data['user_info'] = $this->user->getInfo($id, $this->user->getCompany());
             $data['group_list'] = $p->getGroupList($this->user->getCompany());
 

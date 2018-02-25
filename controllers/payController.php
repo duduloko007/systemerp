@@ -114,13 +114,12 @@ public function add(){
       $pay = new pay();
 
 
-      $description = addslashes($_POST['description']);
+        $description = addslashes(utf8_encode($_POST['description']));
       $document = addslashes($_POST['document']);
       $price = addslashes($_POST['price']);
       $date_document = addslashes($_POST['date_document']);
       $date_maturity = addslashes($_POST['date_maturity']);
-      $obs = addslashes($_POST['obs']);
-
+      $obs = addslashes(utf8_encode($_POST['obs']));
       $price = str_replace('.','', $price);
 
       $price = str_replace(',','.', $price);
@@ -163,12 +162,12 @@ public function edit($id){
 
 
 
-      $description = addslashes($_POST['description']);
+      $description = addslashes(utf8_encode($_POST['description']));
       $document = addslashes($_POST['document']);
       $price = addslashes($_POST['price']);
       $date_document = addslashes($_POST['date_document']);
       $date_maturity = addslashes($_POST['date_maturity']);
-      $obs = addslashes($_POST['obs']);
+     $obs = addslashes(utf8_encode($_POST['obs']));
       $status = addslashes($_POST['status']);
 
       $price = str_replace('.','', $price);
@@ -215,39 +214,10 @@ public function view($id){
   if ($this->user->hasPermission('pay_view')){
     $pay = new pay();
     $data['permission_edit'] = $this->user->hasPermission('pay_edit');
-    if (isset($_POST['description']) && $data['permission_edit']) {
-
-
-
-      $description = addslashes($_POST['description']);
-      $document = addslashes($_POST['document']);
-      $price = addslashes($_POST['price']);
-      $date_document = addslashes($_POST['date_document']);
-      $date_maturity = addslashes($_POST['date_maturity']);
-      $obs = addslashes($_POST['obs']);
-      $status = addslashes($_POST['status']);
-
-      $price = str_replace('.','', $price);
-
-      $price = str_replace(',','.', $price);
-      
-      $date_maturity = implode("-", array_reverse(explode("/", trim($date_maturity))));
-      $date_document = implode("-", array_reverse(explode("/", trim($date_document))));
-      
-      $pay->edit($document, $description, $date_document, $date_maturity, $obs, $price, $status,$id, $this->user->getCompany());
-
-
-      header("Location:".BASE_URL."pay/pay");
-    }
-
 
     $data['pay_info'] = $pay->getInfopay($id, $this->user->getCompany());
 
-
-
-
-
-    
+  
     $this->loadTemplate('pay/pay_view', $data);
   }
 

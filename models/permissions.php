@@ -23,8 +23,7 @@ class Permissions extends model{
 
 			$params = $row['params'];
 
-			$sql = $this->db->prepare("SELECT name FROM permission_params WHERE id IN($params) AND id_company = :id_company");
-			$sql->bindValue(":id_company", $id_company);
+			$sql = $this->db->prepare("SELECT name FROM permission_params WHERE id IN($params)");
 			$sql->execute();
 
 			if ($sql->rowCount() > 0) {
@@ -45,12 +44,10 @@ class Permissions extends model{
 	}
 
 	//Listar as Permissões
-	public function getList($id_company){
+	public function getList(){
 		$array  = array();
 
-		$sql = $this->db->prepare("SELECT * FROM permission_params WHERE id_company = :id_company");
-
-		$sql->bindValue(":id_company", $id_company);
+		$sql = $this->db->prepare("SELECT * FROM permission_params");
 		$sql->execute();
 
 		if ($sql->rowCount() > 0) {
@@ -96,10 +93,9 @@ class Permissions extends model{
 	//Adicionar uma Nova Permissão
 	public function add($name, $id_company){
 
-		$sql = $this->db->prepare("INSERT INTO permission_params SET name = :name, id_company = :id_company");
+		$sql = $this->db->prepare("INSERT INTO permission_params SET name = :name");
 
 		$sql->bindValue(":name", $name);
-		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();
 	}
 	//Deletar uma permissão

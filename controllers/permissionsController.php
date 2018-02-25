@@ -28,7 +28,7 @@ class permissionsController extends controller {
         if ($this->user->hasPermission('permissions_view')) {
 
             $permissions = new permissions();
-            $data['permissions_list'] = $permissions->getList($this->user->getCompany());
+            $data['permissions_list'] = $permissions->getList();
             $data['permissions_groups_list'] = $permissions->getGroupList($this->user->getCompany());
 
             $this->loadTemplate('permission/permissions', $data);
@@ -53,7 +53,7 @@ class permissionsController extends controller {
 
             if (isset($_POST['name']) && !empty($_POST['name'])) {
                 $pname = addslashes($_POST['name']);
-                $permissions->add($pname, $this->user->getCompany());
+                $permissions->add($pname);
                 header("Location: ".BASE_URL."permissions");
             }
             $this->loadTemplate('permission/permissions_add', $data);

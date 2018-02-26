@@ -136,15 +136,15 @@
           <div class="form-group">
 
             <label>Fornecedor</label>
-            <input list="cliente" class="form-control" id="nome_client" name="client_id" onchange="teclando(event)"/>
-           <datalist id="cliente">
-
-            <?php foreach($client_list as $client => $value):?>
-              <option class="nome"  value=" <?php echo $client['cod_supplier'];?>">
-                <?php echo utf8_decode($client['name']);?>
-              </option>
-            <?php endforeach;?>
-          </datalist>
+            <input list="cliente" class="form-control" id="nome_client"  name="client_id"  onchange="teclando(event)"/>
+            <datalist id="cliente">
+              <?php foreach($client_list as $client):?>
+                <option class="nome"  value="<?php echo $client['id'];?>">
+                  <?php echo utf8_decode($client['name']);?>
+                  <?php echo $client['cod_supplier'];?>
+                </option>
+              <?php endforeach;?>
+            </datalist>
           </div>
         </div>
         <div class="col-md-6">

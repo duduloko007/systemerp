@@ -134,132 +134,130 @@
         <div class="col-md-6">
           <div class="form-group">
 
-           <label>Cliente</label>
-           <input list="cliente" class="form-control" id="nome_client" name="client_id" onchange="teclando(event)"/>
-           <datalist id="cliente">
-
-            <?php foreach($client_list as $client):?>
-              <option class="nome"  value=" <?php echo $client['cod_client'];?>">
-                <?php echo utf8_decode($client['name']);?>
-                <!--<input type="hidden" name="client_id" value="<?php echo $client['id'];?>" />-->
-              </option>
-
-            <?php endforeach;?>
-          </datalist>
+            <label>Cliente</label>
+            <input list="cliente" class="form-control" id="nome_client"  name="client_id"  onchange="teclando(event)"/>
+            <datalist id="cliente">
+              <?php foreach($client_list as $client):?>
+                <option class="nome"  value="<?php echo $client['id'];?>">
+                  <?php echo utf8_decode($client['name']);?>
+                  <?php echo $client['cod_client'];?>
+                </option>
+              <?php endforeach;?>
+            </datalist>
+          </div>
         </div>
-      </div>
-      <div class="col-md-6">
+        <div class="col-md-6">
+          <div class="form-group">
+
+            <label>Cliente selecionado</label>
+            <input type="text" id="client_selecionado" name="client_selecionado" class="form-control" disabled />
+
+          </div>
+        </div>
+        <div class="col-md-12">
+         <hr/>
+       </div>
+       <div class="col-md-3">
         <div class="form-group">
 
-          <label>Cliente selecionado</label>
-          <input type="text" id="client_selecionado" name="client_selecionado" class="form-control" disabled />
+          <label>Sub-total Venda</label>
+          <input type="text" class="form-control" id="sub_total"  disabled name="sub_total" />
 
         </div>
       </div>
+      <div class="col-md-3">
+        <div class="form-group">
+
+          <label>Desconto</label>
+          <input type="text" class="form-control" id="desconto" onkeyup="digitouValor(event)" name="desconto" required/>
+
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="form-group">
+
+          <label>Valor da venda</label>
+          <input type="text" class="form-control" disabled id="preco_venda"  name="total_price" />
+
+
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="form-group">
+
+          <label>Restante</label>
+          <input type="text" class="form-control"  disabled id="pgto_restante" name="pgto_restante" />
+
+
+        </div>
+      </div>
+
       <div class="col-md-12">
        <hr/>
      </div>
+
+
      <div class="col-md-3">
       <div class="form-group">
 
-        <label>Sub-total Venda</label>
-        <input type="text" class="form-control" id="sub_total"  disabled name="sub_total" />
+        <label>Forma de pgto.</label>
+        <input list="pgto" class="form-control" name="form_pay_view" id="form_pay_view" onkeyup="paySelecionado(event)" size="1" maxlength="1" required/>
+
+        <datalist id="pgto">
+          <?php foreach($form_pay as $pay_form => $payValue):?>
+            <option   value="<?php echo $pay_form;?>"><?php echo $payValue;?></option>
+
+          <?php endforeach;?>
+
+        </datalist>
 
       </div>
+    </div>
+
+
+    <div class="col-md-3">
+      <div class="form-group">
+
+        <label>Forma de pgto. escolhida</label>
+        <input type="text" class="form-control" name="paySelect" id="paySelect" disabled />
+
+      </div>
+
     </div>
     <div class="col-md-3">
       <div class="form-group">
 
-        <label>Desconto</label>
-        <input type="text" class="form-control" id="desconto" onkeyup="digitouValor(event)" name="desconto" required/>
+        <label>Valor Pago</label>
+        <input type="text" class="form-control"  onkeyup="digitouValorPago(event)"  id="valor_pago" name="valor_pago" required/>
+
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="form-group">
+
+        <label>Troco</label>
+        <input type="text" class="form-control" name="troco" disabled id="troco" />
 
 
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-12">
       <div class="form-group">
 
-        <label>Valor da venda</label>
-        <input type="text" class="form-control" disabled id="preco_venda"  name="total_price" />
-
-
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="form-group">
-
-        <label>Restante</label>
-        <input type="text" class="form-control"  disabled id="pgto_restante" name="pgto_restante" />
-
+        <label>Observação</label>
+        <textarea name="obs" class="form-control"></textarea>
 
       </div>
     </div>
 
     <div class="col-md-12">
-     <hr/>
-   </div>
-
-
-   <div class="col-md-3">
-    <div class="form-group">
-
-      <label>Forma de pgto.</label>
-      <input list="pgto" class="form-control" name="form_pay_view" id="form_pay_view" onkeyup="paySelecionado(event)" size="1" maxlength="1" required/>
-
-      <datalist id="pgto">
-        <?php foreach($form_pay as $pay_form => $payValue):?>
-          <option   value="<?php echo $pay_form;?>"><?php echo $payValue;?></option>
-
-        <?php endforeach;?>
-
-      </datalist>
-
-    </div>
-  </div>
-
-
-  <div class="col-md-3">
-    <div class="form-group">
-
-      <label>Forma de pgto. escolhida</label>
-      <input type="text" class="form-control" name="paySelect" id="paySelect" disabled />
-
+      <input type="submit" value="Finalizar" id="finalizar" class="btn btn-success btn-sm">
     </div>
 
+
   </div>
-  <div class="col-md-3">
-    <div class="form-group">
-
-      <label>Valor Pago</label>
-      <input type="text" class="form-control"  onkeyup="digitouValorPago(event)"  id="valor_pago" name="valor_pago" required/>
-
-    </div>
-  </div>
-
-  <div class="col-md-3">
-    <div class="form-group">
-
-      <label>Troco</label>
-      <input type="text" class="form-control" name="troco" disabled id="troco" />
-
-
-    </div>
-  </div>
-  <div class="col-md-12">
-    <div class="form-group">
-
-      <label>Observação</label>
-      <textarea name="obs" class="form-control"></textarea>
-
-    </div>
-  </div>
-
-  <div class="col-md-12">
-    <input type="submit" value="Finalizar" id="finalizar" class="btn btn-success btn-sm">
-  </div>
-
-
-</div>
 </div>
 
 </div>

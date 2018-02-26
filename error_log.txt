@@ -9436,3 +9436,531 @@ Stack trace:
 [26-Feb-2018 03:07:49 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\sales\sales_add.php on line 143
 [26-Feb-2018 03:07:49 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\sales\sales_add.php on line 143
 [26-Feb-2018 03:07:49 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\sales\sales_add.php on line 143
+[26-Feb-2018 03:15:51 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row' in C:\xampp\htdocs\systemerp\models\sales.php:183
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(183): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(147): sales->getInfo('37', '2')
+#2 [internal function]: salesController->edit('37')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 183
+[26-Feb-2018 03:15:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row' in C:\xampp\htdocs\systemerp\models\sales.php:183
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(183): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(147): sales->getInfo('37', '2')
+#2 [internal function]: salesController->edit('37')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 183
+[26-Feb-2018 03:17:27 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row' in C:\xampp\htdocs\systemerp\models\sales.php:183
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(183): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(147): sales->getInfo('37', '2')
+#2 [internal function]: salesController->edit('37')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 183
+[26-Feb-2018 03:17:28 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21000]: Cardinality violation: 1242 Subquery returns more than 1 row' in C:\xampp\htdocs\systemerp\models\sales.php:183
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(183): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(147): sales->getInfo('37', '2')
+#2 [internal function]: salesController->edit('37')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 183
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:17:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:18:30 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sales.id_company = '2'' at line 14' in C:\xampp\htdocs\systemerp\models\sales.php:27
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(27): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(37): sales->getList('2')
+#2 [internal function]: salesController->index()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 27
+[26-Feb-2018 03:18:38 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND sales.id_company = '2'' at line 12' in C:\xampp\htdocs\systemerp\models\sales.php:25
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(37): sales->getList('2')
+#2 [internal function]: salesController->index()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 25
+[26-Feb-2018 03:19:11 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sales  
+			LEFT JOIN clients ON clients.cod_client = sales.id_client
+			' at line 8' in C:\xampp\htdocs\systemerp\models\sales.php:26
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(26): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(37): sales->getList('2')
+#2 [internal function]: salesController->index()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 26
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:20:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:20:08 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:20:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:21:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:22:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:23:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 80
+[26-Feb-2018 03:24:07 Europe/Berlin] PHP Warning:  addslashes() expects parameter 1 to be string, array given in C:\xampp\htdocs\systemerp\controllers\salesController.php on line 83
+[26-Feb-2018 03:24:07 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_client' cannot be null' in C:\xampp\htdocs\systemerp\models\sales.php:94
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\sales.php(94): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\salesController.php(88): sales->addSale('2', NULL, '3', Array, '1', '1', '')
+#2 [internal function]: salesController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\sales.php on line 94
+[26-Feb-2018 03:25:19 Europe/Berlin] PHP Warning:  addslashes() expects parameter 1 to be string, array given in C:\xampp\htdocs\systemerp\controllers\salesController.php on line 83
+[26-Feb-2018 03:25:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\models\sales.php on line 81
+[26-Feb-2018 03:25:40 Europe/Berlin] PHP Warning:  addslashes() expects parameter 1 to be string, array given in C:\xampp\htdocs\systemerp\controllers\salesController.php on line 83
+[26-Feb-2018 03:25:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\models\sales.php on line 81
+[26-Feb-2018 03:26:12 Europe/Berlin] PHP Warning:  addslashes() expects parameter 1 to be string, array given in C:\xampp\htdocs\systemerp\controllers\salesController.php on line 83
+[26-Feb-2018 03:26:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\models\sales.php on line 81
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:26:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:28:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:38 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:44 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:50 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:54 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:29:57 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:30:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:31:25 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:33:16 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:08 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:35:11 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 20
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: cod_bars in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 26
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: price_cust in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 32
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: price_percentage in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 38
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: price in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 44
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: quant in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 50
+[26-Feb-2018 03:36:57 Europe/Berlin] PHP Notice:  Undefined index: min_quant in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 56
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 12
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 14
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 16
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 18
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 20
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
+[26-Feb-2018 03:37:45 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 12
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 14
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 16
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 18
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 20
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 27
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 48
+[26-Feb-2018 03:41:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 48
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 12
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 14
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 16
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 18
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 20
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 27
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 48
+[26-Feb-2018 03:42:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 48
+[26-Feb-2018 03:56:06 Europe/Berlin] PHP Notice:  Undefined variable: listSalesVenda in C:\xampp\htdocs\systemerp\views\purchases\purchases_add.php on line 109
+[26-Feb-2018 03:56:06 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\purchases\purchases_add.php on line 109
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 12
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 14
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 16
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 18
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 20
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 27
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Notice:  Undefined index: products in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 48
+[26-Feb-2018 03:57:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\purchases\purchases_edit.php on line 48

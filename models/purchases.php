@@ -79,7 +79,7 @@ class purchases extends model{
 
 
 
-		$sql = $this->db->prepare("INSERT INTO purchases SET id_company = :id_company, id_client = :id_client, id_user = :id_user, date_sale = :date_sale, total_price = :total_price, obs = :obs, cod_purchases = :cod_purchases");
+		$sql = $this->db->prepare("INSERT INTO purchases SET id_company = :id_company, id_client = :id_client, id_user = :id_user, date_sale = :date_sale, total_price = :total_price, obs = :obs, discount = :discount, cod_purchases = :cod_purchases");
 
 
 		$sql->bindValue(":id_company", $id_company);
@@ -87,6 +87,7 @@ class purchases extends model{
 		$sql->bindValue(":id_user", $id_user);
 		$sql->bindValue(":date_sale", $date_sale);
 		$sql->bindValue(":obs", $obs);
+		$sql->bindValue(":discount", $discount);
 		$sql->bindValue(":cod_purchases", '0');
 		$sql->bindValue(":total_price", '0');
 
@@ -145,7 +146,7 @@ class purchases extends model{
 
 
 
-				$total_price += $price * $quant_prod;
+				$total_price += ($price * $quant_prod) - $discount;
 
 			}	
 		}

@@ -54,7 +54,7 @@ class purchasesController extends controller {
       $cod_bars = addslashes($_GET['cod_bars']);
       $data['inventory_list'] = $i->getProductFiltered($cod_bars, $u->getCompany());
     } else{
-      $data['inventory_list'] = $i->getListProduct($u->getCompany());
+      $data['inventory_list'] = $p->getlistPurchases($u->getCompany());
 
     }
 

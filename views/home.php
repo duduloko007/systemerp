@@ -110,7 +110,7 @@
 									<tr>
 
 										<td><?php echo date('d/m/Y', strtotime($pay_item['date_document'])) ?></td>
-										<td><?php echo $pay_item['description']; ?></td>
+										<td><?php echo utf8_decode($pay_item['description']); ?></td>
 										<td class="text-red"><?php echo date('d/m/Y', strtotime($pay_item['date_maturity'])) ?></td>
 										<td>R$ <?php echo number_format( $pay_item['price'], 2, ',','.'); ?></td>
 

@@ -112,7 +112,7 @@
                 <td><?php echo $product['cod_bars'];?></td>
                 <td><?php echo utf8_decode($product['name']);?></td>
                 <td><input type="number" required class="quant" id="quant" value="" onchange="updateSubTotalProduct(this)" name="quant[<?php echo $product['id'];?>]" style="width: 60px;" data-price="<?php echo $product['price'];?>"></td>
-                <td>R$ <?php echo $product['price'];?></td>
+                <td>R$ <?php echo number_format($product['price'],2,',','.');?></td>
                 <td class="subtotal"> </td>
                 <td>
 
@@ -134,130 +134,132 @@
         <div class="col-md-6">
           <div class="form-group">
 
-            <label>Cliente</label>
-            <input list="cliente" class="form-control" id="nome_client"  onchange="teclando(event)"/>
-            <datalist id="cliente">
-              <?php foreach($client_list as $client => $value):?>
-                <option class="nome"  value="<?php echo $value['cod_client'];?>">
-                  <?php echo $value['name'];?>
-                  <input type="hidden" name="client_id" value="<?php echo $value['id'];?>" />
-                </option>
-              <?php endforeach;?>
-            </datalist>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
+           <label>Cliente</label>
+           <input list="cliente" class="form-control" id="nome_client" name="client_id" onchange="teclando(event)"/>
+           <datalist id="cliente">
 
-            <label>Cliente selecionado</label>
-            <input type="text" id="client_selecionado" name="client_selecionado" class="form-control" disabled />
+            <?php foreach($client_list as $client):?>
+              <option class="nome"  value=" <?php echo $client['cod_client'];?>">
+                <?php echo utf8_decode($client['name']);?>
+                <!--<input type="hidden" name="client_id" value="<?php echo $client['id'];?>" />-->
+              </option>
 
-          </div>
+            <?php endforeach;?>
+          </datalist>
         </div>
-        <div class="col-md-12">
-         <hr/>
-       </div>
-       <div class="col-md-3">
+      </div>
+      <div class="col-md-6">
         <div class="form-group">
 
-          <label>Sub-total Venda</label>
-          <input type="text" class="form-control" id="sub_total"  disabled name="sub_total" />
+          <label>Cliente selecionado</label>
+          <input type="text" id="client_selecionado" name="client_selecionado" class="form-control" disabled />
 
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="form-group">
-
-          <label>Desconto</label>
-          <input type="text" class="form-control" id="desconto" onkeyup="digitouValor(event)" name="desconto" required/>
-
-
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="form-group">
-
-          <label>Valor da venda</label>
-          <input type="text" class="form-control" disabled id="preco_venda"  name="total_price" />
-
-
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="form-group">
-
-          <label>Restante</label>
-          <input type="text" class="form-control"  disabled id="pgto_restante" name="pgto_restante" />
-
-
-        </div>
-      </div>
-
       <div class="col-md-12">
        <hr/>
      </div>
-
-
      <div class="col-md-3">
       <div class="form-group">
 
-        <label>Forma de pgto.</label>
-        <input list="pgto" class="form-control" name="form_pay_view" id="form_pay_view" onkeyup="paySelecionado(event)" size="1" maxlength="1" required/>
-
-        <datalist id="pgto">
-          <?php foreach($form_pay as $pay_form => $payValue):?>
-            <option   value="<?php echo $pay_form;?>"><?php echo $payValue;?></option>
-
-          <?php endforeach;?>
-
-        </datalist>
+        <label>Sub-total Venda</label>
+        <input type="text" class="form-control" id="sub_total"  disabled name="sub_total" />
 
       </div>
-    </div>
-
-
-    <div class="col-md-3">
-      <div class="form-group">
-
-        <label>Forma de pgto. escolhida</label>
-        <input type="text" class="form-control" name="paySelect" id="paySelect" disabled />
-
-      </div>
-
     </div>
     <div class="col-md-3">
       <div class="form-group">
 
-        <label>Valor Pago</label>
-        <input type="text" class="form-control"  onkeyup="digitouValorPago(event)"  id="valor_pago" name="valor_pago" required/>
+        <label>Desconto</label>
+        <input type="text" class="form-control" id="desconto" onkeyup="digitouValor(event)" name="desconto" required/>
+
 
       </div>
     </div>
-
     <div class="col-md-3">
       <div class="form-group">
 
-        <label>Troco</label>
-        <input type="text" class="form-control" name="troco" disabled id="troco" />
+        <label>Valor da venda</label>
+        <input type="text" class="form-control" disabled id="preco_venda"  name="total_price" />
 
 
       </div>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-3">
       <div class="form-group">
 
-        <label>Observação</label>
-        <textarea name="obs" class="form-control"></textarea>
+        <label>Restante</label>
+        <input type="text" class="form-control"  disabled id="pgto_restante" name="pgto_restante" />
+
 
       </div>
     </div>
 
     <div class="col-md-12">
-      <input type="submit" value="Finalizar" id="finalizar" class="btn btn-success btn-sm">
-    </div>
+     <hr/>
+   </div>
 
+
+   <div class="col-md-3">
+    <div class="form-group">
+
+      <label>Forma de pgto.</label>
+      <input list="pgto" class="form-control" name="form_pay_view" id="form_pay_view" onkeyup="paySelecionado(event)" size="1" maxlength="1" required/>
+
+      <datalist id="pgto">
+        <?php foreach($form_pay as $pay_form => $payValue):?>
+          <option   value="<?php echo $pay_form;?>"><?php echo $payValue;?></option>
+
+        <?php endforeach;?>
+
+      </datalist>
+
+    </div>
+  </div>
+
+
+  <div class="col-md-3">
+    <div class="form-group">
+
+      <label>Forma de pgto. escolhida</label>
+      <input type="text" class="form-control" name="paySelect" id="paySelect" disabled />
+
+    </div>
 
   </div>
+  <div class="col-md-3">
+    <div class="form-group">
+
+      <label>Valor Pago</label>
+      <input type="text" class="form-control"  onkeyup="digitouValorPago(event)"  id="valor_pago" name="valor_pago" required/>
+
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="form-group">
+
+      <label>Troco</label>
+      <input type="text" class="form-control" name="troco" disabled id="troco" />
+
+
+    </div>
+  </div>
+  <div class="col-md-12">
+    <div class="form-group">
+
+      <label>Observação</label>
+      <textarea name="obs" class="form-control"></textarea>
+
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <input type="submit" value="Finalizar" id="finalizar" class="btn btn-success btn-sm">
+  </div>
+
+
+</div>
 </div>
 
 </div>

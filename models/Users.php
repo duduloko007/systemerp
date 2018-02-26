@@ -190,6 +190,8 @@ class users extends model {
 			$sql->bindValue(":status", '0');
 			$sql->execute();
 
+			
+
 			return '1';
 
 		} else {

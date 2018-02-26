@@ -14,31 +14,31 @@
   			 <div class="col-sm-6">
   			<div class="form-group">
   				<label>Descrição:</label>
-  				<input type="text" name="description" class="form-control">
+  				<input type="text" name="description" class="form-control" required>
   			</div>
   			</div>
   			 <div class="col-sm-6">
   			<div class="form-group">
   				<label>Documento:</label>
-  				<input type="text" name="document" class="form-control">
+  				<input type="text" name="document" class="form-control" required>
   			</div>
   			</div>
   			<div class="col-sm-4">
   			<div class="form-group">
   				<label>Data do Documento:</label>
-  				<input type="date" name="date_document" class="form-control">
+  				<input type="date" name="date_document" id="date_document" class="form-control" required>
   			</div>
   			</div>
   			 <div class="col-sm-4">
   			<div class="form-group">
   				<label>Data do Vencimento:</label>
-  				<input type="date" name="date_maturity" class="form-control">
+  				<input type="date" name="date_maturity" id="date_maturity" class="form-control" required>
   			</div>
   			</div>
          <div class="col-sm-4">
         <div class="form-group">
           <label>Valor:</label>
-          <input type="text" name="price" id="price_pay" class="form-control">
+          <input type="text" name="price" id="price_pay" class="form-control" required>
         </div>
         </div>
   			 <div class="col-sm-12">

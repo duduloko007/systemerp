@@ -6,6 +6,8 @@ $(function(){
 	$('#preco_venda').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
 	$('#valor_pago').mask('000000000000000.00', {reverse:true, placeholder:"0.00"});
 	$('#date_sale').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
+	$('#date_document').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
+	$('#date_maturity').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
 	$('#price_pay').mask('000.000.000.000.000,00', {reverse:true, placeholder:"0,00"});
 
 });
@@ -14,20 +16,19 @@ $(function(){
 function digitouValor(event){
 	if(parseFloat(document.getElementById("desconto").value) >= 0){
 		total = 0;
-		var subtotal = parseFloat(document.getElementById("sub_total").value);
-		var desconto = parseFloat(document.getElementById("desconto").value);
+		var subtotal = parseFloat(document.getElementById("sub_total").value).toFixed(2);
+		var desconto = parseFloat(document.getElementById("desconto").value).toFixed(2);
 	//subtotal = subtotal.replace(',','.');
 	//desconto = desconto.replace(',','.');
 	var preco_venda = subtotal - desconto;
 	//preco_venda = preco_venda.replace(',','.');
 	total += preco_venda;
-	$('input[name=total_price').val(parseFloat(total));
-	$('input[name=valor_pago').val(parseFloat(total));
+	$('input[name=total_price').val(parseFloat(total).toFixed(2));
+	$('input[name=valor_pago').val(parseFloat(total).toFixed(2));
 } else {
 	// se não haver desconto passa o valor sub-total da venda
-	var subtotal = parseFloat(document.getElementById("sub_total").value);
-	$('input[name=total_price').val(parseFloat(subtotal));
-	
+	var subtotal = parseFloat(document.getElementById("sub_total").value).toFixed(2);
+	$('input[name=total_price').val(parseFloat(subtotal).toFixed(2));
 }
 }
 // Calcular Troco da Venda ou restante
@@ -35,35 +36,35 @@ function digitouValorPago(event){
 
 	if(parseFloat(document.getElementById("valor_pago").value) > parseFloat(document.getElementById("preco_venda").value)){
 		total = 0;
-		var valor_pago = parseFloat(document.getElementById("valor_pago").value);
-		var preco_venda = parseFloat(document.getElementById("preco_venda").value);
+		var valor_pago = parseFloat(document.getElementById("valor_pago").value).toFixed(2);
+		var preco_venda = parseFloat(document.getElementById("preco_venda").value).toFixed(2);
 		var troco = valor_pago - preco_venda;
 		total += troco;
 		if(parseFloat(document.getElementById("valor_pago").value) > parseFloat(document.getElementById("preco_venda").value)){
-			$('input[name=troco').val(parseFloat(total));
+			$('input[name=troco').val(parseFloat(total).toFixed(2));
 		}
 	} else {
 		var semTroco = 0;
-		$('input[name=troco').val(parseFloat(semTroco));
+		$('input[name=troco').val(parseFloat(semTroco).toFixed(2));
 	}
 
 // Se o valor pago for menor que o valor da venda, mostrara o restante, e fica sem troco.
 if(parseFloat(document.getElementById("valor_pago").value) < parseFloat(document.getElementById("preco_venda").value)){
 	
 	total = 0;
-	var valor_pago = parseFloat(document.getElementById("valor_pago").value);
-	var preco_venda = parseFloat(document.getElementById("preco_venda").value);
+	var valor_pago = parseFloat(document.getElementById("valor_pago").value).toFixed(2);
+	var preco_venda = parseFloat(document.getElementById("preco_venda").value).toFixed(2);
 
 	var restante = preco_venda - valor_pago;
 	total += restante;
-	$('input[name=pgto_restante').val(parseFloat(total));
+	$('input[name=pgto_restante').val(parseFloat(total).toFixed(2));
 	var semTroco = 0;
-	$('input[name=troco').val(parseFloat(semTroco));
+	$('input[name=troco').val(parseFloat(semTroco).toFixed(2));
 
 } else {
 
 	var semRestante = 0;
-	$('input[name=pgto_restante').val(parseFloat(semRestante));
+	$('input[name=pgto_restante').val(parseFloat(semRestante).toFixed(2));
 
 }
 
@@ -81,7 +82,7 @@ function updateSubTotalProduct(obj){
 
 
 
-	$(obj).closest('tr').find('.subtotal').html('R$ '+subtotal);
+	$(obj).closest('tr').find('.subtotal').html('R$ '+parseFloat(subtotal).toFixed(2));
 
 
 
@@ -98,7 +99,7 @@ function updateSubTotalProduct(obj){
 	}
 
 
-	$('input[name=sub_total]').val(total);
+	$('input[name=sub_total]').val(parseFloat(total).toFixed(2));
 }
 
 function teclando(event){
@@ -173,6 +174,7 @@ $(document).ready(function(){
 		if (document.getElementById("quant").value  == '') {
 			$('#finalizar').addClass("disabled");
 			alert("Atenção! preenchar a quantidade do(s) produto(s).");
+			$('#quant').focus();
 
 		} else{
 			$('#finalizar').removeClass("disabled");
@@ -190,6 +192,7 @@ $(document).ready(function(){
 			$('#finalizar').addClass("disabled");
 			
 			alert("Atenção! pagamento menor que a venda");
+				$('#valor_pago').focus();
 
 
 		}

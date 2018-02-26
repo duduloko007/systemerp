@@ -13,9 +13,10 @@ class sales extends model{
 			sales.date_sale, 
 			sales.total_price,
 			sales.form_pay,
-			clients.name 
+			clients.name,
+			clients.cod_client 
 			FROM sales  
-			LEFT JOIN clients ON clients.id = sales.id_client
+			LEFT JOIN clients ON clients.cod_client = sales.id_client
 			
 			WHERE 
 			sales.id_company = :id_company 
@@ -174,7 +175,7 @@ class sales extends model{
 	public function getInfo($id, $id_company){
 		$array = array();
 
-		$sql = $this->db->prepare("SELECT *, (select clients.name from clients where clients.id = sales.id_client) as client_name FROM sales WHERE id = :id AND id_company = :id_company");
+		$sql = $this->db->prepare("SELECT *, (select clients.name from clients where clients.cod_client = sales.id_client) as client_name FROM sales WHERE id = :id AND id_company = :id_company");
 
 		$sql->bindValue(":id", $id);
 		$sql->bindValue(":id_company", $id_company);

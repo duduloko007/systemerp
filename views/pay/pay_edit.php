@@ -28,31 +28,31 @@
      <div class="col-sm-6">
        <div class="form-group">
         <label>Descrição:</label>
-        <input type="text" name="description" class="form-control" value="<?php echo utf8_decode($pay_info['description']); ?>">
+        <input type="text" name="description" class="form-control" value="<?php echo utf8_decode($pay_info['description']); ?>" required/>
       </div>
     </div>
     <div class="col-sm-6">
      <div class="form-group">
       <label>Documento:</label>
-      <input type="text" name="document" class="form-control" value="<?php echo $pay_info['document']; ?>"/>
+      <input type="text" name="document" class="form-control" value="<?php echo $pay_info['document']; ?>" required/>
     </div>
   </div>
   <div class="col-sm-4">
    <div class="form-group">
     <label>Data do Documento:</label>
-    <input type="text" name="date_document" class="form-control" value="<?php echo date('d/m/Y', strtotime($pay_info['date_document'])); ?>"/>
+    <input type="text" name="date_document" class="form-control" id="date_document" value="<?php echo date('d/m/Y', strtotime($pay_info['date_document'])); ?>" required/>
   </div>
 </div>
 <div class="col-sm-4">
  <div class="form-group">
   <label>Data do Vencimento:</label>
-  <input type="text" name="date_maturity" class="form-control" value="<?php echo date('d/m/Y', strtotime($pay_info['date_maturity'])); ?>"/>
+  <input type="text" name="date_maturity" class="form-control" id="date_maturity"  value="<?php echo date('d/m/Y', strtotime($pay_info['date_maturity'])); ?>" required/>
 </div>
 </div>
 <div class="col-sm-4">
   <div class="form-group">
     <label>Valor:</label>
-    <input type="text" name="price" class="form-control" id="price_pay" value="<?php echo number_format( $pay_info['price'], 2, ',','.'); ?>" />
+    <input type="text" name="price" class="form-control" id="price_pay" value="<?php echo number_format( $pay_info['price'], 2, ',','.'); ?>" required/>
   </div>
 </div>
 <div class="col-sm-12">

@@ -66,6 +66,7 @@
 		<table class="table  table-responsive table-bordered table-striped">
 			<thead>
 				<tr>
+					<th>Cód.</th>
 					<th>Data</th>
 					<th>Descrição</th>
 					<th>Documento</th>
@@ -78,8 +79,8 @@
 			<tbody id="myTable">
 				<?php foreach($pay_list as $pay_item): ?>
 
-					<tr class="<?php echo ($statuspay[$pay_item['status']] == $statuspay[$pay_item['0']] )?'danger text-red':'';?>">
-						
+					<tr class="<?php echo ($pay_item['status'] == 1)?'danger text-red':'';?>">
+						<td><?php echo $pay_item['cod_pay']; ?></td>
 						<td><?php echo date('d/m/Y', strtotime($pay_item['date_document'])) ?></td>
 						<td><?php echo utf8_decode($pay_item['description']); ?></td>
 						<td><?php echo $pay_item['document']; ?></td>
@@ -87,7 +88,7 @@
 
 
 						<td>
-							<?php if($statuspay[$pay_item['status']] == $statuspay[$pay_item['0']] ){
+							<?php if($pay_item['status'] == 1){
 								echo '<div class="btn btn-danger btn-sm" title="Conta Vencida!">'.$statuspay[$pay_item['status']].'</div>';
 								
 							} else{

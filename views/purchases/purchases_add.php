@@ -112,7 +112,8 @@
                 <td><?php echo $product['cod_bars'];?></td>
                 <td><?php echo utf8_decode($product['name']);?></td>
                 <td><input type="number" required class="quant" id="quant" value="" onchange="updateSubTotalProduct(this)" name="quant[<?php echo $product['id'];?>]" style="width: 60px;" data-price="<?php echo $product['price_cust'];?>"></td>
-                <td>R$ <?php echo $product['price_cust'];?></td>
+  
+                <td>R$ <?php echo number_format($product['price_cust'],2,',','.');?></td>
                 <td class="subtotal"> </td>
                 <td>
 
@@ -135,15 +136,15 @@
           <div class="form-group">
 
             <label>Fornecedor</label>
-            <input list="cliente" class="form-control" id="nome_client"  onchange="teclando(event)"/>
-            <datalist id="cliente">
-              <?php foreach($client_list as $client => $value):?>
-                <option class="nome"  value="<?php echo $value['cod_supplier'];?>">
-                  <?php echo $value['name'];?>
-                  <input type="hidden" name="client_id" value="<?php echo $value['id'];?>" />
-                </option>
-              <?php endforeach;?>
-            </datalist>
+            <input list="cliente" class="form-control" id="nome_client" name="client_id" onchange="teclando(event)"/>
+           <datalist id="cliente">
+
+            <?php foreach($client_list as $client => $value):?>
+              <option class="nome"  value=" <?php echo $client['cod_supplier'];?>">
+                <?php echo utf8_decode($client['name']);?>
+              </option>
+            <?php endforeach;?>
+          </datalist>
           </div>
         </div>
         <div class="col-md-6">

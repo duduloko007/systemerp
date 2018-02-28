@@ -32,6 +32,11 @@ class clientsController extends controller {
     $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
     $data['user_email'] = $this->user->getEmail();
 
+    $data['type_person_register'] = array(
+      '1'=>'Pessoa física',
+      '2'=>'Pessoa jurídica'
+    );
+
     if ($this->user->hasPermission('clients_view')) {
 
      $c = new clients();
@@ -71,74 +76,137 @@ class clientsController extends controller {
   header("Location: ".BASE_URL);
 
 }
-
 }
-
 public function add(){
 
- $data = array();
 
- $this->user->setLoggedUser();
+  $data = array();
 
- $company = new companies($this->user->getCompany());
+  $this->user->setLoggedUser();
 
- $data['company_name'] = $company->getName();
- $data['user_name'] = $this->user->getNameUser();
- $data['user_email'] = $this->user->getEmail();
- $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+  $company = new companies($this->user->getCompany());
+  $data['user_name'] = $this->user->getNameUser();
+  $data['company_name'] = $company->getName();
+  $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+  $data['user_email'] = $this->user->getEmail();
 
- if ($this->user->hasPermission('clients_add')) {
+  $data['type_person_register'] = array(
+    '1'=>'Pessoa física',
+    '2'=>'Pessoa jurídica'
+  );
 
-   $c = new clients();
+  if ($this->user->hasPermission('clients_add')) {
 
-   if (isset($_POST['name']) && !empty($_POST['name'])) {
+    $c = new clients();
 
-    $name =  addslashes(utf8_encode($_POST['name']));
+    if(isset($_POST['person_type']) == '1'){
 
-    $email = addslashes($_POST['email']);
+      if (isset($_POST['name']) && !empty($_POST['name'])) {
 
-    $phone = addslashes($_POST['phone']);
+        $person_type = addslashes($_POST['person_type']);
 
-    $stars = addslashes($_POST['stars']);
+        $name =  addslashes(utf8_encode($_POST['name']));
 
-    $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
+        $email = addslashes($_POST['email']);
 
-    $address_zipcode = addslashes($_POST['address_zipcode']);
+        $phone = addslashes($_POST['phone']);
 
-    $address = addslashes($_POST['address']);
+        $phone_fix = addslashes($_POST['phone_fix']);
 
-    $address_number = addslashes($_POST['address_number']);
+        $stars = addslashes($_POST['stars']);
 
-    $address2 = addslashes($_POST['address2']);
+        $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
 
-    $address_neighb = addslashes($_POST['address_neighb']);
+        $address_zipcode = addslashes($_POST['address_zipcode']);
 
-    $address_city = addslashes($_POST['address_city']);
+        $address = addslashes($_POST['address']);
 
-    $address_state = addslashes($_POST['address_state']);
+        $address_number = addslashes($_POST['address_number']);
 
-    $address_country = addslashes($_POST['address_country']);
+        $address2 = addslashes(utf8_encode($_POST['address2']));
 
-    $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
+        $address_neighb = addslashes($_POST['address_neighb']);
 
-    $inscri_estadual = addslashes($_POST['inscri_estadual']);
+        $address_city = addslashes($_POST['address_city']);
+
+        $address_state = addslashes($_POST['address_state']);
+
+        $address_country = addslashes($_POST['address_country']);
+
+        $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
+
+        $date_birth_fund = addslashes($_POST['date_birth_fund']);
+
+        $rg = addslashes($_POST['rg']);
+
+        $c->add($this->user->getCompany(),$this->user->getId(),$person_type $name, $email, $phone, $phone_fix, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $rg,$date_birth_fund);
+
+        header("Location: ".BASE_URL."clients/clients");
+      }
+
+    } else {
 
 
-    $c->add($this->user->getCompany(), $name, $email, $phone, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $inscri_estadual);
+      if (isset($_POST['name']) && !empty($_POST['name'])) {
 
-    header("Location: ".BASE_URL."clients");
 
-  }
+       $person_type = addslashes($_POST['person_type']);
+       
+       $name =  addslashes(utf8_encode($_POST['name']));
 
-  $this->loadTemplate('clients/clients_add', $data);
+       $email = addslashes($_POST['email']);
 
-} else {
+       $phone = addslashes($_POST['phone']);
 
-  header("Location: ".BASE_URL."clients");
+       $phone_fix = addslashes($_POST['phone_fix']);
+
+       $stars = addslashes($_POST['stars']);
+
+       $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
+
+       $address_zipcode = addslashes($_POST['address_zipcode']);
+
+       $address = addslashes($_POST['address']);
+
+       $address_number = addslashes($_POST['address_number']);
+
+       $address2 = addslashes(utf8_encode($_POST['address2']));
+
+       $address_neighb = addslashes($_POST['address_neighb']);
+
+       $address_city = addslashes($_POST['address_city']);
+
+       $address_state = addslashes($_POST['address_state']);
+
+       $address_country = addslashes($_POST['address_country']);
+
+       $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
+
+       $date_birth_fund = addslashes($_POST['date_birth_fund']);
+
+       $name_fantasy =  addslashes(utf8_encode($_POST['name_fantasy']));
+
+       $state_registration = addslashes($_POST['state_registration']);
+
+       $municipal_registration = addslashes($_POST['municipal_registration']);
+
+       $c->add_legal($this->user->getCompany(),$this->user->getId(),$person_type, $name, $email, $phone, $phone_fix, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $state_registration, $municipal_registration, $name_fantasy, $date_birth_fund);
+
+       header("Location: ".BASE_URL."clients/clients");
+
+     }
+   }
+
+   $this->loadTemplate('clients/clients_add', $data);
+
+ } else {
+
+   header("Location: ".BASE_URL."clients/clients");
+
+ }
 
 }
 
-}
 
 public function edit($id){
 
@@ -153,47 +221,106 @@ public function edit($id){
   $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
   $data['user_email'] = $this->user->getEmail();
 
+  $data['type_person_register'] = array(
+    '1'=>'Pessoa física',
+    '2'=>'Pessoa jurídica'
+  );
 
   if ($this->user->hasPermission('clients_edit')) {
 
     $c = new clients();
 
-    if (isset($_POST['name']) && !empty($_POST['name'])) {
-      $name =  addslashes(utf8_encode($_POST['name']));
+    if(isset($_POST['person_type']) == '1'){
 
-      $email = addslashes($_POST['email']);
+      if (isset($_POST['name']) && !empty($_POST['name'])) {
 
-      $phone = addslashes($_POST['phone']);
+        $name =  addslashes(utf8_encode($_POST['name']));
 
-      $stars = addslashes($_POST['stars']);
+        $email = addslashes($_POST['email']);
 
-      $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
+        $phone = addslashes($_POST['phone']);
 
-      $address_zipcode = addslashes($_POST['address_zipcode']);
+        $phone_fix = addslashes($_POST['phone_fix']);
 
-      $address = addslashes($_POST['address']);
+        $stars = addslashes($_POST['stars']);
 
-      $address_number = addslashes($_POST['address_number']);
+        $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
 
-      $address2 = addslashes($_POST['address2']);
+        $address_zipcode = addslashes($_POST['address_zipcode']);
 
-      $address_neighb = addslashes($_POST['address_neighb']);
+        $address = addslashes($_POST['address']);
 
-      $address_city = addslashes($_POST['address_city']);
+        $address_number = addslashes($_POST['address_number']);
 
-      $address_state = addslashes($_POST['address_state']);
+        $address2 = addslashes(utf8_encode($_POST['address2']));
 
-      $address_country = addslashes($_POST['address_country']);
+        $address_neighb = addslashes($_POST['address_neighb']);
 
-      $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
+        $address_city = addslashes($_POST['address_city']);
 
-      $inscri_estadual = addslashes($_POST['inscri_estadual']);
+        $address_state = addslashes($_POST['address_state']);
+
+        $address_country = addslashes($_POST['address_country']);
+
+        $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
+
+        $date_birth_fund = addslashes($_POST['date_birth_fund']);
+
+        $rg = addslashes($_POST['rg']);
+
+        $c->edit($id, $this->user->getCompany(), $name, $email, $phone, $phone_fix, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $rg,$date_birth_fund);
+
+        header("Location: ".BASE_URL."clients/clients");
+      }
+
+    } else {
 
 
-      $c->edit($id, $this->user->getCompany(), $name, $email, $phone, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $inscri_estadual);
+      if (isset($_POST['name']) && !empty($_POST['name'])) {
 
-      header("Location: ".BASE_URL."clients/clients");
+        $name =  addslashes(utf8_encode($_POST['name']));
 
+        $email = addslashes($_POST['email']);
+
+        $phone = addslashes($_POST['phone']);
+
+        $phone_fix = addslashes($_POST['phone_fix']);
+
+        $stars = addslashes($_POST['stars']);
+
+        $internal_obs = addslashes(utf8_encode($_POST['internal_obs']));
+
+        $address_zipcode = addslashes($_POST['address_zipcode']);
+
+        $address = addslashes($_POST['address']);
+
+        $address_number = addslashes($_POST['address_number']);
+
+        $address2 = addslashes(utf8_encode($_POST['address2']));
+
+        $address_neighb = addslashes($_POST['address_neighb']);
+
+        $address_city = addslashes($_POST['address_city']);
+
+        $address_state = addslashes($_POST['address_state']);
+
+        $address_country = addslashes($_POST['address_country']);
+
+        $cpf_cnpj = addslashes($_POST['cpf_cnpj']);
+
+        $date_birth_fund = addslashes($_POST['date_birth_fund']);
+
+        $name_fantasy =  addslashes(utf8_encode($_POST['name_fantasy']));
+
+        $state_registration = addslashes($_POST['state_registration']);
+
+        $municipal_registration = addslashes($_POST['municipal_registration']);
+
+        $c->edit_legal($id, $this->user->getCompany(), $name, $email, $phone, $phone_fix, $stars,  $internal_obs, $address_zipcode, $address, $address_number,  $address2, $address_neighb,  $address_city, $address_state, $address_country, $cpf_cnpj, $state_registration, $municipal_registration, $name_fantasy, $date_birth_fund);
+
+        header("Location: ".BASE_URL."clients/clients");
+
+      }
     }
 
     $data['client_info'] = $c->getInfo($id, $this->user->getCompany());
@@ -222,6 +349,11 @@ public function view($id){
 
   $data['user_email'] = $this->user->getEmail();
   $data['group_permissions'] = $this->user->getPer($this->user->getCompany(), $this->user->getId());
+
+  $data['type_person_register'] = array(
+    '1'=>'Pessoa física',
+    '2'=>'Pessoa jurídica'
+  );
 
   if ($this->user->hasPermission('clients_view')) {
 

@@ -9,7 +9,8 @@
  <!--<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL_CSS ?>/estilo_rela.css"/>-->
  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL_CSS ?>/style.css"/>
  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL_CSS ?>/bootstrap.min.css">
- <script  src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL_CSS ?>/w3.css">
+ <script  src="<?php echo BASE_URL; ?>assets/js/jquery-3.1.0.min.js"></script>
  <script  src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
 
  <link rel="stylesheet" href="<?php echo BASE_URL_BOWER ?>/font-awesome/css/font-awesome.min.css">

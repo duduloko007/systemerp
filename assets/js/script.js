@@ -9,6 +9,7 @@ $(function(){
 	$('#date_document').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
 	$('#date_maturity').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
 	$('#price_pay').mask('000.000.000.000.000,00', {reverse:true, placeholder:"0,00"});
+	$('#date_birth_fund').mask('00/00/0000', {reverse:false, placeholder:"00/00/0000"});
 
 });
 
@@ -192,7 +193,7 @@ $(document).ready(function(){
 			$('#finalizar').addClass("disabled");
 			
 			alert("Atenção! pagamento menor que a venda");
-				$('#valor_pago').focus();
+			$('#valor_pago').focus();
 
 
 		}
@@ -224,4 +225,8 @@ $(document).ready(function(){
 			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
 		});
 	});
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
 });

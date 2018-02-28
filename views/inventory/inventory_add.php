@@ -29,13 +29,13 @@
         <div class="col-md-4">
           <div class="form-group">
             <label>Preço Custo:</label>
-            <input type="text" name="price_cust" id="price_cust" class="form-control " required>
+            <input type="text" name="price_cust" id="price_cust" class="form-control " required/>
           </div>
         </div>
         <div class="col-md-4">
           <div class="form-group">
             <label>Porcentagem de Venda (%):</label>
-            <input type="text" name="price_percentage" id="price_percentage" class="form-control" onchange="pricePercentage(event)"  required>
+            <input type="text" name="price_percentage" id="price_percentage" class="form-control" onkeyup="pricePercentage(event)"  required>
           </div>
         </div>
         <div class="col-md-4">

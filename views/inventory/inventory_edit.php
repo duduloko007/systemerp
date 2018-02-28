@@ -35,7 +35,7 @@
         <div class="col-md-4">
           <div class="form-group">
             <label>Porcentagem de Venda (%):</label>
-            <input type="text" name="price_percentage" id="price_percentage" class="form-control" onchange="pricePercentage(event)"  value="<?php   echo number_format($inventory_info['price_percentage'], 2) ;?>" required>
+            <input type="text" name="price_percentage" id="price_percentage" class="form-control" onkeyup="pricePercentage(event)"  value="<?php   echo number_format($inventory_info['price_percentage'], 2) ;?>" required>
           </div>
         </div>
         <div class="col-md-4">

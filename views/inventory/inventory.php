@@ -15,12 +15,15 @@
 		<?php endif; ?>
 		<br/>
 		<div class="row" style="margin-bottom: 10px;">
-			<div style="float: right;">
-				<div class="col-sm-12">
-					<div class="btn btn-success" title="Estoque Cheio."></div><span> Estoque cheio.</span>
+			<div class="text-center">
+				<div class="col-sm-4">
+					<div class="btn btn-success" data-toggle="tooltip" data-placement="left"  title="Estoque cheio."></div><span> Estoque cheio.</span>
 				</div>
-				<div class="col-sm-12">
-					<div class="btn btn-warning" title="Estoque Baixo."></div><span> Estoque Baixo.</span>
+				<div class="col-sm-4">
+					<div class="btn btn-warning" data-toggle="tooltip" data-placement="left" title="Estoque baixo."></div><span> Estoque baixo.</span>
+				</div>
+				<div class="col-sm-4">
+					<div class="btn btn-danger" data-toggle="tooltip" data-placement="left" title="Estoque vazio."></div><span> Estoque vazio.</span>
 				</div>
 			</div>
 
@@ -58,16 +61,21 @@
 							<td>	
 								<?php 
 								if ($product['quant'] > $product['min_quant']) {
-									echo '<span class="btn btn-success btn-sm" title="Estoque cheio.">'.($product['quant']).'</span>';
-								}else{
-									echo $product['quant'];
+									echo '<span class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="right" title="Estoque cheio.">'.($product['quant']).'</span>';
+								}else if($product['quant'] == 0){
+									echo '<span class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Estoque vazio.">'.($product['min_quant']).'</span>';
+								} 
+								else if($product['quant'] < $product['min_quant']){
+									echo '<span class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="rigth" title="Estoque baixo.">'.($product['quant']).'</span>';
+								} else if($product['quant'] == $product['min_quant']){
+									echo '<span class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="rigth" title="Estoque baixo.">'.($product['quant']).'</span>';
 								}
 								?></td>
 								<td>
 
 									<?php 
-									if ($product['min_quant'] > $product['quant']) {
-										echo '<span class="btn btn-warning btn-sm" title="Estoque baixo.">'.($product['min_quant']).'</span>';
+									if ($product['min_quant'] >= $product['quant']) {
+										echo '<span class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="rigth" title="Estoque baixo.">'.($product['min_quant']).'</span>';
 									}else{
 										echo $product['min_quant'];
 									}

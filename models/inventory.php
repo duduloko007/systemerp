@@ -128,6 +128,8 @@ class inventory extends model{
 			$sqlu = $this->db->prepare("UPDATE inventory SET cod_inventory = $cod_inventory WHERE id = $id_inventory AND id_company = :id_company");
 			$sqlu->bindValue(":id_company", $id_company);
 			$sqlu->execute();
+
+			return '1';
 		}
 
 
@@ -150,20 +152,19 @@ class inventory extends model{
 		$sql->bindValue(":id", $id);
 
 		$sql->execute();
-
+		return '1';
 		
 
 		//$this->setLog($id, $id_company, $id_user, 'edit');
 	}
 
-	public function delete($id, $id_company, $id_user){
+	public function delete($id, $id_company /*,$id_user*/){
 
 		$sql = $this->db->prepare("DELETE FROM inventory WHERE id = :id AND id_company = :id_company");
-
-
 		$sql->bindValue(":id", $id);
 		$sql->bindValue(":id_company", $id_company);
 		$sql->execute();
+	
 
 		//$this->setLog($id, $id_company, $id_user, 'del');
 	}

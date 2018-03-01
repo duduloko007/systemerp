@@ -284,7 +284,7 @@ public function view($id){
 
 public function delete($id){
 
-  echo "Falta fazer esse método...";
+  header("Location: ".BASE_URL."clients/clients");
 
 }
 

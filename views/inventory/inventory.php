@@ -8,6 +8,22 @@
 	</div>
 
 	<div class="box-body">
+		<?php if(isset($excluir_produto) && !empty($excluir_produto)):?>
+			<div class="alert alert-success alert-dismissible fade in text-center w3-animate-top" role="alert">
+				<?php echo $excluir_produto;?>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		<?php endif; ?>
+		<?php if(isset($erro_exlcuir) && !empty($erro_exlcuir)):?>
+			<div class="alert alert-danger alert-dismissible fade in text-center w3-animate-top" role="alert">
+				<?php echo $erro_exlcuir;?>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		<?php endif;?>
 		<?php if($add_permission): ?>
 			<div class="button">
 				<a href="<?php echo BASE_URL;?>inventory/add" class="btn btn-primary btn-sm">Adicionar Produto</a>
@@ -47,7 +63,7 @@
 						<th>Preço Venda</th>
 						<th>Quantidade</th>
 						<th>Quant. Mín.</th>
-						<th>Ações</th>
+						<th class="text-center">Ações</th>
 					</tr>
 				</thead>
 				<tbody id="myTable">
@@ -63,7 +79,7 @@
 								if ($product['quant'] > $product['min_quant']) {
 									echo '<span class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="right" title="Estoque cheio.">'.($product['quant']).'</span>';
 								}else if($product['quant'] == 0){
-									echo '<span class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Estoque vazio.">'.($product['min_quant']).'</span>';
+									echo '<span class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Estoque vazio.">'.($product['quant']).'</span>';
 								} 
 								else if($product['quant'] < $product['min_quant']){
 									echo '<span class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="rigth" title="Estoque baixo.">'.($product['quant']).'</span>';
@@ -80,23 +96,47 @@
 										echo $product['min_quant'];
 									}
 									?></td>
-									<td>
+									<td width="130" class="text-center">
 										<?php if($add_permission): ?>
-											<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/edit/<?php echo $product['id'];?>">Editar</a>
 
-											<a style="margin-top: 5px;" class="btn btn-danger btn-sm" href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>" onclick="return confirm('Cofirmar a Exclusão')">Excluir</a>
-											<a style="margin-top: 5px;" class="btn btn-default btn-sm" href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>">Vizualizar</a>
-										<?php else:?>
-											<a style="margin-top: 5px;" class="btn btn-info btn-sm" href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>">Vizualizar</a>
+											<div class="dropdown">
+												<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+													Ações <span class="caret"></span></button>
+													<ul class="dropdown-menu dropdown-menu-left">
+														<li>
+															<a href="<?php echo BASE_URL; ?>inventory/edit/<?php echo $product['id'];?>"><i class="fa fa-edit"></i>Editar</a>
+														</li>
+														<li>
+															<a href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>" onclick="return confirm('Cofirmar a Exclusão')" onclick="return confirm('Cofirmar a Exclusão')"><i class="fa fa-trash-o"></i>Excluir</a>
+														</li>
+														<li>
+															<a href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>"><i class="fa fa-eye"></i>Visualizar</a>
+														</li>
 
-										<?php endif;?>
-									</td>
+													</ul>
+												</div>
 
-								</tr>
-							<?php endforeach; ?>
-						</tbody>
+											<?php else:?>
+												<div class="dropdown">
+													<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+														<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+															Ações <span class="caret"></span></button>
+															<ul class="dropdown-menu" role="menu">
+																<li>
+																	<a href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>"><i class="fa fa-eye"></i>Visualizar</a>
 
-					</table>
-				</div>
-			</div>
-		</div>
+																</li>
+															</ul>
+														</div>
+
+													<?php endif;?>
+												</td>
+
+											</tr>
+										<?php endforeach; ?>
+									</tbody>
+
+								</table>
+							</div>
+						</div>
+					</div>

@@ -19,7 +19,7 @@ class inventoryController extends controller {
         // Listar clientes
 
   public function index() {
-    $data = array();
+    $data = array('cadastro_produto' => '');
     $u = new Users();
     $this->user->setLoggedUser();
     $company = new companies($this->user->getCompany());
@@ -41,7 +41,7 @@ class inventoryController extends controller {
   }
 
   public function add(){
-   $data = array();
+   $data = array('cadastro_produto' => '');
    $this->user->setLoggedUser();
    $company = new companies($this->user->getCompany());
    $data['company_name'] = $company->getName();
@@ -71,11 +71,18 @@ class inventoryController extends controller {
       //$price_percentage = str_replace(',','.', $price_percentage);
 
 
-      $i->add($name, $price, $price_cust, $price_percentage, $quant, $min_quant, $cod_bars, $this->user->getCompany(), $this->user->getId());
+      $a = $i->add($name, $price, $price_cust, $price_percentage, $quant, $min_quant, $cod_bars, $this->user->getCompany(), $this->user->getId());
+
+      if($a == '1'){
+
+
       //$action = 'add';
       //$i->setLog($id_product, $this->user->getCompany(), $this->user->getId(), $action);
-      header("Location:".BASE_URL."inventory");
-
+        header("inventory/inventory_add");
+        $data['cadastro_produto'] = "Produto cadastrado com sucesso!";
+      }else {
+         $data['cadastro_produto'] = "Ocorreu um erro no cadastro!";
+      }
     }
     $this->loadTemplate('inventory/inventory_add', $data);
   } else{

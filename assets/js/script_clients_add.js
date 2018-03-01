@@ -19,6 +19,7 @@ $('input[name=address_zipcode]').on('blur', function(){
 $(function(){
 
 	$('#address_zipcode').mask('00000-000');
+	$('#address_zipcode2').mask('00000-000');
 	$('#date_fund').mask('00/00/0000');
 	$('#date_birth').mask('00/00/0000');
 	$('#cpf').mask('000.000.000-00');

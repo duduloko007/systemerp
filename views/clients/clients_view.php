@@ -27,8 +27,8 @@
           </div>
           <div class="col-md-4">
             <div class="form-group">
-              <label>RG:</label>
-              <input type="text" name="rg" id="rg" class="form-control " disabled value="<?php echo $client_info['rg']; ?>">
+              <label>identidade:</label>
+              <input type="text" name="identidade" id="identidade" class="form-control " disabled value="<?php echo $client_info['identidade']; ?>">
             </div>
           </div>
           <div class="col-md-4">

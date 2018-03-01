@@ -18,6 +18,9 @@
     <?php if($client_info['person_type'] == '1'):?>
       <form method="POST">
         <input type="hidden" name="person_type" value="1">
+        <input type="hidden" name="name_fantasy" value="">
+        <input type="hidden" name="state_registration" value="">
+        <input type="hidden" name="municipal_registration" value="">
         <div class="row">
           <div class="col-md-4">
             <div class="form-group">
@@ -34,8 +37,8 @@
           </div>
           <div class="col-md-4">
             <div class="form-group">
-              <label>RG:</label>
-              <input type="text" name="rg" id="rg" class="form-control "  value="<?php echo $client_info['rg']; ?>">
+              <label>identidade:</label>
+              <input type="text" name="identidade" id="identidade" class="form-control "  value="<?php echo $client_info['identidade']; ?>">
             </div>
           </div>
           <div class="col-md-4">
@@ -74,12 +77,12 @@
              </select>
            </div>
          </div>
-       <div class="col-md-4">
-        <div class="form-group">
-          <label>Data Cadastro:</label>
-          <input type="text"  class="form-control " id="date_register"  disabled value="<?php echo date('d/m/Y', strtotime($client_info['date_register'])); ?>" required>
+         <div class="col-md-4">
+          <div class="form-group">
+            <label>Data Cadastro:</label>
+            <input type="text"  class="form-control " id="date_register"  disabled value="<?php echo date('d/m/Y', strtotime($client_info['date_register'])); ?>" required>
+          </div>
         </div>
-      </div>
         <div class="col-md-12">
           <hr>
         </div>
@@ -151,6 +154,7 @@
 
     <form method="POST">
       <input type="hidden" name="person_type" value="2">
+      <input type="hidden" name="identidade" value="">
       <div class="row">
         <div class="col-md-4">
           <div class="form-group">

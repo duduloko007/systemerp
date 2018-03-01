@@ -12859,3 +12859,1120 @@ Stack trace:
 [28-Feb-2018 18:22:56 Europe/Berlin] PHP Notice:  Undefined index: price in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 44
 [28-Feb-2018 18:22:56 Europe/Berlin] PHP Notice:  Undefined index: quant in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 50
 [28-Feb-2018 18:22:56 Europe/Berlin] PHP Notice:  Undefined index: min_quant in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 56
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:19:09 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:19:12 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 229
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:19:18 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:19:27 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 229
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 12
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 148
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 154
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 160
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 166
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 172
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 178
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 184
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 190
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 196
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 203
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 204
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 205
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 206
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 207
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 214
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 223
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 230
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 236
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 242
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 248
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 254
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 260
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 266
+[28-Feb-2018 19:19:36 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 275
+[28-Feb-2018 19:20:27 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 131
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 12
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 148
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 154
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 160
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 166
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 172
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 178
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 184
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 190
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 196
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 203
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 204
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 205
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 206
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 207
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 214
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 223
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 230
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 236
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 242
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 248
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 254
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 260
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 266
+[28-Feb-2018 19:20:32 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 275
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:20:55 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:22:00 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:23:43 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:24:03 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:24:17 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 229
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:24:21 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:31:30 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:31:36 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 229
+[28-Feb-2018 19:43:34 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 135
+[28-Feb-2018 19:43:34 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 139
+[28-Feb-2018 19:43:34 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 141
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:43:39 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:44:11 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 131
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:54:19 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:54:28 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 218
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:54:32 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:54:37 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 218
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:54:39 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:56:32 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 220
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:56:36 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:59:16 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:59:21 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 220
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 19:59:34 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 19:59:41 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 220
+[28-Feb-2018 20:16:55 Europe/Berlin] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 198
+[28-Feb-2018 20:17:40 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in C:\xampp\htdocs\systemerp\models\clients.php:189
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(189): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(141): clients->add('2', '3', '1', 'teste', '', '(11) 11111-1111', '(1', '1', '1', '11', '11', '1', '1', '1', '11', '1', '1', '211.111.111-11', '23', '2018-02-23')
+#2 [internal function]: clientsController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 189
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:18:41 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:19:18 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 137
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:25:18 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:25:20 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:25:27 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:25:35 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:25:47 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:25:51 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:25:56 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:37:49 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:37:51 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:45:40 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:45:43 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:45:46 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 20:50:28 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 21:11:21 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 21:11:21 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('21', '2', 'Eduardo ME', '', '(12) 33333-3333', '(11) 1111-1111', '3', '', '1', '1', '1', '1', '1', '1', '1', '1', '11.515.454/5454...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('21')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[28-Feb-2018 21:11:24 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 21:11:24 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('21', '2', 'Eduardo ME', '', '(12) 33333-3333', '(11) 1111-1111', '3', '', '1', '1', '1', '1', '1', '1', '1', '1', '11.515.454/5454...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('21')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 21:11:56 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[28-Feb-2018 21:12:14 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[28-Feb-2018 21:12:17 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 21:12:17 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('21', '2', 'Eduardo ME', '', '(12) 33333-3333', '(11) 1111-1111', '3', '', '1', '1', '1', '1', '1', '1', '1', '1', '11.515.454/5454...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('21')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[28-Feb-2018 21:12:22 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[28-Feb-2018 21:12:22 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('21', '2', 'Eduardo ME', '', '(12) 33333-3333', '(11) 1111-1111', '3', '', '1', '1', '1', '1', '1', '1', '1', '1', '11.515.454/5454...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('21')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:08:27 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:08:58 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:09:04 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:09:05 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:09:10 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:09:19 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[01-Mar-2018 17:09:19 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('23', '2', 'Raz\xC3\x83\xC2\xA3o', '', '(11) 11111-1111', '(12) 2221-1111', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '11.111.111/1111...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('23')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[01-Mar-2018 17:10:34 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[01-Mar-2018 17:10:34 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('23', '2', 'Raz\xC3\x83\xC2\xA3o', '', '(11) 11111-1111', '(12) 2221-1111', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '11.111.111/1111...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('23')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:10:37 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:10:43 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[01-Mar-2018 17:10:43 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('23', '2', 'Raz\xC3\x83\xC2\xA3o', '', '(11) 11111-1111', '(12) 2221-1111', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '11.111.111/1111...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('23')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[01-Mar-2018 17:11:06 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[01-Mar-2018 17:11:06 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'identidade' in 'field list'' in C:\xampp\htdocs\systemerp\models\clients.php:345
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\clients.php(345): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\clientsController.php(270): clients->edit('23', '2', 'Raz\xC3\x83\xC2\xA3o', '', '(11) 11111-1111', '(12) 2221-1111', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '11.111.111/1111...', '', '2018-02-23')
+#2 [internal function]: clientsController->edit('23')
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\clients.php on line 345
+[01-Mar-2018 17:13:49 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:13:55 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:15:07 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 267
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:15:12 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:17:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 161
+[01-Mar-2018 17:18:22 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 136
+[01-Mar-2018 17:19:41 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 136
+[01-Mar-2018 17:20:21 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 136
+[01-Mar-2018 17:20:25 Europe/Berlin] PHP Notice:  Undefined index: identidade in C:\xampp\htdocs\systemerp\controllers\clientsController.php on line 136
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:26:29 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: rg in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 38
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 4
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 18
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 158
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 164
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 170
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 176
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 182
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 188
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 194
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 200
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 206
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 213
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 214
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 215
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 216
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 217
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 224
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 233
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 240
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 246
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 252
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 258
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 264
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 270
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 276
+[01-Mar-2018 17:27:44 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_edit.php on line 285

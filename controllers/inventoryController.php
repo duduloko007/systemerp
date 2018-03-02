@@ -78,7 +78,7 @@ class inventoryController extends controller {
 
       //$action = 'add';
       //$i->setLog($id_product, $this->user->getCompany(), $this->user->getId(), $action);
-        header("inventory/inventory_add");
+        header("Location:".BASE_URL."inventory/inventory_add");
         $data['cadastro_produto'] = "Produto cadastrado com sucesso!";
       }else {
          $data['cadastro_produto'] = "Ocorreu um erro no cadastro!";

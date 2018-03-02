@@ -8,22 +8,6 @@
 	</div>
 
 	<div class="box-body">
-		<?php if(isset($excluir_produto) && !empty($excluir_produto)):?>
-			<div class="alert alert-success alert-dismissible fade in text-center w3-animate-top" role="alert">
-				<?php echo $excluir_produto;?>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		<?php endif; ?>
-		<?php if(isset($erro_exlcuir) && !empty($erro_exlcuir)):?>
-			<div class="alert alert-danger alert-dismissible fade in text-center w3-animate-top" role="alert">
-				<?php echo $erro_exlcuir;?>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		<?php endif;?>
 		<?php if($add_permission): ?>
 			<div class="button">
 				<a href="<?php echo BASE_URL;?>inventory/add" class="btn btn-primary btn-sm">Adicionar Produto</a>
@@ -107,7 +91,7 @@
 															<a href="<?php echo BASE_URL; ?>inventory/edit/<?php echo $product['id'];?>"><i class="fa fa-edit"></i>Editar</a>
 														</li>
 														<li>
-															<a href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>" onclick="return confirm('Cofirmar a Exclusão')" onclick="return confirm('Cofirmar a Exclusão')"><i class="fa fa-trash-o"></i>Excluir</a>
+															<a data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o"></i>Excluir</a>
 														</li>
 														<li>
 															<a href="<?php echo BASE_URL; ?>inventory/view/<?php echo $product['id'];?>"><i class="fa fa-eye"></i>Visualizar</a>
@@ -137,6 +121,27 @@
 									</tbody>
 
 								</table>
+							</div>
+
+							<div class="container">
+								<!-- Modal -->
+								<div class="modal fade" id="myModal" role="dialog">
+									<div class="modal-dialog modal-sm">
+										<div class="modal-content">
+											<div class="modal-header alert-danger text-center">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title">Atenção!</h4>
+											</div>
+											<div class="modal-body">
+												<p>Realmente quer excluir esse produto? </p>
+											</div>
+											<div class="modal-footer">
+												<a class="btn btn-success" href="<?php echo BASE_URL; ?>inventory/delete/<?php echo $product['id'];?>">Sim</a>
+												<button type="button" class="btn btn-danger" data-dismiss="modal">Não</button>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

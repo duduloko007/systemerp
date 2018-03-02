@@ -3,7 +3,7 @@
 <!-- Exemplo -->
 <div class="box box-default">
 	<div class="box-header with-border">
-		<h3 class="box-title">Clientes</h3>
+		<h3 class="box-title">Formas de Pagamentos</h3>
 
 		<div class="box-tools pull-right">
 			<button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -11,28 +11,12 @@
 	</div>
 
 	<div class="box-body">
-		<?php if(isset($cliente_cadastrado)):?>
-			<div class="alert alert-warning alert-dismissible fade in text-center w3-animate-top" role="alert">
-				<?php echo $cliente_cadastrado?>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		<?php endif;?>
-		<?php if(isset($cliente_erro)):?>
-			<div class="alert alert-warning alert-dismissible fade in text-center w3-animate-top" role="alert">
-				<?php echo $cliente_erro?>
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		<?php endif;?>
 		<div class="row" style="margin-bottom: 20px;">
 
 			<div class="col-sm-12">
-				<?php if($edit_permission): ?>
+				<?php if($add_permission): ?>
 
-					<a href="<?php echo BASE_URL;?>clients/add" class="btn btn-primary btn-sm">Adicionar Cliente</a>
+					<a href="<?php echo BASE_URL;?>form_of_pay/add" class="btn btn-primary btn-sm">Adicionar Forma de Pagamento</a>
 				<?php endif; ?>
 			</div>
 		</div>
@@ -51,22 +35,17 @@
 				<tr>
 					<th>Cód.</th>
 					<th>Nome</th>
-					<th>Tipo</th>
-					<th>Telefone</th>
-					<th>CPF/CNPJ</th>
-					<th>Estrelas</th>
+					<th>Contas a Receber</th>
 					<th class="text-center">Ações</th>
 				</tr>
 			</thead>
 			<tbody id="myTable">
-				<?php foreach($clients_list as $c): ?>
+
+				<?php foreach($form_pay_list as $form_pay): ?>
 					<tr>	
-						<td><?php echo $c['cod_client']; ?></td>
-						<td><?php echo utf8_decode($c['name']); ?></td>
-						<td><?php echo $type_person_register[$c['person_type']];?></td>
-						<td><?php echo $c['phone']; ?></td>
-						<td><?php echo utf8_decode($c['cpf_cnpj']); ?></td>
-						<td><?php echo $c['stars']; ?></td>
+						<td><?php echo $form_pay['cod_pay']; ?></td>
+						<td><?php echo utf8_decode($form_pay['name_pay']); ?></td>
+						<td><?php echo $pay_option[$form_pay['pay_receive']]; ?></td>
 
 						<td width="130" class="text-center">
 							<?php if($edit_permission): ?>
@@ -76,13 +55,14 @@
 										Ações <span class="caret"></span></button>
 										<ul class="dropdown-menu dropdown-menu-left">
 											<li>
-												<a href="<?php echo BASE_URL; ?>clients/edit/<?php echo $c['id'];?>"><i class="fa fa-edit"></i>Editar</a>
+												<a href="<?php echo BASE_URL; ?>form_of_pay/edit/<?php echo $form_pay['id'];?>"><i class="fa fa-edit"></i>Editar</a>
 											</li>
 											<li>
 												<a   data-toggle="modal" data-target="#myModal"><i class="fa fa-trash-o"></i>Excluir</a>
+												
 											</li>
 											<li>
-												<a href="<?php echo BASE_URL; ?>clients/view/<?php echo $c['id'];?>"><i class="fa fa-eye"></i>Visualizar</a>
+												<a href="<?php echo BASE_URL; ?>form_of_pay/view/<?php echo $form_pay['id'];?>"><i class="fa fa-eye"></i>Visualizar</a>
 											</li>
 
 										</ul>
@@ -94,7 +74,7 @@
 												Ações <span class="caret"></span></button>
 												<ul class="dropdown-menu" role="menu">
 													<li>
-														<a href="<?php echo BASE_URL; ?>clients/view/<?php echo $c['id'];?>">Visualizar</a>
+														<a href="<?php echo BASE_URL; ?>form_of_pay/view/<?php echo $form_pay['id'];?>">Visualizar</a>
 													</li>
 												</ul>
 											</div>
@@ -106,18 +86,6 @@
 						</tbody>
 					</table>
 
-					<nav aria-label="page navigation">
-						<ul class="pagination">
-
-							<?php for($q=1;$q<=$p_count;$q++):?>
-
-								<li class=" <?php echo ($q==$p)?'active':''?>"><a href="<?php echo BASE_URL;?>clients?p=<?php echo $q;?>"><?php echo $q;?></a></li>
-							<?php endfor;?>
-						</ul>
-					</nav>
-
-
-					
 					<div class="container">
 						<!-- Modal -->
 						<div class="modal fade" id="myModal" role="dialog">
@@ -128,15 +96,20 @@
 										<h4 class="modal-title">Atenção!</h4>
 									</div>
 									<div class="modal-body">
-										<p>Realmente quer excluir esse cliente? </p>
+										<p>Realmente quer excluir essa forma de pagamento? </p>
 									</div>
 									<div class="modal-footer">
-										<a class="btn btn-success" href="<?php echo BASE_URL; ?>clients/delete/<?php echo $c['id'];?>">Sim</a>
+										<a class="btn btn-success" href="<?php echo BASE_URL; ?>form_of_pay/delete/<?php echo $form_pay['id'];?>">Sim</a>
 										<button type="button" class="btn btn-danger" data-dismiss="modal">Não</button>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+					
+
+
 				</div>
-			</div>	
+
+
+			</div>

@@ -15097,3 +15097,714 @@ Stack trace:
 [01-Mar-2018 20:24:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 33
 [01-Mar-2018 20:24:21 Europe/Berlin] PHP Notice:  Undefined index: info in C:\xampp\htdocs\systemerp\views\sales\sales_edit.php on line 44
 [01-Mar-2018 20:28:30 Europe/Berlin] PHP Notice:  Undefined variable: a in C:\xampp\htdocs\systemerp\controllers\inventoryController.php on line 162
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 12
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 148
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 154
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 160
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 166
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 172
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 178
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 184
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 190
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 196
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 203
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 204
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 205
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 206
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 207
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 214
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 223
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 230
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 236
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 242
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 248
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 254
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 260
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 266
+[01-Mar-2018 20:42:17 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 275
+[02-Mar-2018 15:23:52 Europe/Berlin] PHP Warning:  Missing argument 2 for Permissions::add(), called in C:\xampp\htdocs\systemerp\controllers\permissionsController.php on line 56 and defined in C:\xampp\htdocs\systemerp\models\permissions.php on line 94
+[02-Mar-2018 15:24:09 Europe/Berlin] PHP Warning:  Missing argument 2 for Permissions::add(), called in C:\xampp\htdocs\systemerp\controllers\permissionsController.php on line 56 and defined in C:\xampp\htdocs\systemerp\models\permissions.php on line 94
+[02-Mar-2018 15:24:26 Europe/Berlin] PHP Warning:  Missing argument 2 for Permissions::add(), called in C:\xampp\htdocs\systemerp\controllers\permissionsController.php on line 56 and defined in C:\xampp\htdocs\systemerp\models\permissions.php on line 94
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 13
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:24:30 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 15:33:28 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:33:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:33:28 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:33:45 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:33:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:33:45 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:34:05 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:34:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:34:05 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:55:28 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:55:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:55:28 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:55:31 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:55:31 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:55:31 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:58:51 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:58:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:58:51 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:59:10 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:59:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:59:10 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 15:59:31 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:59:31 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 15:59:31 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:00:00 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:00:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:00:00 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:00:15 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:00:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:00:15 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:00:40 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:00:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:00:40 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:01:30 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:01:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:01:30 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:04:38 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:04:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:04:38 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:05:19 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:05:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:05:19 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:06:30 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:06:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:06:30 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:06:51 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:06:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:06:51 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:06:54 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:06:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:06:54 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:07:40 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:07:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:07:40 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:12:23 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:12:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:12:23 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:13:24 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:13:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:13:24 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:14:01 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:14:01 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:14:20 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:14:20 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:14:20 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:16:14 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:16:14 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:16:14 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:16:53 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:16:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:16:53 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:17:07 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:17:07 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:17:07 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:17:23 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:17:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:17:23 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:17:49 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:17:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:17:49 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:18:35 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:18:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:18:35 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:19:19 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:19:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:19:19 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:20:40 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:20:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:20:40 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:22:14 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:22:14 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:22:14 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:22:40 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:22:40 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:22:40 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:23:28 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:23:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:23:28 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:23:46 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:23:46 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:23:46 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:29:19 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:29:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:29:19 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:30:19 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:30:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:30:19 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:31:07 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:31:07 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:31:07 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:31:52 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:31:52 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:31:52 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:36:09 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:36:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:36:09 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:37:23 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:37:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:37:23 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:39:28 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:39:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:39:28 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:40:02 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:40:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:40:02 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:40:19 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:40:19 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:40:19 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:40:32 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:40:32 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:40:32 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:41:09 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:41:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:41:09 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:41:27 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:41:27 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:41:27 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:53:06 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:53:06 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:53:06 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:53:31 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:53:31 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:53:31 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:54:49 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:54:49 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:54:49 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 16:55:02 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:55:02 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 16:55:02 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:00:05 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:00:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:00:05 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:01:58 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:01:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:01:58 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:03:01 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:03:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:03:01 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:06:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 10
+[02-Mar-2018 17:07:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 10
+[02-Mar-2018 17:07:12 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:07:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:07:12 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:09:34 Europe/Berlin] PHP Notice:  Undefined variable: sql in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 9
+[02-Mar-2018 17:09:34 Europe/Berlin] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 9
+[02-Mar-2018 17:09:34 Europe/Berlin] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 9
+[02-Mar-2018 17:09:34 Europe/Berlin] PHP Fatal error:  Call to a member function prepare() on null in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 9
+[02-Mar-2018 17:10:17 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number_of_installments' in 'field list'' in C:\xampp\htdocs\systemerp\models\form_of_pay.php:15
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\form_of_pay.php(15): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\form_of_payController.php(62): form_of_pay->add('Dinheiro', '1', '0', '0', '2')
+#2 [internal function]: form_of_payController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 15
+[02-Mar-2018 17:12:08 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:12:08 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:12:08 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:12:55 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'number_of_installments' in 'field list'' in C:\xampp\htdocs\systemerp\models\form_of_pay.php:15
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\form_of_pay.php(15): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\form_of_payController.php(62): form_of_pay->add('Dinheiro', '1', '0', '0', '2')
+#2 [internal function]: form_of_payController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 15
+[02-Mar-2018 17:14:01 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_company' in 'field list'' in C:\xampp\htdocs\systemerp\models\form_of_pay.php:15
+Stack trace:
+#0 C:\xampp\htdocs\systemerp\models\form_of_pay.php(15): PDOStatement->execute()
+#1 C:\xampp\htdocs\systemerp\controllers\form_of_payController.php(62): form_of_pay->add('Dinheiro', '1', '0', '0', '2')
+#2 [internal function]: form_of_payController->add()
+#3 C:\xampp\htdocs\systemerp\core\core.php(42): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\systemerp\index.php(20): core->run()
+#5 {main}
+  thrown in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 15
+[02-Mar-2018 17:14:38 Europe/Berlin] PHP Notice:  Undefined variable: clients_list in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:14:38 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:14:38 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:22:53 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:22:53 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:22:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:22:59 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 96
+[02-Mar-2018 17:24:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:24:34 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 89
+[02-Mar-2018 17:24:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:24:47 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 89
+[02-Mar-2018 17:25:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:25:13 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 89
+[02-Mar-2018 17:25:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:25:15 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 89
+[02-Mar-2018 17:25:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:25:15 Europe/Berlin] PHP Notice:  Undefined variable: p_count in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 89
+[02-Mar-2018 17:26:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:27:09 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:27:12 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 43
+[02-Mar-2018 17:30:13 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:30:46 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:10 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:15 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:31:16 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:32:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:32:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:32:03 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:32:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 44
+[02-Mar-2018 17:32:44 Europe/Berlin] PHP Notice:  Undefined variable: form_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 46
+[02-Mar-2018 17:32:44 Europe/Berlin] PHP Notice:  Undefined variable: form_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 47
+[02-Mar-2018 17:32:44 Europe/Berlin] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 75
+[02-Mar-2018 17:33:02 Europe/Berlin] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 75
+[02-Mar-2018 17:33:41 Europe/Berlin] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 76
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 13
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Notice:  Undefined index: params in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:34:27 Europe/Berlin] PHP Warning:  in_array() expects parameter 2 to be array, null given in C:\xampp\htdocs\systemerp\views\permission\permissions_edit_group.php on line 22
+[02-Mar-2018 17:48:11 Europe/Berlin] PHP Fatal error:  Cannot redeclare form_of_pay::add() in C:\xampp\htdocs\systemerp\models\form_of_pay.php on line 71
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 26
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 32
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 38
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 44
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 50
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 56
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 62
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 26
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 32
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 38
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 44
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 50
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 56
+[02-Mar-2018 17:48:57 Europe/Berlin] PHP Notice:  Undefined variable: inventory_info in C:\xampp\htdocs\systemerp\views\inventory\inventory_edit.php on line 62
+[02-Mar-2018 17:49:48 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:49:48 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:49:48 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:49:48 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:49:48 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:49:58 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:49:58 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:49:58 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:49:58 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:49:58 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:50:12 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:50:12 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:50:12 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:50:12 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:50:12 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:50:31 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:50:31 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:50:31 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:50:31 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:50:31 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:50:36 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:50:36 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:50:36 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:50:36 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:50:36 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:53:55 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:53:55 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:53:55 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:53:55 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:53:55 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:53:59 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:53:59 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:53:59 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:53:59 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:53:59 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:54:27 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 17:54:27 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 17:54:27 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 17:54:27 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 17:54:27 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:01:12 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 26
+[02-Mar-2018 18:01:12 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 32
+[02-Mar-2018 18:01:12 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 39
+[02-Mar-2018 18:01:12 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 49
+[02-Mar-2018 18:01:12 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 49
+[02-Mar-2018 18:03:02 Europe/Berlin] PHP Notice:  Undefined variable: form_pay_info in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 17
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 12
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 153
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 159
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 165
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 171
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 177
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 183
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 189
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 195
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 201
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 208
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 209
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 210
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 211
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 212
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 219
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 228
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 235
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 241
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 247
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 253
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 259
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 265
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 271
+[02-Mar-2018 18:03:03 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 280
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index:  in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 4
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: person_type in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 12
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: name in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 153
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: name_fantasy in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 159
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: date_birth_fund in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 165
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: cpf_cnpj in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 171
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: state_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 177
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: municipal_registration in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 183
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: email in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 189
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: phone_fix in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 195
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: phone in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 201
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 208
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 209
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 210
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 211
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: stars in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 212
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: date_register in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 219
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address_zipcode in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 228
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 235
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address_number in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 241
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address2 in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 247
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address_neighb in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 253
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address_city in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 259
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address_state in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 265
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: address_country in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 271
+[02-Mar-2018 18:03:14 Europe/Berlin] PHP Notice:  Undefined index: internal_obs in C:\xampp\htdocs\systemerp\views\clients\clients_view.php on line 280
+[02-Mar-2018 18:03:26 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 18:03:26 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 18:03:26 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 36
+[02-Mar-2018 18:03:26 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 43
+[02-Mar-2018 18:03:26 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 53
+[02-Mar-2018 18:03:26 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 53
+[02-Mar-2018 18:03:46 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 18:03:46 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 18:03:46 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 36
+[02-Mar-2018 18:03:46 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 43
+[02-Mar-2018 18:03:46 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 53
+[02-Mar-2018 18:03:46 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 53
+[02-Mar-2018 18:03:51 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 18:03:51 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 18:03:51 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 18:03:51 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:03:51 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:06:41 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 18:06:41 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 18:06:41 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 18:06:41 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:06:41 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:06:45 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 18:06:45 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 18:06:45 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 18:06:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:06:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:07:40 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 18:07:40 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 18:07:40 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 18:07:40 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:07:40 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:10:54 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 18:10:54 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 18:10:54 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 18:10:54 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:10:54 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:14:19 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 18
+[02-Mar-2018 18:14:19 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 18:14:19 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 18:14:19 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 37
+[02-Mar-2018 18:14:19 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 18:14:19 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 18:14:27 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 18
+[02-Mar-2018 18:14:27 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 18:14:27 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 18:14:27 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 37
+[02-Mar-2018 18:14:27 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 18:14:27 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 18:14:32 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 18:14:32 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 18:14:32 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 18:14:32 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:14:32 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 18:16:22 Europe/Berlin] PHP Fatal error:  Call to undefined method form_of_pay::delete() in C:\xampp\htdocs\systemerp\controllers\form_of_payController.php on line 142
+[02-Mar-2018 18:18:39 Europe/Berlin] PHP Fatal error:  Call to undefined method form_of_pay::delete() in C:\xampp\htdocs\systemerp\controllers\form_of_payController.php on line 142
+[02-Mar-2018 19:02:22 Europe/Berlin] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\systemerp\views\inventory\inventory.php on line 156
+[02-Mar-2018 19:03:01 Europe/Berlin] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\systemerp\views\inventory\inventory.php on line 156
+[02-Mar-2018 19:25:34 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:25:34 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:25:34 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:25:34 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:25:34 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:02 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:26:02 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:26:02 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:26:02 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:02 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:29 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:26:29 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:26:29 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:26:29 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:29 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:36 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:26:36 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:26:36 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:26:36 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:36 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:48 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:26:48 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:26:48 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:26:48 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:26:48 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:27:49 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:27:49 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:27:49 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:27:49 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:27:49 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:48:23 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:48:39 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:49:45 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:49:50 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:51:58 Europe/Berlin] PHP Notice:  Undefined variable: pay_option in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 53
+[02-Mar-2018 19:51:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 53
+[02-Mar-2018 19:51:58 Europe/Berlin] PHP Notice:  Undefined variable: pay_option in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 67
+[02-Mar-2018 19:51:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 67
+[02-Mar-2018 19:51:58 Europe/Berlin] PHP Notice:  Undefined variable: pay_option in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 81
+[02-Mar-2018 19:51:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 81
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Notice:  Undefined variable: pay_option in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 53
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 53
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Notice:  Undefined variable: pay_option in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 67
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 67
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Notice:  Undefined variable: pay_option in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 81
+[02-Mar-2018 19:51:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 81
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:25 Europe/Berlin] PHP Notice:  Undefined variable: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay.php on line 48
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:52:47 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:53:04 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 18
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 37
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 61
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 61
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 75
+[02-Mar-2018 19:54:15 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 75
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 32
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 38
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 45
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 55
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 69
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:54:25 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_edit.php on line 83
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 18
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 37
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 61
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 61
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 75
+[02-Mar-2018 19:54:29 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 75
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: cod_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 18
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: name_pay in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 24
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: number_of_installments in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 30
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: range_of_plots in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 37
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: pay_receive in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 47
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 61
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: pay_document in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 61
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 75
+[02-Mar-2018 19:54:35 Europe/Berlin] PHP Notice:  Undefined index: pay_obs in C:\xampp\htdocs\systemerp\views\form_of_pay\form_of_pay_view.php on line 75

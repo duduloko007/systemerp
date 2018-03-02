@@ -283,6 +283,7 @@ public function view($id){
 }
 
 public function delete($id){
+  
 
   header("Location: ".BASE_URL."clients/clients");
 

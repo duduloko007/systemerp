@@ -210,7 +210,18 @@
           <span>Fornecedores</span>
         </a>
       </li>
-
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-gear"></i>
+          <span>Opções</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="<?php echo BASE_URL;?>form_of_pay"></i><i class="fa fa-money"></i> Formas de Pagamentos</a></li>
+        </ul>
+      </li>
       <li>
         <a href="<?php echo BASE_URL; ?>/login/logout">
           <i class="fa fa-sign-out"></i>
